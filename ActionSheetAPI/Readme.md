@@ -2,7 +2,7 @@
 ## Overview
 Action Sheet API app showcases the following APIs:
 
-- [kony.ui.ActionSheet]https://opensource.hcltechsw.com/volt-mx-docs/docs/documentation/Iris/iris_api_dev_guide/content/voltmx.ui_functions_actionsheet.html)
+- [kony.ui.ActionSheet](https://opensource.hcltechsw.com/volt-mx-docs/docs/documentation/Iris/iris_api_dev_guide/content/voltmx.ui_functions_actionsheet.html)
 - [kony.ui.ActionItem](https://opensource.hcltechsw.com/volt-mx-docs/docs/documentation/Iris/iris_api_dev_guide/content/voltmx.ui_functions_actionitem.html)
 #### Note: Action Sheet API is specific to iOS platform. 
 
