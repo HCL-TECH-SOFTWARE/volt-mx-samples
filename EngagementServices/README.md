@@ -6,7 +6,7 @@ Application to showcase the following features of Volt MX Engagement Services:
 - Subscribing to the email, push and SMS messages
 - Sending ad hoc SMS, Push, Email and pass notifications
 - Receiving campaign messages
-- Ability to trigger an event and receive event notifications.
+- Ability to trigger an event and receive event notifications
 - Monitor a set of geoboundaries that are created in the engagement server and receive notifications 
 
 
@@ -22,7 +22,7 @@ Application to showcase the following features of Volt MX Engagement Services:
 **Note:**
 You need to setup and configure your Volt MX Engagement environment on your Engagement cloud before running the app. Follow the tutorials at https://opensource.hcltechsw.com/volt-mx-docs/docs/documentation/engagementServices.html to learn how to set up the Volt MX Engagement service environment.
 
-# Supported platforms:
+# Supported platforms
 **Mobile**
  * iOS
  * Android
