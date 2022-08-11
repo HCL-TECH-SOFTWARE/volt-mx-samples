@@ -28,7 +28,7 @@ is to show how to develop, test, version and use custom Java code in Foundry.**
 
 In the image below shows the service definition.
 
-![Service definition](FoundryJavaSample/pics/foundry-app-1-service-def.png "Service definition")
+![Service definition](pics/foundry-app-1-service-def.png "Service definition")
 
 1. The Foundry app has one single service of the ***Java Adapter*** type.
 2. The JAR generated from the Java source code in this repository has been uploaded and selected as part of the service
@@ -36,7 +36,7 @@ definition.
 
 In the image below shows the definition of one of the service operations:
 
-![Operation definition](FoundryJavaSample/pics/foundry-app-2-ops-config.png "Operation definition")
+![Operation definition](pics/foundry-app-2-ops-config.png "Operation definition")
 
 1. The class `com.acme.services.HelloWorldService` has been selected as the supporting implementation of the service
 operation. Note that you should ideally implement each service in a different class.
