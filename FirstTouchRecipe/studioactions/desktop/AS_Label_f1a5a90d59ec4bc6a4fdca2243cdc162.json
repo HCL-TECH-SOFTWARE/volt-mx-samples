@@ -1,0 +1,32 @@
+{
+    "AS_Label_f1a5a90d59ec4bc6a4fdca2243cdc162": {
+        "id": "AS_Label_f1a5a90d59ec4bc6a4fdca2243cdc162",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "type": "templates",
+            "platform": "",
+            "KUID": "ce3e0ec5583240a6b6ae4eef564947f2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c397b0b00ce94bb4b2eeaddfad8b9d2b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.executeOnParent(\n    \"methodNavigation\",\n    eventobject.rowContext.rowIndex);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

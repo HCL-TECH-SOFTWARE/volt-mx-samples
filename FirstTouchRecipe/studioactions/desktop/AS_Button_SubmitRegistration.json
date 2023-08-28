@@ -1,0 +1,150 @@
+{
+    "AS_Button_ab4e202485744b4fa86025f82bf118fe": {
+        "id": "AS_Button_ab4e202485744b4fa86025f82bf118fe",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_Button_SubmitRegistration",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "dc637697bb6341bbaa4f081fc72d8139"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SHOW_ALERT_b2ae658cabdd48a39abdccc2a7e77111",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_ERROR",
+            "alertTitle": "Registration Error",
+            "alertMessage": "'ERROR: registration request failed!' + signuprequest.errmsg",
+            "messageType": "expression",
+            "parentId": "_f7444209fab94bec966495594dedc039",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }, {
+            "id": "SHOW_ALERT_dc559f3ddf1a4c41a80dacbecb4f0c6d",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertTitle": "Registration Successful",
+            "alertMessage": "SUCCESS:  Registration request received\n\nAdministration will review and respond via the provided email address\n\nThank you",
+            "messageType": "constant",
+            "parentId": "_acb9cf1b95284891be897a38472caf4a",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__d7bcb52eae4b41dcb1746403eeff50c4",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "dc637697bb6341bbaa4f081fc72d8139",
+            "widgetKUID": "fec0c0fe6ca14702955d199a06076135",
+            "isSkinProperty": false,
+            "wType": "UserWidgetInstance",
+            "forkedPlatform": "all",
+            "parentId": "_acb9cf1b95284891be897a38472caf4a"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__i73a64f96a7a4535a3e50306bb04fc84",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "dc637697bb6341bbaa4f081fc72d8139",
+            "widgetKUID": "e74031348b084e7fbd8f1e31dbd9af4d",
+            "isSkinProperty": false,
+            "wType": "UserWidgetInstance",
+            "forkedPlatform": "all",
+            "parentId": "_acb9cf1b95284891be897a38472caf4a"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__b675900e95864aeb86957f9604c4bf5e",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "dc637697bb6341bbaa4f081fc72d8139",
+            "widgetKUID": "fec0c0fe6ca14702955d199a06076135",
+            "isSkinProperty": false,
+            "wType": "UserWidgetInstance",
+            "forkedPlatform": "all",
+            "parentId": "SHOW_ALERT_dc559f3ddf1a4c41a80dacbecb4f0c6d",
+            "callbackType": "False"
+        }, {
+            "id": "_f7444209fab94bec966495594dedc039",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": "signuprequest.httpStatusCode !== 0"
+            }],
+            "parentId": "INVOKE_SERVICE_fefa56fd69574d73aac92efea36a9705",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "_acb9cf1b95284891be897a38472caf4a",
+            "type": "ELSE_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "",
+                "operator": "===",
+                "rightValueType": "widgetprop",
+                "rightValue": ""
+            }],
+            "parentId": "INVOKE_SERVICE_fefa56fd69574d73aac92efea36a9705",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "INVOKE_SERVICE_fefa56fd69574d73aac92efea36a9705",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {
+                "ME_Mapping_c73692a3574a4c92abc3e0f577348e4f": {
+                    "channel": "desktop",
+                    "id": "ME_Mapping_c73692a3574a4c92abc3e0f577348e4f",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "title",
+                        "dataType": "string",
+                        "expression": "null",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "JACenter",
+                            "type": "objectsvcs",
+                            "objectname": "signuprequest",
+                            "serviceid": "4883571d-ac24-4033-907d-9f1107dd330c",
+                            "methodname": "create"
+                        }
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_c73692a3574a4c92abc3e0f577348e4f"],
+            "serviceconfig": {
+                "servicename": "JACenter",
+                "type": "objectsvcs",
+                "objectname": "signuprequest",
+                "serviceid": "4883571d-ac24-4033-907d-9f1107dd330c",
+                "methodname": "create"
+            },
+            "enableMappingEditor": true
+        }]
+    }
+}

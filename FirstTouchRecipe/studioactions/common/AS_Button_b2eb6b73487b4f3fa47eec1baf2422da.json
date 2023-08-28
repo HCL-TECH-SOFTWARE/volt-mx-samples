@@ -1,0 +1,21 @@
+{
+    "AS_Button_b2eb6b73487b4f3fa47eec1baf2422da": {
+        "id": "AS_Button_b2eb6b73487b4f3fa47eec1baf2422da",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_f9eb85f0ec1d443a879e82dc797d6ead",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "toggleTheme",
+            "display": "toggleTheme",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

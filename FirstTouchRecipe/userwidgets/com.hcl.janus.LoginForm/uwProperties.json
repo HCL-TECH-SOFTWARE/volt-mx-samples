@@ -1,0 +1,99 @@
+{
+    "classname": "LoginForm",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e815c95f34af40d5b4f02aa14fe3e6e2",
+                    "paramList": [],
+                    "propertyKey": "checkSession",
+                    "pw": {
+                        "displayName": "checkSession",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "udac290cde26417fb3494e20c041d07a",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "Recipe Catalog",
+                    "group": "General",
+                    "kuid": "cf76f41df7464ee8b8eaab8fb5a4c13f",
+                    "originalPropertyKey": "AppTitle",
+                    "propertyIndex": 1,
+                    "propertyKey": "AppTitle",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "AppTitle",
+                        "toolTip": "AppTitle",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "udac290cde26417fb3494e20c041d07a",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "KeepAuthentication",
+                    "group": "General",
+                    "kuid": "f6f57dbf32ab444b9a81a63890b9fbd1",
+                    "originalPropertyKey": "UserStoreSvcName",
+                    "propertyIndex": 2,
+                    "propertyKey": "UserStoreSvcName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "UserStoreSvcName",
+                        "toolTip": "UserStoreIdentityServiceName",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "udac290cde26417fb3494e20c041d07a",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Main",
+                    "group": "General",
+                    "kuid": "j4bd92739f7546369ff3c9d4b506fc95",
+                    "originalPropertyKey": "MainFormName",
+                    "propertyIndex": 7,
+                    "propertyKey": "MainFormName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "MainFormName",
+                        "toolTip": "MainFormName",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "udac290cde26417fb3494e20c041d07a",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.janus",
+    "version": "1.0.0"
+}

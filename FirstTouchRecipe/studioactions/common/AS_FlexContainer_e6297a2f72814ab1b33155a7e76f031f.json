@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_e6297a2f72814ab1b33155a7e76f031f": {
+        "id": "AS_FlexContainer_e6297a2f72814ab1b33155a7e76f031f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ib948040f3e346eabf04ac775f937fdc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "self.view.flxEnabled.flxEnabledSelect.imgEnabled.setVisibility(!self.view.flxEnabled.flxEnabledSelect.imgEnabled.isVisible);",
+            "callbackType": null
+        }]
+    }
+}

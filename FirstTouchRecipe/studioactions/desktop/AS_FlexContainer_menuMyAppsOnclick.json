@@ -1,0 +1,113 @@
+{
+    "AS_FlexContainer_j43d3c88278d41699efbbccabba9c430": {
+        "id": "AS_FlexContainer_j43d3c88278d41699efbbccabba9c430",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_FlexContainer_menuMyAppsOnclick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "name": "Main"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__e60ddd507eb348a5ad73b41a8d3db62b",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "showMyAppsList",
+            "display": "showMyAppsList",
+            "inputparams": [{
+                "name": "application",
+                "value": "application"
+            }],
+            "parentId": "INVOKE_SERVICE_e81a59788328483d9c5ab6ed51e68f29",
+            "callbackType": "Callback",
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "ADD_SNIPPET_b59aff812088482693b2dc26e259ac2d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "self.view.MainContainer.MyAppsContainer.flxMyApps.flxMyAppList.segAppList.selectedRowIndex= [0,0];\n",
+            "parentId": "INVOKE_SERVICE_e81a59788328483d9c5ab6ed51e68f29",
+            "callbackType": "Callback"
+        }, {
+            "id": "INVOKE_FUNCTION__eb8d21a1b855405d8f40e250d95845f9",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "displayAppDetail",
+            "display": "displayAppDetail",
+            "inputparams": [{
+                "name": "app",
+                "value": "self.view.MainContainer.MyAppsContainer.flxMyApps.flxMyAppList.segAppList.data[0]"
+            }],
+            "parentId": "INVOKE_SERVICE_e81a59788328483d9c5ab6ed51e68f29",
+            "callbackType": "Callback",
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__e0ab1b6615544456a42815068a0cbb81",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Main",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "widgetKUID": "fd1dd83397da47cf9c235221931f193f",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__cabbfd241d4c412cb9a167e9f77d1b2a",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Main",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "widgetKUID": "j90827cc3c9c4575a709c4f3d6ee5f0f",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__b554f4d664f64b3fa8a5aa542c82ea07",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Main",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "widgetKUID": "a0d70569514548dc9c9527983ba81add",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null
+        }, {
+            "id": "INVOKE_SERVICE_e81a59788328483d9c5ab6ed51e68f29",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": {
+                "$filter": "\"((SoftDeleteFlag ne true) or (SoftDeleteFlag eq null)) and (((owner eq \" + userProfile.userid + \") and (is_template eq false)) or ((is_template eq true) and (is_enabled eq true)))\"",
+                "$orderby": "\"is_template\""
+            },
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "JACenter",
+                "type": "objectsvcs",
+                "objectname": "application",
+                "serviceid": "4883571d-ac24-4033-907d-9f1107dd330c",
+                "methodname": "get"
+            },
+            "parentId": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

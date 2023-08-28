@@ -1,0 +1,29 @@
+{
+    "AS_Button_c4f36feacfd849649887f7793436afd0": {
+        "id": "AS_Button_c4f36feacfd849649887f7793436afd0",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_Button_UserAcctCancel",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "f519cf4955e64af88af21a22eb477b53"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__hdb70ac1b89542669640ec62d78f7c1c",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Main",
+            "formKUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "projectName": "FirstTouchRecipe",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

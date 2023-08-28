@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_da810163c6804eae9c6df3d8e0336e49": {
+        "id": "AS_FlexContainer_da810163c6804eae9c6df3d8e0336e49",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_d192c8766be74742bc992e93f3727d8e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.lblRuntimeAppVersion.text = appConfig.runtimeAppVersion;\nthis.view.lblClientAppVersion.text = appConfig.appVersion;\nthis.view.lblAppKey.text = 'Key ' + appConfig.appKey;\n",
+            "parentId": null
+        }]
+    }
+}

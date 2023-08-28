@@ -1,0 +1,135 @@
+{
+    "AS_Form_ee15a7c3098a4eea9438ea9e2e2f135e": {
+        "id": "AS_Form_ee15a7c3098a4eea9438ea9e2e2f135e",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_Form_MainPreShowOnClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "name": "Main"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_e1f38b1605384f05ab353c091d3a961f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try{\n  username = userProfile.userid;\n}catch(e){\n  username = \"\";\n}",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION__d71cdd2099294af2b801541b1811dc5a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getUserPreference",
+            "display": "getUserPreference",
+            "inputparams": [{
+                "name": "data",
+                "value": "userpreference"
+            }],
+            "parentId": "_i2d447a87a2348dea42bf34de1015bfc",
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_SERVICE_d0e22ded4c1a4376b3b93fb802358689",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": {
+                "$filter": "\"((SoftDeleteFlag ne true) or (SoftDeleteFlag eq null)) and (owner eq \" + username.toLowerCase() + \") and (is_enabled eq true) and ((is_template ne true) or (is_template eq null))\""
+            },
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "JACenter",
+                "type": "objectsvcs",
+                "objectname": "application",
+                "serviceid": "a9cb73d6-bc2b-40d9-a299-622902d5636f",
+                "methodname": "get"
+            },
+            "parentId": "_i2d447a87a2348dea42bf34de1015bfc",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }, {
+            "id": "INVOKE_FUNCTION__b0b4fa01c32a4f79824f53fe06fa4543",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "showAppCards",
+            "display": "showAppCards",
+            "inputparams": [{
+                "name": "application",
+                "value": "application"
+            }],
+            "parentId": "INVOKE_SERVICE_d0e22ded4c1a4376b3b93fb802358689",
+            "callbackType": "Callback",
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "ADD_SNIPPET_a9ace4391ccb49e381465cbb980d77ba",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "self.view.MainContainer.HeaderBar.userDisplayName.text = userProfile.displayname;\nself.view.MainContainer.HeaderBar.imgUserAvatar.base64 = getImageData(JAC.USER_OBJECT, JAC.USERID_FIELD, userProfile.userid, JAC.AVATAR_FIELD, self.view.MainContainer.HeaderBar.imgUserAvatar);",
+            "parentId": "_i2d447a87a2348dea42bf34de1015bfc"
+        }, {
+            "id": "NAVIGATE_TO_FORM__g82e5ced867246d680fa1a01c946920b",
+            "type": "NAVIGATE_TO_FORM",
+            "formKUID": "j1888feb78bd49c5944c0e2be5412c94",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "_ecacfbed3ee54737a22616b1f5bd3560",
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }, {
+            "id": "_ecacfbed3ee54737a22616b1f5bd3560",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "value",
+                "leftValue": "userpreference.httpStatusCode",
+                "operator": "===",
+                "rightValueType": "value",
+                "rightValue": "401"
+            }],
+            "parentId": "INVOKE_SERVICE_b657b3329099457999e0aa094cf70cc3",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "_i2d447a87a2348dea42bf34de1015bfc",
+            "type": "ELSE_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "",
+                "operator": "===",
+                "rightValueType": "widgetprop",
+                "rightValue": ""
+            }],
+            "parentId": "INVOKE_SERVICE_b657b3329099457999e0aa094cf70cc3",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "INVOKE_SERVICE_b657b3329099457999e0aa094cf70cc3",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": {
+                "$filter": "\"((SoftDeleteFlag ne true) or (SoftDeleteFlag eq null)) and (userid eq \" + username + \")\""
+            },
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "JACenter",
+                "type": "objectsvcs",
+                "objectname": "userpreference",
+                "serviceid": "a9cb73d6-bc2b-40d9-a299-622902d5636f",
+                "methodname": "get"
+            },
+            "enableMappingEditor": true
+        }]
+    }
+}

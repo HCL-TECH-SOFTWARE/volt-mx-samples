@@ -1,0 +1,24 @@
+{
+    "AS_TextField_b88ec019d1424843a8e6a1a91295fca8": {
+        "id": "AS_TextField_b88ec019d1424843a8e6a1a91295fca8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onTextChange_g6c78e424b4a4d79b8fe895f3a616e57",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onRecipeNameChanged",
+            "display": "onRecipeNameChanged",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

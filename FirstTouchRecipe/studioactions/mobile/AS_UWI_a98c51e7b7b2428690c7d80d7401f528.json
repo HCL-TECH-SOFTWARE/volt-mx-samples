@@ -1,0 +1,28 @@
+{
+    "AS_UWI_a98c51e7b7b2428690c7d80d7401f528": {
+        "id": "AS_UWI_a98c51e7b7b2428690c7d80d7401f528",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRecipeDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a74f985d9d904614875bd98cc2dcf7c8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ifa2799bcfd94070a55de2bd094bb4e6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onRecipeDeleteClick",
+            "display": "onRecipeDeleteClick",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

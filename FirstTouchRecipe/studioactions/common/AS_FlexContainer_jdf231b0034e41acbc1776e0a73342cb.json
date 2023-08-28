@@ -1,0 +1,32 @@
+{
+    "AS_FlexContainer_jdf231b0034e41acbc1776e0a73342cb": {
+        "id": "AS_FlexContainer_jdf231b0034e41acbc1776e0a73342cb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "uad7d145dd9f4fa7964c2e2c87aaf8b2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__d0b8bc4cd4ca48b98f1c8b825e68d099",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "COMPONENT",
+            "itemId": "userwidgetmodel",
+            "widgetId": "flxSortMenuContainer",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "uad7d145dd9f4fa7964c2e2c87aaf8b2",
+            "widgetKUID": "ab7613055882488795caa0bad8ddc4d3",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "widgetPath": "this.view.flxSortMenuContainer"
+        }]
+    }
+}

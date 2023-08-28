@@ -1,0 +1,113 @@
+{
+    "android": {
+        "font_name": "default",
+        "isForked": true,
+        "text_shadow": {
+            "br": 0,
+            "color": "000000",
+            "nm": 0,
+            "x": -2,
+            "y": 0
+        }
+    },
+    "androidwearos": {
+        "isForked": true,
+        "text_shadow": {
+            "br": 0,
+            "color": "000000",
+            "nm": 0,
+            "x": -2,
+            "y": 0
+        }
+    },
+    "background_color": "999999ff",
+    "bg_type": "one",
+    "border_color": "28282800",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 2,
+    "desktopweb": {
+        "font_name": "Helvetica",
+        "font_size": 150,
+        "isForked": false
+    },
+    "fontSizeInPx": false,
+    "font_color": "ffffffff",
+    "font_name": "",
+    "font_size": 150,
+    "font_style": "normal",
+    "font_weight": "normal",
+    "ipad": {
+        "font_name": "System",
+        "font_size": 150,
+        "isForked": false
+    },
+    "iphone": {
+        "font_name": "System",
+        "font_size": 150,
+        "isForked": false
+    },
+    "isDefaultSkin": false,
+    "kiosk": {
+        "font_name": "GenericMonospace",
+        "font_size": 150,
+        "isForked": false
+    },
+    "kuid": "s791047f7d02476896c0c8e2c9c39a06",
+    "spaan": {
+        "font_name": "Helvetica",
+        "font_size": 150,
+        "isForked": false
+    },
+    "spaandroidtablet": {
+        "font_name": "Helvetica",
+        "font_size": 150,
+        "isForked": false
+    },
+    "spaip": {
+        "font_name": "Helvetica",
+        "font_size": 150,
+        "isForked": false
+    },
+    "spaipad": {
+        "font_name": "Helvetica",
+        "font_size": 150,
+        "isForked": false
+    },
+    "spawindowstablet": {
+        "font_name": "Helvetica",
+        "font_size": 150,
+        "isForked": false
+    },
+    "spawinphone8": {
+        "font_name": "Helvetica",
+        "font_size": 150,
+        "isForked": false
+    },
+    "tabrcandroid": {
+        "font_name": "default",
+        "isForked": true,
+        "text_shadow": {
+            "br": 0,
+            "color": "000000",
+            "nm": 0,
+            "x": -2,
+            "y": 0
+        }
+    },
+    "wType": "TextField",
+    "watchos": {
+        "font_size": 150,
+        "isForked": false
+    },
+    "windows8": {
+        "font_name": "GenericMonospace",
+        "font_size": 150,
+        "isForked": false
+    },
+    "winphone8": {
+        "font_name": "GenericMonospace",
+        "font_size": 150,
+        "isForked": false
+    }
+}

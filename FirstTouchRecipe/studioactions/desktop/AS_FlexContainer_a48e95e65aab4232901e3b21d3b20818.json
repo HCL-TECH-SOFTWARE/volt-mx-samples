@@ -1,0 +1,33 @@
+{
+    "AS_FlexContainer_a48e95e65aab4232901e3b21d3b20818": {
+        "id": "AS_FlexContainer_a48e95e65aab4232901e3b21d3b20818",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "IngredientRowTpl",
+            "type": "templates",
+            "platform": "",
+            "KUID": "e33f3963e153416e9cb4224cdc724cc6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__g518a20c7dbc49e9a90fc1cf620c771d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onDeleteIngredientRow",
+            "display": "onDeleteIngredientRow",
+            "inputparams": [{
+                "name": "context",
+                "value": " context"
+            }],
+            "parentId": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

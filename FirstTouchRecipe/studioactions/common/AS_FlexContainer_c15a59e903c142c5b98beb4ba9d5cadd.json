@@ -1,0 +1,22 @@
+{
+    "AS_FlexContainer_c15a59e903c142c5b98beb4ba9d5cadd": {
+        "id": "AS_FlexContainer_c15a59e903c142c5b98beb4ba9d5cadd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "jae0cf3dd58746f3b476024ce5ceca05"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_h1132ec1853a48559c5aec168533ae02",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "self = this;\n\nself.view.lblRuntimeAppVersion.text = appConfig.runtimeAppVersion;\nself.view.lblClientAppVersion.text = appConfig.appVersion;\nself.view.lblAppId.text = appConfig.appId;\nself.view.lblAppKey.text = appConfig.appKey;\n\nself.view.lblIsDebug.setVisibility(!!appConfig.isDebug);",
+            "parentId": null
+        }]
+    }
+}

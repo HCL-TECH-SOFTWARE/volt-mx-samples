@@ -1,0 +1,103 @@
+{
+    "AS_Button_fd9ca863c9304a319f3c3276d14e63ee": {
+        "id": "AS_Button_fd9ca863c9304a319f3c3276d14e63ee",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_Button_menuMyAppsOnClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "name": "Main"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__a7c97819af2b4664a359b844be4eb93c",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Main",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "widgetKUID": "fd1dd83397da47cf9c235221931f193f",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__ceb7473b86df4ceb85fce89290b946da",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Main",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "widgetKUID": "j90827cc3c9c4575a709c4f3d6ee5f0f",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "INVOKE_SERVICE_dfc4d3bc4ce846ab93d85eb785b85e0d",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": {
+                "$filter": "\"((SoftDeleteFlag ne true) or (SoftDeleteFlag eq null)) and ((owner eq \" + userProfile.userid + \") or ((is_template eq true) and (is_enabled eq true)))\"",
+                "$orderby": "\"is_template\""
+            },
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "JACenter",
+                "type": "objectsvcs",
+                "objectname": "application",
+                "serviceid": "a9cb73d6-bc2b-40d9-a299-622902d5636f",
+                "methodname": "get"
+            },
+            "parentId": null,
+            "callbackType": null,
+            "enableMappingEditor": true
+        }, {
+            "id": "INVOKE_FUNCTION__a34dfc6dbd834edf8dc78b6081fe9e5d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "showMyAppsList",
+            "display": "showMyAppsList",
+            "inputparams": [{
+                "name": "application",
+                "value": "application"
+            }],
+            "parentId": "INVOKE_SERVICE_dfc4d3bc4ce846ab93d85eb785b85e0d",
+            "callbackType": "Callback",
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "ADD_SNIPPET_ddfef8ebc59340a5907e110b95480893",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "self.view.MainContainer.MyAppsContainer.flxMyApps.flxMyAppList.segAppList.selectedRowIndex= [0,0];\nneedRefreshAppCards=false;",
+            "parentId": "INVOKE_SERVICE_dfc4d3bc4ce846ab93d85eb785b85e0d",
+            "callbackType": "Callback"
+        }, {
+            "id": "INVOKE_FUNCTION__fab7d4e154544f01ba1cbd1e19a80141",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "displayAppDetail",
+            "display": "displayAppDetail",
+            "inputparams": [{
+                "name": "row",
+                "value": "self.view.MainContainer.MyAppsContainer.flxMyApps.flxMyAppList.segAppList.data[0]"
+            }],
+            "parentId": "INVOKE_SERVICE_dfc4d3bc4ce846ab93d85eb785b85e0d",
+            "callbackType": "Callback",
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

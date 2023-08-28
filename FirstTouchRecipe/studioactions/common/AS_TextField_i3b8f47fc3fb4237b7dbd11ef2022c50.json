@@ -1,0 +1,24 @@
+{
+    "AS_TextField_i3b8f47fc3fb4237b7dbd11ef2022c50": {
+        "id": "AS_TextField_i3b8f47fc3fb4237b7dbd11ef2022c50",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onTextChange_f642f107ac604ca89e6abedd8cc8f30f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onPrepTimeChanged",
+            "display": "onPrepTimeChanged",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

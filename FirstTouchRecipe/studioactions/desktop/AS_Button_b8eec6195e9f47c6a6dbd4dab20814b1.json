@@ -1,0 +1,23 @@
+{
+    "AS_Button_b8eec6195e9f47c6a6dbd4dab20814b1": {
+        "id": "AS_Button_b8eec6195e9f47c6a6dbd4dab20814b1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "name": "Main"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_i6aa90c565b64426a1b14429841dc1f4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "getImageFile.call(this, self.view.MainContainer.UserAccountInfo.UserAccount.flxFile.imgAvatar,\n  function callback(base64Encoded){\n    if(!(base64Encoded === undefined || base64Encoded === \"\")){\n      self.view.MainContainer.UserAccountInfo.UserAccount.flxFile.imgAvatar.setVisibility(true);\n    } else {\n      self.view.MainContainer.UserAccountInfo.UserAccount.flxFile.imgAvatar.setVisibility(false);\n    }\n});\n",
+            "parentId": null
+        }]
+    }
+}

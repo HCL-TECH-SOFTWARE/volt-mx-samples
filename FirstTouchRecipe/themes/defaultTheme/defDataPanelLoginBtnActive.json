@@ -1,0 +1,16 @@
+{
+  "background_color": "6fa0f4ff",
+  "bg_type": "one",
+  "border_color": "6fa0f4ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 1,
+  "font_color": "ffffffff",
+  "font_name": "iphoneSystem",
+  "font_size": 129,
+  "font_style": "normal",
+  "font_weight": "400",
+  "isDefaultSkin": true,
+  "kuid": "s2b549b498f24769b5dcb5f6061497ad",
+  "wType": "Button"
+}

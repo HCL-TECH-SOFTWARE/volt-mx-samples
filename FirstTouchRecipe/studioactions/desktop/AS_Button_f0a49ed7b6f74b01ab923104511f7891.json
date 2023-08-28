@@ -1,0 +1,41 @@
+{
+    "AS_Button_f0a49ed7b6f74b01ab923104511f7891": {
+        "id": "AS_Button_f0a49ed7b6f74b01ab923104511f7891",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "dc637697bb6341bbaa4f081fc72d8139"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__f2156a2bdd3249f39144159db72f8b2a",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "dc637697bb6341bbaa4f081fc72d8139",
+            "widgetKUID": "ja79d150df62494fb38f3a61464b498a",
+            "isSkinProperty": false,
+            "wType": "UserWidgetInstance",
+            "forkedPlatform": "all",
+            "parentId": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__d61c56de9dfa4a32816c7c56d3ef01b5",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "dc637697bb6341bbaa4f081fc72d8139",
+            "widgetKUID": "fec0c0fe6ca14702955d199a06076135",
+            "isSkinProperty": false,
+            "wType": "UserWidgetInstance",
+            "forkedPlatform": "all",
+            "parentId": null
+        }]
+    }
+}

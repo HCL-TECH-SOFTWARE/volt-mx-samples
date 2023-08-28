@@ -1,0 +1,34 @@
+{
+    "AS_FlexContainer_h66017fd20304f518002faf4e5aa08c8": {
+        "id": "AS_FlexContainer_h66017fd20304f518002faf4e5aa08c8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segRecipeListTemplate",
+            "type": "templates",
+            "platform": "",
+            "KUID": "j44d05958ab1477b9e3c910369837059"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__h7645b1abf274963bdd06e5e044213dd",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onRecipeImageClick",
+            "display": "onRecipeImageClick",
+            "inputparams": [{
+                "name": "context",
+                "value": " context\n "
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

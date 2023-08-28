@@ -1,0 +1,62 @@
+{
+  "android": {},
+  "androidwearos": {
+    "font_name": "default"
+  },
+  "background_color": "4e7eb4ff",
+  "bg_type": "one",
+  "border_color": "ffffffff",
+  "border_style": "custom",
+  "border_type": 0,
+  "border_width": 3,
+  "bottom_left_border_style": "plain",
+  "bottom_left_border_width": "0",
+  "bottom_right_border_style": "plain",
+  "bottom_right_border_width": "0",
+  "desktopweb": {
+    "border_type": 0,
+    "bottom_left_border_color": "ffffff00",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": "0",
+    "bottom_right_border_color": "ffffff00",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": "0",
+    "isForked": true,
+    "shadow": {
+      "br": 0,
+      "color": "00000000",
+      "inner": false,
+      "nm": 0,
+      "x": 0,
+      "y": 0
+    },
+    "top_left_border_color": "ffffff00",
+    "top_left_border_style": "plain",
+    "top_left_border_width": "0",
+    "top_right_border_color": "ffffff00",
+    "top_right_border_style": "plain",
+    "top_right_border_width": "0"
+  },
+  "ipad": {},
+  "iphone": {},
+  "isDefaultSkin": false,
+  "kiosk": {},
+  "kuid": "s1098da7a0d74532a95596b89d626ee2",
+  "spaan": {},
+  "spaandroidtablet": {},
+  "spaip": {},
+  "spaipad": {},
+  "spawindowstablet": {},
+  "spawinphone8": {},
+  "tabrcandroid": {},
+  "top_left_border_style": "plain",
+  "top_left_border_width": "0",
+  "top_right_border_style": "plain",
+  "top_right_border_width": "0",
+  "wType": "FlexContainer",
+  "watchos": {
+    "font_name": "System"
+  },
+  "windows8": {},
+  "winphone8": {}
+}

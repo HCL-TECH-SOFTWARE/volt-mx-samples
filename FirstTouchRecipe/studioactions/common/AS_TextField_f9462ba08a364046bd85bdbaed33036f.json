@@ -1,0 +1,30 @@
+{
+    "AS_TextField_f9462ba08a364046bd85bdbaed33036f": {
+        "id": "AS_TextField_f9462ba08a364046bd85bdbaed33036f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "geffd01e81f644288b77f80aadaa1cdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__d9bb9404c52d45ffbf21e4ce17751c9e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onRecipeNameChanged",
+            "display": "onRecipeNameChanged",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

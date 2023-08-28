@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_ba4ae24a70844755b9cd277993f7d690": {
+        "id": "AS_FlexContainer_ba4ae24a70844755b9cd277993f7d690",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Main",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a2a43a5456e5482b9a0a429b5e4184f4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__fe1a53f576774690964fd3cf21f4be2e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "logout",
+            "display": "logout",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

@@ -1,0 +1,52 @@
+{
+  "android": {
+    "font_color": "singleColor",
+    "font_name": "Helvetica",
+    "font_size": 119,
+    "font_style": "normal",
+    "font_weight": "normal",
+    "isForked": true,
+    "text_shadow": {
+      "br": 0,
+      "color": "000000",
+      "opacity": 1,
+      "x": 0,
+      "y": 0
+    }
+  },
+  "background_color": "00000000",
+  "bg_type": "one",
+  "border_color": "424242ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "delinkedPltfrms": {
+    "androidwear": [],
+    "desktop": [],
+    "mobile": [],
+    "tablet": [],
+    "watch": []
+  },
+  "fontSizeInPx": true,
+  "font_color": "ffffffff",
+  "font_name": "Helvetica",
+  "font_size": 125,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "iphone": {
+    "font_color": "singleColor",
+    "font_name": "Helvetica",
+    "font_size": 98,
+    "isForked": true,
+    "text_shadow": {
+      "br": 0,
+      "color": "000000",
+      "opacity": 1,
+      "x": 0,
+      "y": 0
+    }
+  },
+  "isDefaultSkin": false,
+  "kuid": "se8f445a82064c7ba7c9cf1fcb5b6626",
+  "wType": "Label"
+}

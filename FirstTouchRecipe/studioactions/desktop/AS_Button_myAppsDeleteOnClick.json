@@ -1,0 +1,71 @@
+{
+    "AS_Button_b9b43f5bbf6f41cb9f75a6ab08fe82e9": {
+        "id": "AS_Button_b9b43f5bbf6f41cb9f75a6ab08fe82e9",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_Button_myAppsDeleteOnClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "name": "Main"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SHOW_ALERT_d299ca7dd3c546bfa605d07af4f19488",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_CONFIRMATION",
+            "alertTitle": null,
+            "yesLabel": null,
+            "noLabel": null,
+            "alertIcon": null,
+            "alertMessage": "Are you sure you want to delete this application?",
+            "messageType": "constant",
+            "alertHandler": null,
+            "parentId": null,
+            "callbackType": null,
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }, {
+            "id": "INVOKE_FUNCTION__ic6d1b5ff0f240f98cf0cb22e101bb42",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "removeRecord",
+            "display": "removeRecord",
+            "inputparams": [],
+            "parentId": "SHOW_ALERT_d299ca7dd3c546bfa605d07af4f19488",
+            "callbackType": "True",
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION__aac50dab803f45dbb4829227994fec77",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "displayAppDetail",
+            "display": "displayAppDetail",
+            "inputparams": [{
+                "name": "app",
+                "value": "self.view.MainContainer.MyAppsContainer.flxMyApps.flxMyAppList.segAppList.data[0]"
+            }],
+            "parentId": "SHOW_ALERT_d299ca7dd3c546bfa605d07af4f19488",
+            "callbackType": "True",
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION__f9e9332468f24869bac1e28dfae67b5c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "refreshAppCards",
+            "display": "refreshAppCards",
+            "inputparams": [],
+            "parentId": "SHOW_ALERT_d299ca7dd3c546bfa605d07af4f19488",
+            "callbackType": "True",
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
