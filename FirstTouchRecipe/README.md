@@ -5,3 +5,8 @@ For more details please visit https://opensource.hcltechsw.com/voltmxgo-document
 
 
 ![recipe tile](./images/ftrecipeapp.png)
+
+To work with this example in your own environment:
+ 1) Clone the volt-mx-samples repo with git
+ 2) Within the Iris application on your desktop, click on Project > Import > Local Project > Open as New Project > From a Folder
+ 3) Select the FirstTouchRecipe folder under the cloned volt-mx-samples
