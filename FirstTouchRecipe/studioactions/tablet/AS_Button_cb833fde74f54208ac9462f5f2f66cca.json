@@ -1,0 +1,83 @@
+{
+    "AS_Button_cb833fde74f54208ac9462f5f2f66cca": {
+        "id": "AS_Button_cb833fde74f54208ac9462f5f2f66cca",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Main",
+            "type": "forms",
+            "platform": null,
+            "KUID": "gea46f2f54dc472db963e9037f498f64"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_IDENTITY_SERVICE_ide_onClick_e30cbc5705ce4ac1afe4d89f1d98d6c4",
+            "type": "INVOKE_IDENTITY_SERVICE",
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "operationname": "logout",
+                "servicename": "UserAuthentication",
+                "type": "identity",
+                "isDeepLinkRequired": false,
+                "login_type": "basic"
+            },
+            "enableMappingEditor": true,
+            "useDeviceBrowser": false,
+            "isDeepLinkRequired": false
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY___i010642c4032461a86fcdd8503692f45",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Main",
+            "widgetId": "flxUserMenuContainer",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "gea46f2f54dc472db963e9037f498f64",
+            "widgetKUID": "f5d21fa9759a4b5da8f664104593f63c",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": "INVOKE_IDENTITY_SERVICE_ide_onClick_e30cbc5705ce4ac1afe4d89f1d98d6c4",
+            "callbackType": "Success",
+            "widgetPath": "this.view.HeaderBar.flxUserMenuContainer"
+        }, {
+            "id": "ADD_SNIPPET_ide_onClick_e1dfc26108f4450da85e62276bf1f771",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "userProfile=undefined;\nself.view.MainContainer.CardsContainer.removeAll();",
+            "parentId": "INVOKE_IDENTITY_SERVICE_ide_onClick_e30cbc5705ce4ac1afe4d89f1d98d6c4",
+            "callbackType": "Success"
+        }, {
+            "id": "SHOW_ALERT_ide_onClick_jc5dbb78721a472db898197adf562019",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_ERROR",
+            "alertTitle": "Sign Out",
+            "alertMessage": "An error occurred during the sign out process.",
+            "messageType": "constant",
+            "parentId": "INVOKE_IDENTITY_SERVICE_ide_onClick_e30cbc5705ce4ac1afe4d89f1d98d6c4",
+            "callbackType": "Failure",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_e42c30b5d1c44207b9bba2d3e70ed2a7",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Main",
+            "formKUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "projectName": "FirstTouchRecipe",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "INVOKE_IDENTITY_SERVICE_ide_onClick_e30cbc5705ce4ac1afe4d89f1d98d6c4",
+            "callbackType": "Success",
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

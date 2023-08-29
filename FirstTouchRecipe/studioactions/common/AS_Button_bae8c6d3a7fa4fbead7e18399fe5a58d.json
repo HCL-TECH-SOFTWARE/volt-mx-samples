@@ -1,0 +1,28 @@
+{
+    "AS_Button_bae8c6d3a7fa4fbead7e18399fe5a58d": {
+        "id": "AS_Button_bae8c6d3a7fa4fbead7e18399fe5a58d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "f9cf46e0346b4d35b826d914985cba69"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SHOW_ALERT_f220936d4ff741f3b68988f182b08379",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertMessage": "Forgot password clicked",
+            "messageType": "constant",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

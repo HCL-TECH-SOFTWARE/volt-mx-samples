@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_b207553bea434f0dab2250397e00f61c": {
+        "id": "AS_FlexContainer_b207553bea434f0dab2250397e00f61c",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_FlexContainer_CancelSearch",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "name": "Main"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__b14019d21dbb4117a299c39c76f2721d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickOfBtnCancelSearch",
+            "display": "onClickOfBtnCancelSearch",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

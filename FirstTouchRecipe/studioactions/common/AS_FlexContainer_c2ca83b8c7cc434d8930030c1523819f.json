@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_c2ca83b8c7cc434d8930030c1523819f": {
+        "id": "AS_FlexContainer_c2ca83b8c7cc434d8930030c1523819f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d77af5fd25b34372aca0fad7b4b7848c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "self.view.flxProtected.flxProtectedSelect.imgProtected.setVisibility(!self.view.flxProtected.flxProtectedSelect.imgProtected.isVisible);",
+            "callbackType": null
+        }]
+    }
+}

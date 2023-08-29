@@ -1,0 +1,132 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s9d022a476204214b0d81d3930ed4197",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "AlertDialog": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "f0216245a29f430990112754d37648c1",
+                "srcKUID": "d2dbe5ef411e4acc86d73610fec78bc6",
+                "wType": "FlexContainer"
+            },
+            "isVisible": false,
+            "zIndex": {
+                "Default": 3
+            }
+        },
+        "Popup": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "eda496fff0944c5f96b4b7e830084e9c",
+                "srcKUID": "b435ecb1362c48c7bbcb7b847b090885",
+                "wType": "FlexContainer"
+            }
+        },
+        "btnNo": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cbcf5ff952364165989d947efe5d5255",
+                "srcKUID": "g58b2c694abd44c79a404451cab20484",
+                "wType": "Button"
+            }
+        },
+        "btnYes": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j919f37085d44771afa34694ab8c1742",
+                "srcKUID": "h17544e76d4d4932af040bfff02f99fc",
+                "wType": "Button"
+            }
+        },
+        "flxActionbarContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d7bd76672994427f9b4fb963fde35782",
+                "srcKUID": "b9c59783d8924122b13390759ce77b69",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgAlert": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b56418c7192b4d298bce4822c31ba7e5",
+                "srcKUID": "fcb79dccbf6b49fc969f3c391eb752a5",
+                "wType": "Image"
+            }
+        },
+        "richTextMsg": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fbe2975f632a466b9e6ae5de06962fca",
+                "srcKUID": "b0d63c28f7d34a038a6a6c0e0a97477b",
+                "wType": "RichText"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "AlertDialog",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": false,
+    "kuid": "f0216245a29f430990112754d37648c1",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmRecipeDetails",
+    "pf": "frmRecipeDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "d2dbe5ef411e4acc86d73610fec78bc6",
+    "wType": "UserWidgetInstance",
+    "zindex": 3
+}

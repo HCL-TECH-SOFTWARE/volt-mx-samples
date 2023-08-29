@@ -1,0 +1,393 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sce61340a15746429cfa790b0fb89fdf",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "AppCardLarge": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "d7a7467c620a416dbbcbe730f3efa1ae",
+                "srcKUID": "e17ed7fc2e274e98b7853b525905671b",
+                "wType": "FlexContainer"
+            },
+            "isVisible": true,
+            "responsiveData": {
+                "b1": {
+                    "isVisible": false
+                }
+            }
+        },
+        "CopyimgHome0fd727c6d59a14e": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d13510f48ff2412a9d988349ea8a037a",
+                "srcKUID": "e0a3415e0cbf488ab604c63d983a0311",
+                "wType": "Image"
+            }
+        },
+        "CopylblClose0f0901e87edc549": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c347fd00dd01406a8603e123b6b2aaee",
+                "srcKUID": "e6e21f44b6ac4201b5e201ba7db86674",
+                "wType": "Label"
+            }
+        },
+        "flxActionbarContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b1544e3d8c354475849d1ff6cf679dc4",
+                "srcKUID": "ed21902cc0254606a21265fc4aa6ba1e",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxCardHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ic386f1c431c4755bca79cf6e9f7727c",
+                "srcKUID": "ccefdf3a1cf24fe49c709efabc7c3dee",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxCenterRightContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i4a562d9752849b7a551f81d974a71cf",
+                "srcKUID": "bbdfa391d386471488b279e3803b5158",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxClose": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h787ece52d3b48a584a99caf2cfbaf72",
+                "srcKUID": "ff0c1aa2d6ca4bb3bf6ee86787293b38",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxContentContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a3e4aad260804a75bd0aba3ede83b110",
+                "srcKUID": "ae2b1f86aab14ab5b3d182306d2ef327",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxCookTimeContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a7d91f5a14184ad2bfed406e9b2d2d27",
+                "srcKUID": "f960241034a44929adeca3f3559e3701",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDelete": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a147338bf6a34da995cbc804678cbdd0",
+                "srcKUID": "d56c053a14ba4728b12300f463dc5a35",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDirections": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "baf024da77634918b23fd5cb0988b96e",
+                "srcKUID": "jf25c399286b497b96fab76ec15651e8",
+                "wType": "FlexScrollContainer"
+            }
+        },
+        "flxDirectionsHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bf3077c0096543fd871e82703b4ce61e",
+                "srcKUID": "g03c40f949db401cb68eefdd952aee14",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxEdit": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d458a524e3974732ae3f8b8e9d336842",
+                "srcKUID": "c3e9386b2c924114938599712898d677",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxIngedientsHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d7212bf6ea5842bb831286c43a4d90d2",
+                "srcKUID": "fedbaf5f6a56493c8c4effdb9e6780d1",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxIngredients": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ec1ead5ea502473e8354c5186645b66d",
+                "srcKUID": "hc2943c6c8da474599f6a39230043729",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxIngredientsList": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e12b5061515a42afb3504c4a15814412",
+                "srcKUID": "dca8e1bb6b124485a3d2c6c19aa16625",
+                "wType": "FlexScrollContainer"
+            }
+        },
+        "flxInnerCard": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b63ef084bfd34f29965ad9ebaa1f61ac",
+                "srcKUID": "g31cfe690e9e49128a0419e9992bf88a",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxOuterCard": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b9ffdc7bf28b49e49ec16fd9795633af",
+                "srcKUID": "d0626689b8fb4fbcb0bc60248bbb9615",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPrepTimeContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h4c4d357c1a44415864e57cb455b3928",
+                "srcKUID": "bd807ab141144044aa0d96d84f6cca58",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxRecipe": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a910df7ea394459c8db89badb258212e",
+                "srcKUID": "cf724f1a9ebf4f7cacc7eaf0e7e62a67",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxRecipeImage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "hc0e343342ec42e784bee4c5d4082085",
+                "srcKUID": "e5d667ee98c14670935ac8f41ddaf3e7",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxServingsContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i3f59ffc200a4e5a8a4a55c9fce57067",
+                "srcKUID": "j986998ec1e84af7972810b3c7b81208",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxShortFieldsContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d293191559f446259f35325942c46629",
+                "srcKUID": "i7220ff3661f4dc48e26508c934aaa22",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxShortFieldsInnerContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d4227cb1b9c94f16a60f2a9e834c85ae",
+                "srcKUID": "fed7c8c003d84027aa8cb426e0186750",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgDelete": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e5170e0e3a4f4b6c90f1a79c5f06e76c",
+                "srcKUID": "e69d996990cc48f3a53267d446287ec7",
+                "wType": "Image"
+            },
+            "src": "delete_blue.png"
+        },
+        "imgEdit": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cb4542f324f5447fbd0aa98e81c36be5",
+                "srcKUID": "g429c651b32345efa09dc7f95cf4c9d7",
+                "wType": "Image"
+            },
+            "src": "edit_blue.png"
+        },
+        "imgRecipePicture": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c04e6eafcce04046920f948500f35555",
+                "srcKUID": "e71f12c0446b401d9f7bbc9d68f59e68",
+                "wType": "Image"
+            },
+            "src": "imagedrag.png"
+        },
+        "lblCookTime": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ece3868f1df645ac8433ed3ff46fe146",
+                "srcKUID": "e2a64654e1a54749abc0cf4ae0f48a73",
+                "wType": "Label"
+            }
+        },
+        "lblCookTimeValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d3126d48ce92493e9478c6c81467f2b3",
+                "srcKUID": "d84eebb76b094ed9b7f9452137d98dcf",
+                "wType": "Label"
+            }
+        },
+        "lblDelete": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bd43085fa1214dd9a63bb491c917bebe",
+                "srcKUID": "ca5b39b49f1445169e909f06266cbb9f",
+                "wType": "Label"
+            }
+        },
+        "lblDirections": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fe9308b9b1214e37ad437504cb2592b0",
+                "srcKUID": "ea53be9bc8f9461fa330525bed8ebae8",
+                "wType": "Label"
+            }
+        },
+        "lblEdit": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f3591496a5a1410090555f7bf4613f5c",
+                "srcKUID": "geb482455d50473f913e36bf63df3afe",
+                "wType": "Label"
+            }
+        },
+        "lblIngredients": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e5c37ae55f5f472ea96f28aee291f79f",
+                "srcKUID": "b67201a3e6ff4396b1719a8d670f8c66",
+                "wType": "Label"
+            }
+        },
+        "lblPrepTime": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a1c1ca3237cb45d5adf6cf7ad169858e",
+                "srcKUID": "c7dbe4b5aed64b59af7d699adebacbff",
+                "wType": "Label"
+            }
+        },
+        "lblPrepTimeValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j8e0bed7ccee4844a9f52a53ce4d7f82",
+                "srcKUID": "a4e5864031764da3950fd19f1fabe0d3",
+                "wType": "Label"
+            }
+        },
+        "lblRecipeName": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ad657dd51d3444929e0019a94721565d",
+                "srcKUID": "je31416c6e534b9f84b0d2bce0802672",
+                "wType": "Label"
+            }
+        },
+        "lblServings": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bcbd79bf7b504df8be2190f168cc2bff",
+                "srcKUID": "dbe27640745d49d2a9dd82ad6da6c2f3",
+                "wType": "Label"
+            }
+        },
+        "lblServingsValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c5e64484cc96412989daa63d9ade8f91",
+                "srcKUID": "f0b27c49faf84ec6a037a3a4942e7d37",
+                "wType": "Label"
+            }
+        },
+        "richTextDirections": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dbfa4e7087ef48c28d077c993fc5e59a",
+                "srcKUID": "f4f24f47e5934b21bcbdd6edbacbc177",
+                "wType": "RichText"
+            }
+        },
+        "richTextIngredients": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ie73ca3334094f45948d312c11e9ca58",
+                "srcKUID": "dad8a35084a64e3ca2993213557d8f85",
+                "wType": "RichText"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "AppCardLarge",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "d7a7467c620a416dbbcbe730f3efa1ae",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "MainContainer",
+    "pf": "Main",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "e17ed7fc2e274e98b7853b525905671b",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

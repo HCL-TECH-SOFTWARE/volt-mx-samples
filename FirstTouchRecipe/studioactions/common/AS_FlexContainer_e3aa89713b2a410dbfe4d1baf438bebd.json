@@ -1,0 +1,21 @@
+{
+    "AS_FlexContainer_e3aa89713b2a410dbfe4d1baf438bebd": {
+        "id": "AS_FlexContainer_e3aa89713b2a410dbfe4d1baf438bebd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_ef1391eebdfc4dfb8caa99c9da75a067",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "toggleTheme",
+            "display": "toggleTheme",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "background_color": "00000000",
+  "bg_type": "one",
+  "border_color": "424242ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "delinkedPltfrms": {
+    "androidwear": [],
+    "desktop": [],
+    "mobile": [
+      "iphone",
+      "android"
+    ],
+    "tablet": [],
+    "watch": []
+  },
+  "desktopweb": {
+    "font_name": "Helvetica"
+  },
+  "fontSizeInPx": true,
+  "font_color": "548fffff",
+  "font_name": "iphoneSystem",
+  "font_size": 88,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "isDefaultSkin": false,
+  "kuid": "s1d9ae140cc04e5bb01fec616395c78d",
+  "wType": "Label"
+}

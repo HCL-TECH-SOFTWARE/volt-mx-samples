@@ -1,0 +1,32 @@
+{
+    "AS_Button_dcf56239551149419023ed7cf3f53d50": {
+        "id": "AS_Button_dcf56239551149419023ed7cf3f53d50",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_Button_cancelUserAccount",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "name": "Main"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__a1736b3897a048f0bcbec7a4109993b4",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Main",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "widgetKUID": "f4c6e256c7bf40688108a7f05f6ca39a",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null
+        }]
+    }
+}

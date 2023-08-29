@@ -1,0 +1,69 @@
+{
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "3dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "s31d09f3a93844bcafd67b0894b50594",
+    "_top_": {
+        "type": "string",
+        "value": "3dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "lblIngredient",
+        "flxDeleteContainer"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxIngredientRowItem",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a441099df346479ca967778a20efb9ac",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "IngredientRow",
+    "pf": "IngredientRowTpl",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

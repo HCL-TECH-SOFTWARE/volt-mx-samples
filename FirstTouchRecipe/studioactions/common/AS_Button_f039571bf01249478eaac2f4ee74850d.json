@@ -1,0 +1,27 @@
+{
+    "AS_Button_f039571bf01249478eaac2f4ee74850d": {
+        "id": "AS_Button_f039571bf01249478eaac2f4ee74850d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "uad7d145dd9f4fa7964c2e2c87aaf8b2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__jdece842150749d2ae739c0406090089",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "toggleTheme",
+            "display": "toggleTheme",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

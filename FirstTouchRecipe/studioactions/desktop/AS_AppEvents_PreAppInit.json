@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_e54c9c7ecd0b47b0961fbb715b6e42eb": {
+        "id": "AS_AppEvents_e54c9c7ecd0b47b0961fbb715b6e42eb",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_AppEvents_PreAppInit",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_e1b4ed061a984e2ba906de336709376d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "voltmx.theme.setCurrentTheme(\n  voltmx.store.getItem('theme') || 'JanusLightTheme',\n  function() { return; }, \n  function(err) { alert(\"Error setting theme:\" + err); }\n);\n",
+            "parentId": null
+        }]
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "AS_Button_c89d292e2eee48e484296d1d9d764f34": {
+        "id": "AS_Button_c89d292e2eee48e484296d1d9d764f34",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Main",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f3e0a7fe062c4e20a4659701ab1f0378"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_IDENTITY_SERVICE_ide_onClick_faa489df24f94c149e7c25132e116af5",
+            "type": "INVOKE_IDENTITY_SERVICE",
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "operationname": "logout",
+                "servicename": "UserAuthentication",
+                "type": "identity",
+                "isDeepLinkRequired": false,
+                "login_type": "basic"
+            },
+            "enableMappingEditor": true,
+            "useDeviceBrowser": false,
+            "isDeepLinkRequired": false
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY___f0426d4f07384e109192809632185f7d",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Main",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "f3e0a7fe062c4e20a4659701ab1f0378",
+            "widgetKUID": "df195ca4a19240a7ac638ca8fac7e283",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": "INVOKE_IDENTITY_SERVICE_ide_onClick_faa489df24f94c149e7c25132e116af5",
+            "callbackType": "Success"
+        }, {
+            "id": "ADD_SNIPPET_ide_onClick_bc8e12d9b6314aa28bf3fcd6108a50d0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "userProfile=undefined;\nself.view.MainContainer.CardsContainer.removeAll();",
+            "parentId": "INVOKE_IDENTITY_SERVICE_ide_onClick_faa489df24f94c149e7c25132e116af5",
+            "callbackType": "Success"
+        }, {
+            "id": "SHOW_ALERT_ide_onClick_f8bce417f74d47ae8ae356b6989be022",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_ERROR",
+            "alertTitle": "Sign Out",
+            "alertMessage": "An error occurred during the sign out process.",
+            "messageType": "constant",
+            "parentId": "INVOKE_IDENTITY_SERVICE_ide_onClick_faa489df24f94c149e7c25132e116af5",
+            "callbackType": "Failure",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_f2bdac1d33bc4bb4a3ff75c2b3d281f3",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Main",
+            "formKUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "projectName": "FirstTouchRecipe",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "INVOKE_IDENTITY_SERVICE_ide_onClick_faa489df24f94c149e7c25132e116af5",
+            "callbackType": "Success",
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

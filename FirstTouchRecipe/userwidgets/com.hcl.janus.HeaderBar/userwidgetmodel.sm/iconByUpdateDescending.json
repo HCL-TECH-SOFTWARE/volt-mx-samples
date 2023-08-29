@@ -1,0 +1,65 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        5
+    ],
+    "_skin_": "s4563b05b52f450c8f5bd7d7fdf64803",
+    "_text_": "",
+    "_top_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "iconByUpdateDescending",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": false,
+    "kuid": "c8d1ce2eb1a845ebb5e93cf438dbde3e",
+    "masterType": 1,
+    "name": "kony.ui.Label",
+    "parent": "flxMenuItemByUpdateDate",
+    "pf": "userwidgetmodel",
+    "tooltip": "Sort Apps by Last Updated Date in Descending Order",
+    "wType": "Label",
+    "zindex": 1
+}

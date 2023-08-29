@@ -1,0 +1,92 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sce61340a15746429cfa790b0fb89fdf",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "IngredientList": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "ebe74501652945f7a7fef4ccf361ffb5",
+                "srcKUID": "ab24f0d47af845b5ad2994cc0c5d608a",
+                "wType": "FlexContainer"
+            }
+        },
+        "segIngredient": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fb51684b4b99462293fbd757755a7bcd",
+                "srcKUID": "beb1aa7cf81041c58fc06057b835da55",
+                "wType": "Segment"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "responsiveData": {},
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "IngredientList",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "ebe74501652945f7a7fef4ccf361ffb5",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxIngredientListContainer",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "ab24f0d47af845b5ad2994cc0c5d608a",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

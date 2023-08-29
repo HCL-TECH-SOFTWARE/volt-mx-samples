@@ -1,0 +1,120 @@
+{
+    "AS_Button_a4126b53a1eb4bd0a43cdb3871f19379": {
+        "id": "AS_Button_a4126b53a1eb4bd0a43cdb3871f19379",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_Button_myAppsSaveOnClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "name": "Main"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "_f97b53924d6d4be1a8422b532067c7a6",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "",
+                "operator": "===",
+                "rightValueType": "value",
+                "rightValue": "\"Save\"",
+                "leftItemKUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+                "leftWidgetKUID": "edcd7a2839874072a69d22f01a22cc5d"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "_aa5528a6898a4f7e95649424ce35571a",
+            "type": "ELSE_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "",
+                "operator": "===",
+                "rightValueType": "widgetprop",
+                "rightValue": ""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "ADD_SNIPPET_a2bfaecfedc74643a152760559d6f2b1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "app={\n  lblName: \"\",\n  lblTitle: self.view.AppDetail.txtTemplateTitle.text,\n  lblDescription: self.view.AppDetail.txtTemplateDescription.text,\n  lblExecPath: self.view.AppDetail.txtExecPath.text,\n  lblIconPath: self.view.AppDetail.txtIconPath.text,\n  lblMetaData: self.view.AppDetail.txtMetaData.text,\n  lblTemplate: \"false\",\n  lblEnabled: \"true\",\n  lblProtected: self.view.AppDetail.flxStatus.protected\n};",
+            "parentId": "_aa5528a6898a4f7e95649424ce35571a",
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION__a32629094fd8457e9ef1674fbcc3af1f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "displayAppDetail",
+            "display": "displayAppDetail",
+            "inputparams": [{
+                "name": "app",
+                "value": "app"
+            }],
+            "parentId": "_aa5528a6898a4f7e95649424ce35571a",
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION__g52eb1ea63d0462b86d069e55dead940",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "saveApp",
+            "display": "saveApp",
+            "inputparams": [],
+            "parentId": "_f97b53924d6d4be1a8422b532067c7a6",
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "TIMEOUT_ACTION_a2c7b77b47a349b6877d289af82be6b3",
+            "timeout": 1000,
+            "type": "TIMEOUT_ACTION",
+            "parentId": "_f97b53924d6d4be1a8422b532067c7a6",
+            "callbackType": null,
+            "timerId": "TIMEOUT_ACTION_a2c7b77b47a349b6877d289af82be6b3"
+        }, {
+            "id": "INVOKE_SERVICE_i0554a04b9424c5aa9f9c6e6638d4e7c",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": {
+                "$filter": "\"((SoftDeleteFlag ne true) or (SoftDeleteFlag eq null)) and (((owner eq \" + userProfile.userid + \") and (is_template eq false)) or ((is_template eq true) and (is_enabled eq true)))\"",
+                "$orderby": "\"is_template\""
+            },
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "JACenter",
+                "type": "objectsvcs",
+                "objectname": "application",
+                "serviceid": "a9cb73d6-bc2b-40d9-a299-622902d5636f",
+                "methodname": "get"
+            },
+            "parentId": "TIMEOUT_ACTION_a2c7b77b47a349b6877d289af82be6b3",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }, {
+            "id": "INVOKE_FUNCTION__ed7f7b3221dc41728ca731b15ab922ed",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "showMyAppsList",
+            "display": "showMyAppsList",
+            "inputparams": [{
+                "name": "application",
+                "value": "application"
+            }],
+            "parentId": "INVOKE_SERVICE_i0554a04b9424c5aa9f9c6e6638d4e7c",
+            "callbackType": "Callback",
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "AS_Button_e26638665939447cac3a53bad92a5fdf": {
+        "id": "AS_Button_e26638665939447cac3a53bad92a5fdf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Main",
+            "type": "forms",
+            "platform": null,
+            "KUID": "gea46f2f54dc472db963e9037f498f64"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b48aae40c5fa4cea9d27265a31fd3fe4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.AboutBox.setVisibility(true);"
+        }]
+    }
+}

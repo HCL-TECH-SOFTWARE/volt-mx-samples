@@ -1,0 +1,36 @@
+var WindowsOfflineObjects={};
+WindowsOfflineObjects.OfflineSDKObject=function(){}
+WindowsOfflineObjects.OfflineSDKObject.prototype.create= function(sdkObjectName,record,options,successCallback,failureCallback){};
+WindowsOfflineObjects.OfflineSDKObject.prototype.updateByPK= function(sdkObjectName,record,options,successCallback,failureCallback){};
+WindowsOfflineObjects.OfflineSDKObject.prototype.get= function(sdkObjectName,options,successCallback,failureCallback){};
+WindowsOfflineObjects.OfflineSDKObject.prototype.deleteByPK= function(sdkObjectName,options,successCallback,failureCallback){};
+WindowsOfflineObjects.OfflineSDKObject.prototype.startSync= function(sdkObjectName,options,successCallback,failureCallback,progressCallback){};
+WindowsOfflineObjects.OfflineSDKObject.prototype.rollback= function(sdkObjectName,primaryKeyValueMap,successCallback,failureCallback){};
+WindowsOfflineObjects.OfflineSDKObject.prototype.getUploadDeferredRecordKeys= function(sdkObjectName,successCallback,failureCallback){};
+WindowsOfflineObjects.OfflineSDKObject.prototype.getPendingRecordsForUpload= function(sdkObjectName,options,successCallback,failureCallback){};
+WindowsOfflineObjects.OfflineSDKObject.prototype.markForUpload= function(sdkObjectName,options,successCallback,failureCallback){};
+WindowsOfflineObjects.OfflineSDKObject.prototype.delete= function(sdkObjectName,options,successCallback,failureCallback){};
+WindowsOfflineObjects.OfflineSDKObject.prototype.update= function(sdkObjectName,record,options,successCallback,failureCallback){};
+WindowsOfflineObjects.OfflineSDKObject.prototype.cancelSync= function(sdkObjectName,options,successCallback,failureCallback){};
+WindowsOfflineObjects.OfflineSDKObject.prototype.clearOfflineData= function(sdkObjectName,options,successCallback,failureCallback){};
+
+WindowsOfflineObjects.OfflineSDKObjectService=function(){}
+WindowsOfflineObjects.OfflineSDKObjectService.prototype.startSync= function(sdkObjectServiceName,options,successCallback,failureCallback,progressCallback){};
+WindowsOfflineObjects.OfflineSDKObjectService.prototype.rollback= function(sdkObjectServiceName,successCallback,failureCallback){};
+WindowsOfflineObjects.OfflineSDKObjectService.prototype.clearOfflineData= function(sdkObjectServiceName,options,successCallback,failureCallback){};
+WindowsOfflineObjects.OfflineSDKObjectService.prototype.cancelSync= function(sdkObjectServiceName,options,successCallback,failureCallback){};
+
+WindowsOfflineObjects.setToken= function(token){};
+WindowsOfflineObjects.setCookie= function(fabricUrl,rawCookie){};
+WindowsOfflineObjects.setReportingParams= function(param){};
+WindowsOfflineObjects.setup= function(objServiceList,options,successCallback,failureCallback){};
+WindowsOfflineObjects.drop= function(options,successCallback,failureCallback){};
+WindowsOfflineObjects.rollback= function(successCallback,failureCallback){};
+WindowsOfflineObjects.reset= function(objServiceList,options,successCallback,failureCallback){};
+WindowsOfflineObjects.setIntegrityCheck= function(properties){};
+WindowsOfflineObjects.removeIntegrityCheck= function(){};
+WindowsOfflineObjects.resetGlobalRequestParams=function() {};
+WindowsOfflineObjects.removeGlobalRequestParam=function(paramName,paramType) {};
+WindowsOfflineObjects.setGlobalRequestParam=function(paramName,paramValue,paramType) {};
+WindowsOfflineObjects.executeSelectQuery= function(query,successCallback,failureCallback){};
+WindowsOfflineObjects.startSync= function(options,successCallback,failureCallback,progressCallback){};

@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s2bc2c02fbff4bed97b3d85c417370a2",
+    "_src_": "icon_menu_hamburger.png",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "id": "imgHeader",
+    "imagescalemode": 1,
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f855ef721d4f4526b7b4ccba59fc239b",
+    "name": "kony.ui.Image2",
+    "parent": "flxHeaderImg",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

@@ -1,0 +1,119 @@
+{
+    "AS_Button_ed6275d48c3a47ca8072f7beecc0f0f5": {
+        "id": "AS_Button_ed6275d48c3a47ca8072f7beecc0f0f5",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_Button_updateUserAccount",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "name": "Main"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__i6025abf27144e549093da5228238c8b",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "updateUserAccount",
+            "display": "updateUserAccount",
+            "inputparams": [{
+                "name": "data",
+                "value": "user"
+            }],
+            "parentId": "INVOKE_SERVICE_ae59d88d086b478c896777e11bb3c27f",
+            "callbackType": "Callback",
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__dc43a5bc31ae42a4ac1f053fb36ec293",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Main",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "widgetKUID": "f4c6e256c7bf40688108a7f05f6ca39a",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": "INVOKE_SERVICE_ae59d88d086b478c896777e11bb3c27f",
+            "callbackType": "Callback"
+        }, {
+            "id": "ADD_SNIPPET_ae2aa15193f1474198095694b92e4153",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "username = userProfile.userid;",
+            "parentId": "INVOKE_SERVICE_a249a8512735429fb00b97e3973fc529",
+            "callbackType": "Callback"
+        }, {
+            "id": "INVOKE_SERVICE_ae59d88d086b478c896777e11bb3c27f",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": {
+                "$filter": "\"((SoftDeleteFlag ne true) or (SoftDeleteFlag eq null)) and (userid eq \" + username + \")\""
+            },
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "JACenter",
+                "type": "objectsvcs",
+                "objectname": "user",
+                "serviceid": "4883571d-ac24-4033-907d-9f1107dd330c",
+                "methodname": "get"
+            },
+            "parentId": "INVOKE_SERVICE_a249a8512735429fb00b97e3973fc529",
+            "callbackType": "Callback",
+            "enableMappingEditor": true
+        }, {
+            "id": "INVOKE_SERVICE_a249a8512735429fb00b97e3973fc529",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {
+                "ME_Mapping_d739334cf6f449999db20f6c559b787d": {
+                    "channel": "desktop",
+                    "id": "ME_Mapping_d739334cf6f449999db20f6c559b787d",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "avatar",
+                        "dataType": "binary",
+                        "expression": "self.view.MainContainer.UserAccountInfo.UserAccount.imgAvatar.base64",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "JACenter",
+                            "type": "objectsvcs",
+                            "objectname": "user",
+                            "serviceid": "4883571d-ac24-4033-907d-9f1107dd330c",
+                            "methodname": "update"
+                        }
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_d739334cf6f449999db20f6c559b787d"],
+            "serviceconfig": {
+                "servicename": "JACenter",
+                "type": "objectsvcs",
+                "objectname": "user",
+                "serviceid": "4883571d-ac24-4033-907d-9f1107dd330c",
+                "methodname": "update"
+            },
+            "enableMappingEditor": true
+        }]
+    }
+}

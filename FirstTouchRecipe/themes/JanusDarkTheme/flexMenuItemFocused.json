@@ -1,0 +1,32 @@
+{
+  "android": {},
+  "androidwearos": {
+    "font_name": "default"
+  },
+  "background_color": "424242ff",
+  "bg_type": "one",
+  "border_color": "666666ff",
+  "border_radius": 4,
+  "border_style": "custom",
+  "border_type": 0,
+  "border_width": 2,
+  "desktopweb": {},
+  "ipad": {},
+  "iphone": {},
+  "isDefaultSkin": false,
+  "kiosk": {},
+  "kuid": "sa4a030e972f46188c5abb147317314a",
+  "spaan": {},
+  "spaandroidtablet": {},
+  "spaip": {},
+  "spaipad": {},
+  "spawindowstablet": {},
+  "spawinphone8": {},
+  "tabrcandroid": {},
+  "wType": "FlexContainer",
+  "watchos": {
+    "font_name": "System"
+  },
+  "windows8": {},
+  "winphone8": {}
+}

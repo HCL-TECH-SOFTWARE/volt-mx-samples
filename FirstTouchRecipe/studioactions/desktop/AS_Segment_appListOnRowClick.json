@@ -1,0 +1,31 @@
+{
+    "AS_Segment_fbec70b8e91043ff9146f56a0c6abd3e": {
+        "id": "AS_Segment_fbec70b8e91043ff9146f56a0c6abd3e",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_Segment_appListOnRowClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onRowClick_ff0252337384423b8f8e81d02da7bcb4",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "displayAppDetail",
+            "display": "displayAppDetail",
+            "inputparams": [{
+                "name": "app",
+                "value": "self.view.MainContainer.MyAppsContainer.flxMyApps.flxMyAppList.segAppList.selectedRowItems[0]"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

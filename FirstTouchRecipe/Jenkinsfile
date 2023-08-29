@@ -1,0 +1,16 @@
+@Library('bob') _
+buildit([
+  "type": "generic",
+  "sonarscanSkip": true,
+  "trivyscanSkip": true,
+  "dockerSkip": true,
+  "publishSkip": true,
+  "deploySkip": true,
+  "helmPublishSkip": true,
+  "helmtestSkip": true,
+  "siteSkip": true,
+  "wssSkip": false,
+  "wssProductVersion": "1.0",
+  "appsid": "b93db44f-5c73-46b8-87fe-1e8a3cfa47f4"
+])
+

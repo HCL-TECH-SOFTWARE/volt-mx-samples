@@ -1,0 +1,60 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s9fd29ee7b604ac3932f8dab0870ef97",
+    "_top_": {
+        "type": "string",
+        "value": "20px"
+    },
+    "_width_": {
+        "type": "number",
+        "value": "400"
+    },
+    "allboxes": [],
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "btnSignin"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxLoginForm",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d42c2e43e2f64048a037ecc49b7899b2",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "OAuthLoginForm",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

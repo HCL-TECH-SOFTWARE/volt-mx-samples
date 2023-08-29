@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_daca5bb9702b47eeade7e21dca1f3800": {
+        "id": "AS_FlexContainer_daca5bb9702b47eeade7e21dca1f3800",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "geffd01e81f644288b77f80aadaa1cdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__aebf6d36dfde4048a4182c1c28ae9335",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "addIngredient",
+            "display": "addIngredient",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

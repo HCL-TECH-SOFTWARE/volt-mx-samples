@@ -1,0 +1,69 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sc328c690d264c1998d63e35e43c1501",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "iconPreferences",
+        "lblMenuPreferences"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "s4c178f470b24bfbbf619479dc6cdcb5"
+        }
+    },
+    "disabledSkins": {},
+    "enablescrolling": true,
+    "focusskin": "sa4a030e972f46188c5abb147317314a",
+    "id": "flxMenuItemPreferences",
+    "ide_onClick": "AS_FlexContainer_ae35b9e97fad41eea3ccccc669a13080",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g2908844dcc94f409d37fc798f386a43",
+    "layouttype": 3,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxUserMenuContainer",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 2
+}

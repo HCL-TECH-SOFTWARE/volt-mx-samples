@@ -1,0 +1,504 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "number",
+        "value": "64"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s58840a2fa9f484e8a8960751326b976",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "AppList": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g74726d657e9420aa2dcdff40c85f11d",
+                "srcKUID": "d54fb952349b4e74ab7bfa358ad1572e",
+                "wType": "Label"
+            }
+        },
+        "AppTile": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ec264f712d374b52b741ac926e88407c",
+                "srcKUID": "bdf86ed218d5403fba1b2ddd83b8ab26",
+                "wType": "Label"
+            }
+        },
+        "HeaderBar": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "f433bba31cee422a826e44feba9af3c9",
+                "srcKUID": "ba7c4a1709764b13a19f7ab9a07a355e",
+                "wType": "FlexContainer"
+            },
+            "zIndex": {
+                "Default": 2
+            }
+        },
+        "Search": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b186090eb0cb4b7b9598e27db3574042",
+                "srcKUID": "b45ee7a9c9744baf8582958a59075be8",
+                "wType": "Label"
+            }
+        },
+        "flxAddButton": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b11ae879c9d34210aa3f0862c7f0e956",
+                "srcKUID": "b7a4d8871b034eb7ae6883a63b7b7df5",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxAddRecipe": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d5dea21197b441d99df0d1e94eba7d05",
+                "srcKUID": "ga9e2fcd04994c89aed5a63e3b0481ad",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxCreateBanner": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fe4b392ac2404ae5b677af34de92e3ee",
+                "srcKUID": "c40859b594ce4f2b819c746110fe5e41",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxLogoutContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "aa7c86051b154558be68a0d77f555697",
+                "srcKUID": "g79f302e5da74ef5a117838e55c0edff",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxMenuItemByCreationDate": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i410b6e1a0a643788c8ef88a9dab123c",
+                "srcKUID": "ca6622ecf3b646f7a45932f7bf5df7d9",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxMenuItemByName": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f1b60abfbe8e4360919c426783b396ba",
+                "srcKUID": "ac467c4bd0984bc1a6d8101133ce0b55",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxMenuItemByUpdateDate": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f74469bb3e324a5a9fe42efe97bfacda",
+                "srcKUID": "j1e45036e3b2419f8b5af3b841b56f7c",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxMenuItemCreateApps": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "adf18d216f7144d89b628110dec57d13",
+                "srcKUID": "bdc07685da2a41e0874369ea64d90a9c",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxMenuItemPreferences": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f114304221dd440eb3afce9fe69b4058",
+                "srcKUID": "g2908844dcc94f409d37fc798f386a43",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxMenuItemProfile": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ccd723a3c00648469579a2572145d204",
+                "srcKUID": "ad21408775ce4c3e9c0593434f3a70c0",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxMenuItemSortOrder": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b61368076d74477c9da84d0a3ee944f7",
+                "srcKUID": "f3e785b4779e4d3a8487be7faaf00a89",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxMenuItemToggleTheme": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ga12fd5af7ba43b4b194627f7925daf4",
+                "srcKUID": "h766744eed8f4cfda7c63d8c17042d1f",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f6acb8abe4e040afa60893b483a73642",
+                "srcKUID": "d087cb5a5533447aa04499c09b55bcef",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSortMenuContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "febbcaa637da4604a39a8561eabe3144",
+                "srcKUID": "ab7613055882488795caa0bad8ddc4d3",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSubMenuPreferences": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b1e99e7a44da4a1998d3dcded703586a",
+                "srcKUID": "e11df0da362d42ad8d4ed89a948e59f1",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxToggleAppView": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gd64807cc28041ce9d401a4053c4e089",
+                "srcKUID": "e333d56b016a4cd4b7796b69fc2c7eb9",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxUserContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g794eaa5ce23458ca8cb14cd5d596875",
+                "srcKUID": "f1b036e93d9f4a4380a184aecf144700",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxUserMenuContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f5d21fa9759a4b5da8f664104593f63c",
+                "srcKUID": "c92e519f0a09451c90ac0393a4da90a6",
+                "wType": "FlexContainer"
+            }
+        },
+        "iconAddRecipe": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bd6b4317468f4ae899c452910be5cbe2",
+                "srcKUID": "j69bdd3ff77d4fb781eebf142dcc4848",
+                "wType": "Label"
+            }
+        },
+        "iconByCreateAscending": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c8b8c9ab6ca646b182d9756dd78fd917",
+                "srcKUID": "a4ae5564d97242e5987452a4901b6a20",
+                "wType": "Label"
+            }
+        },
+        "iconByCreateDescending": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cb2ae81994354f169068beb6f5529bbe",
+                "srcKUID": "f5863d6f3cdd4771afa2b02b01c01263",
+                "wType": "Label"
+            }
+        },
+        "iconByNameAscending": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b887af8d46b943b3b4b38fa2b3e8a47c",
+                "srcKUID": "i4520b65898548629b71f65daf3551d4",
+                "wType": "Label"
+            }
+        },
+        "iconByNameDescending": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c7fd9f067736464baffc644dac296ef4",
+                "srcKUID": "d22821423cd04a05a1bd30d31d8c9dbb",
+                "wType": "Label"
+            }
+        },
+        "iconByUpdateAscending": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h520a6cc23d044cb95d31a74f37c5436",
+                "srcKUID": "fbe94ab52a4641b08b5108407697e3b7",
+                "wType": "Label"
+            }
+        },
+        "iconByUpdateDescending": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i2478eb4c1ed4394b5582fe2dc232f32",
+                "srcKUID": "c8d1ce2eb1a845ebb5e93cf438dbde3e",
+                "wType": "Label"
+            }
+        },
+        "iconCreateApps": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d41a26ee47ac4230bcae211fe9b29712",
+                "srcKUID": "a004d26e5b44432881f0d7fa3c2d4ed5",
+                "wType": "Label"
+            }
+        },
+        "iconPreferences": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e6139ed4401f4a0eb900aa1170d6c335",
+                "srcKUID": "j512c7880d014f0699832d897e0ce291",
+                "wType": "Label"
+            }
+        },
+        "iconProfile": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c207177738f34dd6ad0599cfd199a2d5",
+                "srcKUID": "if601867deaa4b8ab857bea32d85605f",
+                "wType": "Label"
+            }
+        },
+        "iconSortOrder": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c8dec0ae188d489a97003cef08f50800",
+                "srcKUID": "f157e6b77f984d6fa1aa88a158acaa4e",
+                "wType": "Label"
+            }
+        },
+        "iconToggleTheme": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "af7339910dcb47ad9a1cc040de4e5673",
+                "srcKUID": "f0658ff3d9d84c3bb9e1ead1268c7867",
+                "wType": "Label"
+            }
+        },
+        "imgDefaultAvatar": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cb28de3c5bd847a29e16924f74aa74b0",
+                "srcKUID": "icf2d181e3c34a3799b53cfc27f3a47a",
+                "wType": "Image"
+            }
+        },
+        "imgJAC": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bc495474d7ec4d999f1b70bc5056bf55",
+                "srcKUID": "e124835fb6614a7983a1ec01f6620092",
+                "wType": "Image"
+            }
+        },
+        "imgUserAvatar": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d87b5ea001d84dd09d530ea033c5dc97",
+                "srcKUID": "hb90afefc4d44cdc87cae39a8e331d18",
+                "wType": "Image"
+            },
+            "src": "option3.png"
+        },
+        "lbAddNewRecipe": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "eaddd584c8224f25bae5d9ed1b962f16",
+                "srcKUID": "ca2738a1940b47af9e4214da7e3d76e6",
+                "wType": "Label"
+            }
+        },
+        "lblAddRecipe": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "eeb51d214cd84317b2d7f61e3eae490a",
+                "srcKUID": "hfdc8d868fed4ceda759d1e391808e80",
+                "wType": "Label"
+            }
+        },
+        "lblLogout": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "id2fcbdb03834d788b75e119ffc226ad",
+                "srcKUID": "e45d0791c7224c62a1cd1957398c8733",
+                "wType": "Label"
+            }
+        },
+        "lblMenuByCreationDate": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dae1afac8307497e89a9d04392218da9",
+                "srcKUID": "h602c24e5f5841578912019a00c4f363",
+                "wType": "Label"
+            }
+        },
+        "lblMenuByName": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c2c43aa9c8a9426c8ed791fcb7760557",
+                "srcKUID": "bb81e461c8774bcb9fc81666b4de9032",
+                "wType": "Label"
+            }
+        },
+        "lblMenuByUpdateDate": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "icee43efcfe94e5ebab88f104a082f04",
+                "srcKUID": "ge36d539639142479ec9e850f3f79e0c",
+                "wType": "Label"
+            }
+        },
+        "lblMenuCreateApps": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "haeb04d8705f4f278593dbc8949183b4",
+                "srcKUID": "ea184eb6c33f48b69ca8f48e17cb001f",
+                "wType": "Label"
+            }
+        },
+        "lblMenuPreferences": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c0d14a9b20544c0d809cb2ad88bb02f7",
+                "srcKUID": "bd68952bd8b441dbbf066bfdf4e409b2",
+                "wType": "Label"
+            }
+        },
+        "lblMenuProfile": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e5ddf70338e24c1dae7edc6002eb57a0",
+                "srcKUID": "ef126a4eb30e41eeac82fe7c83b894d4",
+                "wType": "Label"
+            }
+        },
+        "lblMenuSortOrder": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "afdbead8e41a4546a77477d08912205c",
+                "srcKUID": "c309800123854ae68ae356a02d257ed4",
+                "wType": "Label"
+            }
+        },
+        "lblMenuToggleTheme": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h2c87118899c46db929d142e7260a8f2",
+                "srcKUID": "i23818ec88ea4071a2b9db60a9d85d57",
+                "wType": "Label"
+            }
+        },
+        "lblRecipeCount": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gbb0628886424d9bb3b6c3001c6ffb40",
+                "srcKUID": "ab8be90b7f4e4e898e9cff7f8378f7f7",
+                "wType": "Label"
+            }
+        },
+        "lblTitle": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a9f3653ab70b4da2bf18ccf7c69ddbf5",
+                "srcKUID": "j9a9cd56278b455db3679d018c1dd0c1",
+                "wType": "Label"
+            }
+        },
+        "plusAddRecipe": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c042a3dc51d34e7baf73f19ca92e8c7f",
+                "srcKUID": "b0e2aeb5f73a46d6856e4ae4e62eb368",
+                "wType": "Label"
+            }
+        },
+        "tbxSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "de38d6231c964c2eb6c8041f4e68d877",
+                "srcKUID": "da6d2b8336f842dfb8c680c3bc3a8816",
+                "wType": "TextField"
+            }
+        },
+        "userDisplayName": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "je8dc93cd08d4de5982a02feff042937",
+                "srcKUID": "dcfed61e1dad4ede81b28dca58a9e0d7",
+                "wType": "Label"
+            }
+        },
+        "userDisplayNameOld": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gd62984ca7954dfaba13fe2f8024fdb6",
+                "srcKUID": "cd9268e8b65442f698c05f947b5f9ab7",
+                "wType": "Label"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "HeaderBar",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "f433bba31cee422a826e44feba9af3c9",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "MainContainer",
+    "pf": "Main",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "ba7c4a1709764b13a19f7ab9a07a355e",
+    "wType": "UserWidgetInstance",
+    "zindex": 2
+}

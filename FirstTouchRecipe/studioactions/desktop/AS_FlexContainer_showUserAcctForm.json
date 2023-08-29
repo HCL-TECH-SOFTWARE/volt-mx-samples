@@ -1,0 +1,108 @@
+{
+    "AS_FlexContainer_if09a23fdad04e188fe1e670de6b3d06": {
+        "id": "AS_FlexContainer_if09a23fdad04e188fe1e670de6b3d06",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_FlexContainer_showUserAcctForm",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "name": "Main"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__j1a0f272d0c84a1b87a3969b9f3950dd",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Main",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "widgetKUID": "f4c6e256c7bf40688108a7f05f6ca39a",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null
+        }, {
+            "id": "INVOKE_FUNCTION__bf18d33337594eb3b218d9b5aa3da324",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "updateUserAccount",
+            "display": "updateUserAccount",
+            "inputparams": [{
+                "name": "data",
+                "value": "user"
+            }],
+            "parentId": "INVOKE_SERVICE_h99897af83784413a8f032adbc6b2eb7",
+            "callbackType": "Callback",
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION__fe58c076cba248f39a6358830e877799",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "displayUserAccount",
+            "display": "displayUserAccount",
+            "inputparams": [],
+            "parentId": "INVOKE_SERVICE_h99897af83784413a8f032adbc6b2eb7",
+            "callbackType": "Callback",
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__cd78dac248534b03b562b93e0fa43752",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Main",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "widgetKUID": "j90827cc3c9c4575a709c4f3d6ee5f0f",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__e471803dad9b4ac8bd0f1a31cb06c445",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Main",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "widgetKUID": "a0d70569514548dc9c9527983ba81add",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null
+        }, {
+            "id": "ADD_SNIPPET_ieec4bbfded144008cca0d00b330d81c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "username = userProfile.userid;",
+            "parentId": null
+        }, {
+            "id": "INVOKE_SERVICE_h99897af83784413a8f032adbc6b2eb7",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": {
+                "$filter": "\"((SoftDeleteFlag ne true) or (SoftDeleteFlag eq null)) and (userid eq \" + username + \")\""
+            },
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "JACenter",
+                "type": "objectsvcs",
+                "objectname": "user",
+                "serviceid": "4883571d-ac24-4033-907d-9f1107dd330c",
+                "methodname": "get"
+            },
+            "parentId": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

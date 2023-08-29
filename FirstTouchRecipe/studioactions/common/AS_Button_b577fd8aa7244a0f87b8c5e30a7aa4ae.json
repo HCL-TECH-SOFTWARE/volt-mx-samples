@@ -1,0 +1,26 @@
+{
+    "AS_Button_b577fd8aa7244a0f87b8c5e30a7aa4ae": {
+        "id": "AS_Button_b577fd8aa7244a0f87b8c5e30a7aa4ae",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_fa352bfc05934467849986f40e0aad82",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "self.view.flxAppDetail.setVisibility(false);\nself.view.flxManageApp.setVisibility(true);\n",
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION__ide_onClick_c2ef3d8da428407b921df8eec6d1229d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "saveAppTemplate",
+            "display": "saveAppTemplate",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

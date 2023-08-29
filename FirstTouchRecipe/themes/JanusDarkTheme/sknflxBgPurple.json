@@ -1,0 +1,23 @@
+{
+  "android": {
+    "background_color": "4850b6ff",
+    "bg_type": "one",
+    "font_name": "default",
+    "isForked": true
+  },
+  "background_color": "00000000",
+  "bg_type": "one",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "iphone": {
+    "background_color": "4850b6ff",
+    "bg_type": "one",
+    "font_name": "System",
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kuid": "s2d68c1d01ea4b788623ae83db985c6c",
+  "wType": "FlexContainer"
+}

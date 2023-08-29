@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "24dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s2bc2c02fbff4bed97b3d85c417370a2",
+    "_src_": "addbtn.png",
+    "_top_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "24dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "id": "ImgAddIngredient",
+    "imagescalemode": 1,
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b0dcb5a4733c4038886a5ca8193dbeba",
+    "name": "kony.ui.Image2",
+    "parent": "flxAddIngredientContainer",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5
+}

@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sce61340a15746429cfa790b0fb89fdf",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "92%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 0,
+    "data": {},
+    "id": "RecipeDetails",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "fb08296188fa4c658a80a83da217dc61",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxRecipeDetails",
+    "pf": "frmRecipeDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "b67643709c2b400d99b89ca0f9b37063",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

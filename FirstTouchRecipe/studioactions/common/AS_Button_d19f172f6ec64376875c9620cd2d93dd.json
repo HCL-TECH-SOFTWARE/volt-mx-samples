@@ -1,0 +1,24 @@
+{
+    "AS_Button_d19f172f6ec64376875c9620cd2d93dd": {
+        "id": "AS_Button_d19f172f6ec64376875c9620cd2d93dd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "SHOW_ALERT_ide_onClick_f0153718dc6d4c479a41fb8f25d99cf0",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertMessage": "User profile form coming next sprint!",
+            "messageType": "constant",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

@@ -1,0 +1,249 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_top_": {
+        "type": "string",
+        "value": "22dp"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "desktop": {
+        "_data_": [
+            {
+                "imgDelete": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": ""
+                },
+                "lblIngredient": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            }
+        ],
+        "rowTemplateId": "e33f3963e153416e9cb4224cdc724cc6",
+        "rowtemplate": "flxIngredientRow",
+        "widgetdatamap": {
+            "IngredientRow": "IngredientRow",
+            "flxDeleteContainer": "flxDeleteContainer",
+            "flxIngredientRowItem": "flxIngredientRowItem",
+            "imgDelete": "imgDelete",
+            "lblIngredient": "lblIngredient"
+        }
+    },
+    "disabledSkins": {},
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segIngredient",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "beb1aa7cf81041c58fc06057b835da55",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "imgDelete": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cross_1_1_1.png"
+                },
+                "lblIngredient": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "test"
+                }
+            },
+            {
+                "imgDelete": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cross_1_1_1.png"
+                },
+                "lblIngredient": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "test"
+                }
+            },
+            {
+                "imgDelete": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cross_1_1_1.png"
+                },
+                "lblIngredient": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "test"
+                }
+            },
+            {
+                "imgDelete": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cross_1_1_1.png"
+                },
+                "lblIngredient": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "test"
+                }
+            },
+            {
+                "imgDelete": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cross_1_1_1.png"
+                },
+                "lblIngredient": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "test"
+                }
+            },
+            {
+                "imgDelete": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cross_1_1_1.png"
+                },
+                "lblIngredient": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "test"
+                }
+            },
+            {
+                "imgDelete": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cross_1_1_1.png"
+                },
+                "lblIngredient": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "test"
+                }
+            },
+            {
+                "imgDelete": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cross_1_1_1.png"
+                },
+                "lblIngredient": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "test"
+                }
+            },
+            {
+                "imgDelete": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cross_1_1_1.png"
+                },
+                "lblIngredient": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "test"
+                }
+            },
+            {
+                "imgDelete": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cross_1_1_1.png"
+                },
+                "lblIngredient": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "test"
+                }
+            }
+        ],
+        "rowTemplateId": "f5f539a8c579404ca9da1ee8124b03c1",
+        "rowtemplate": "IngredientRow",
+        "widgetdatamap": {
+            "IngredientRow": "IngredientRow",
+            "flxDeleteContainer": "flxDeleteContainer",
+            "flxIngredientRowItem": "flxIngredientRowItem",
+            "imgDelete": "imgDelete",
+            "lblIngredient": "lblIngredient"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "IngredientList",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 9,
+    "rowfocusskin": "s9592b7f9e874f9cb1210bc859552ad1",
+    "rowskin": "s536979b3ffa4c7a9df3ca7c2e317f72",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s5d1406decb74b009bedf7c030a5cd44",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "IngredientRow": "IngredientRow",
+        "flxDeleteContainer": "flxDeleteContainer",
+        "flxIngredientRowItem": "flxIngredientRowItem",
+        "imgDelete": "imgDelete",
+        "lblIngredient": "lblIngredient"
+    },
+    "widgetskin": "s23c7da65f9b419ab960267fbc7cd2b2"
+}

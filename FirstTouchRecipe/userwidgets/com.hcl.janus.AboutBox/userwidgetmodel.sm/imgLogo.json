@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "90dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd88b9d353844738a505501a9b118925",
+    "_src_": "about.png",
+    "_top_": {
+        "type": "number",
+        "value": "70"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "11.48%"
+    },
+    "containerweight": 100,
+    "id": "imgLogo",
+    "imagescalemode": 1,
+    "imagewhiledownloading": "about.png",
+    "info": null,
+    "isvisible": true,
+    "kuid": "jff216dec9a547068ccf4e03507a7c84",
+    "name": "kony.ui.Image2",
+    "paddinginpixel": false,
+    "parent": "AboutDialog",
+    "pf": "userwidgetmodel",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_i35d336d45f7448ab32849119592a5b5": {
+        "id": "AS_FlexContainer_i35d336d45f7448ab32849119592a5b5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_b21450cb44ab400c85dd931d53394dd8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxSortMenuContainer.setVisibility(!this.view.flxSortMenuContainer.isVisible);",
+            "parentId": null
+        }]
+    }
+}

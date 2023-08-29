@@ -1,0 +1,21 @@
+{
+    "AS_FlexContainer_f38dab5f7724427c81f2c655b6717c19": {
+        "id": "AS_FlexContainer_f38dab5f7724427c81f2c655b6717c19",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_c648b70a14174771bd76fcd35f14f505",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "addIngredient",
+            "display": "addIngredient",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

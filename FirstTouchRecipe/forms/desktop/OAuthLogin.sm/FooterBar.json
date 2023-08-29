@@ -1,0 +1,139 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_children_": [],
+    "_height_": {
+        "type": "number",
+        "value": "32"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s63b9031442740d1bdb42d6c70f4ffa1",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.00%"
+    },
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "FooterBar": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "fb1aa54bb6cd4f3bb9f20833b662fe44",
+                "srcKUID": "d6a9ae5660194256baa7d7b32eb36c2f",
+                "wType": "FlexContainer"
+            },
+            "bottom": {
+                "Default": {
+                    "type": "number",
+                    "value": "0"
+                }
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": "50.00%"
+                }
+            },
+            "responsiveData": {},
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            }
+        },
+        "btnInfo": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fe725f2e4ba149ce86a15fffa46fb3fe",
+                "srcKUID": "c8447145e62c44da95cef1efb987f4bb",
+                "wType": "Button"
+            }
+        },
+        "flxFooter": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ffcfaead42184186bd17379ff75f4517",
+                "srcKUID": "f728fc61317549a98002df2aa4382d35",
+                "wType": "FlexContainer"
+            },
+            "left": {
+                "Default": {
+                    "type": "number",
+                    "value": "0"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            }
+        },
+        "lblAppName": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e1d4921bfd3d453c93458ffb42134354",
+                "srcKUID": "f8924f3e6caa434794941828f9c39484",
+                "wType": "Label"
+            }
+        },
+        "lblVersion": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d3cdd218fd624772be7ab4cfac6ab1c5",
+                "srcKUID": "acd9d80669864cf98c3cbd8c03052c61",
+                "wType": "Label"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "FooterBar",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "fb1aa54bb6cd4f3bb9f20833b662fe44",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxBase",
+    "pf": "OAuthLogin",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "d6a9ae5660194256baa7d7b32eb36c2f",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

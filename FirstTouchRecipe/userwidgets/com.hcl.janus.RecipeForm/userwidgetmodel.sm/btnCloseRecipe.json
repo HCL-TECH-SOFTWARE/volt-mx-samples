@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "31dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_skin_": "sdfca299b9444617ae7153cc4b8ebb4a",
+    "_text_": "Cancel",
+    "_top_": {
+        "type": "string",
+        "value": "19dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": null,
+    "id": "btnCloseRecipe",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ce07f2a7a2a845609bc64060a9aa5031",
+    "name": "kony.ui.Button",
+    "parent": "flxActionsBar",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

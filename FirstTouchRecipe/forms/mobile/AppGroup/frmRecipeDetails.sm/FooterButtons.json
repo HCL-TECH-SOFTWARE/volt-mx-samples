@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "108dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s49cb1d9129448ff91464f8b23fccaf9",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "ide_BtnCancelOnClick": "AS_UWI_a98c51e7b7b2428690c7d80d7401f528",
+        "ide_BtnSubmitOnClick": "AS_UWI_e3d2dc8e2e1f4f1797d711cc542428bc"
+    },
+    "id": "FooterButtons",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f800a99e6c7d415082d34623ad73a71b",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmRecipeDetails",
+    "pf": "frmRecipeDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "u12203b78e904bd2828bd0096b2e4113",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Button_d4c926c06faa43a0985b9bfdbac49d84": {
+        "id": "AS_Button_d4c926c06faa43a0985b9bfdbac49d84",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "SHOW_ALERT_ide_onClick_a1019db6e3f342c99d0aa3e0d3907d97",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertMessage": "Feature under construction!",
+            "messageType": "constant",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

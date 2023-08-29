@@ -1,0 +1,131 @@
+{
+    "classname": "OAuthLoginForm",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c7cfe9a4831242bb9b6c01024f8223f9",
+                    "paramList": [],
+                    "propertyKey": "checkSSO",
+                    "pw": {
+                        "displayName": "checkSSO",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b5d1f1f24cd64b2fb98c01ce646a953f",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c590080ccef74dee8a8bc9317e328f8e",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "oAuthLogin",
+                    "pw": {
+                        "displayName": "oAuthLogin",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b5d1f1f24cd64b2fb98c01ce646a953f",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "Recipe Catalog",
+                    "group": "General",
+                    "kuid": "b3f064117c944313b22f8cce7544f9eb",
+                    "originalPropertyKey": "AppTitle",
+                    "propertyIndex": 1,
+                    "propertyKey": "AppTitle",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "AppTitle",
+                        "toolTip": "AppTitle",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "b5d1f1f24cd64b2fb98c01ce646a953f",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "FirstTouchDRAPIOAuth",
+                    "group": "General",
+                    "kuid": "a3704003927d485890ed24697914260a",
+                    "originalPropertyKey": "OAuthSvcName",
+                    "propertyIndex": 2,
+                    "propertyKey": "OAuthSvcName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "OAuthSvcName",
+                        "toolTip": "OAuthIdentityService",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "b5d1f1f24cd64b2fb98c01ce646a953f",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Main",
+                    "group": "General",
+                    "kuid": "g2bffbf1c1d94bd1963b77446bd9a5af",
+                    "originalPropertyKey": "MainFormName",
+                    "propertyIndex": 7,
+                    "propertyKey": "MainFormName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "MainFormName",
+                        "toolTip": "MainFormName",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "b5d1f1f24cd64b2fb98c01ce646a953f",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "OAuthLogin",
+                    "group": "General",
+                    "kuid": "hf3126f47124417d883a3ae213d99508",
+                    "originalPropertyKey": "LoginFormName",
+                    "propertyIndex": 8,
+                    "propertyKey": "LoginFormName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "LoginFormName",
+                        "toolTip": "LoginFormName",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "b5d1f1f24cd64b2fb98c01ce646a953f",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.janus",
+    "version": "1.0.0"
+}

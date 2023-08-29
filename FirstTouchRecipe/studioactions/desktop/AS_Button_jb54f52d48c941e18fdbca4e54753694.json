@@ -1,0 +1,16 @@
+{
+    "AS_Button_jb54f52d48c941e18fdbca4e54753694": {
+        "id": "AS_Button_jb54f52d48c941e18fdbca4e54753694",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ccb5a16fe81a417bbf71f6ce6ec33a62",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxAbout.setVisibility(true);\n"
+        }]
+    }
+}

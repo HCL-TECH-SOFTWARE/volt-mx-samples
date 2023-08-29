@@ -1,0 +1,28 @@
+{
+    "AS_UWI_a00cefa7cad749f7ab3a204310dce187": {
+        "id": "AS_UWI_a00cefa7cad749f7ab3a204310dce187",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRecipeForm",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f462f431b8384d00b80946c036df65dd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__fa3a24d2ed194d459ca5bd0f5205ea79",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onCancelClick",
+            "display": "onCancelClick",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

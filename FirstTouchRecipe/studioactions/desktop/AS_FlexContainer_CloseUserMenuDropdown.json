@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_CloseUserMenuDropdown": {
+        "id": "AS_FlexContainer_CloseUserMenuDropdown",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "name": "Main"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_g3d8b09df9c649bba7e60655acffb8a8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.HeaderBar.flxUserMenuContainer.setVisibility(view.gone);\nthis.view.HeaderBar.flxSortMenuContainer.setVisibility(view.gone);\nthis.view.HeaderBar.flxSubMenuPreferences.setVisibility(view.gone);\n",
+            "parentId": null
+        }]
+    }
+}

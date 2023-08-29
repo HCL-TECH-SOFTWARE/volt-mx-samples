@@ -1,0 +1,68 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s90ce22b3a3848f299534a70fd8d5ee6",
+    "_text_": "20",
+    "_top_": {
+        "type": "string",
+        "value": "7dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblPrepTimeValue",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e72f63e316f544beb8e6b1711684827b",
+    "name": "kony.ui.Label",
+    "parent": "flxPrepTime",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

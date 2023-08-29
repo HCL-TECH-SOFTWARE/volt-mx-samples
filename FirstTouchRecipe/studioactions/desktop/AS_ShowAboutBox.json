@@ -1,0 +1,24 @@
+{
+    "AS_Button_i0e9bcd38b1c488fabe51cc92ebf3be2": {
+        "id": "AS_Button_i0e9bcd38b1c488fabe51cc92ebf3be2",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_ShowAboutBox",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "name": "Main"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_c9212e2b0ecf471a990131744a78495f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.AboutBox.setVisibility(true);",
+            "parentId": null
+        }]
+    }
+}

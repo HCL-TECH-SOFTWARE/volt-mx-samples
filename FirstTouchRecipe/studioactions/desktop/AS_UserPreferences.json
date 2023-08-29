@@ -1,0 +1,45 @@
+{
+    "AS_Button_a582b702692e4200994159556f26eaf4": {
+        "id": "AS_Button_a582b702692e4200994159556f26eaf4",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_UserPreferences",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "name": "Main"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__d0066631fc1b471ab287ef9694963839",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Main",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "widgetKUID": "j90827cc3c9c4575a709c4f3d6ee5f0f",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": "SHOW_ALERT_d009e53d1cc34ad2bec1606067ba29b9",
+            "callbackType": "True"
+        }, {
+            "id": "SHOW_ALERT_d009e53d1cc34ad2bec1606067ba29b9",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertMessage": "Feature under construction!",
+            "messageType": "constant",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

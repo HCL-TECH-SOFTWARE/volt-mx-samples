@@ -1,0 +1,82 @@
+{
+    "AS_Button_e628f3d42a94469eba331be7a9df91a7": {
+        "id": "AS_Button_e628f3d42a94469eba331be7a9df91a7",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_SignOut",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "name": "Main"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__f5afc6a642754feeaf119766d6771308",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Main",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "widgetKUID": "j90827cc3c9c4575a709c4f3d6ee5f0f",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": "INVOKE_SERVICE_dd9642c236b34732a69da8b302e28033",
+            "callbackType": "Success"
+        }, {
+            "id": "ADD_SNIPPET_f50ba2f306094abfa980b73a5848069e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "userProfile=undefined;\nself.view.MainContainer.CardsContainer.removeAll();",
+            "parentId": "INVOKE_SERVICE_dd9642c236b34732a69da8b302e28033",
+            "callbackType": "Success"
+        }, {
+            "id": "SHOW_ALERT_b23499e9aefd4d8180959439e517d889",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_ERROR",
+            "alertTitle": "Sign Out",
+            "alertMessage": "An error occurred during the sign out process.",
+            "messageType": "constant",
+            "parentId": "INVOKE_SERVICE_dd9642c236b34732a69da8b302e28033",
+            "callbackType": "Failure",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__b1a667e8c47041e39ab530d4c4efb558",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Main",
+            "formKUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "projectName": "FirstTouchRecipe",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "INVOKE_SERVICE_dd9642c236b34732a69da8b302e28033",
+            "callbackType": "Success",
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }, {
+            "id": "INVOKE_SERVICE_dd9642c236b34732a69da8b302e28033",
+            "type": "INVOKE_IDENTITY_SERVICE",
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "operationname": "logout",
+                "servicename": "UserAuthentication",
+                "type": "identity",
+                "isDeepLinkRequired": false,
+                "login_type": "basic"
+            },
+            "enableMappingEditor": true,
+            "useDeviceBrowser": false,
+            "isDeepLinkRequired": false
+        }]
+    }
+}

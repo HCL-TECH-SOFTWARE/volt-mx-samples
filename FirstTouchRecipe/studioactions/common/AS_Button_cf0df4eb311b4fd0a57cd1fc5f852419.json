@@ -1,0 +1,96 @@
+{
+    "AS_Button_cf0df4eb311b4fd0a57cd1fc5f852419": {
+        "id": "AS_Button_cf0df4eb311b4fd0a57cd1fc5f852419",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_OBJECT_SERVICE_ide_onClick_hf68f92d39aa4c1282cb2f90733d17eb",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "JACenter",
+                "type": "objectsvcs",
+                "objectname": "signuprequest",
+                "serviceid": "62d37a00-c0b2-49dd-8817-47c70016193a",
+                "methodname": "create"
+            },
+            "callbackType": null,
+            "enableMappingEditor": true
+        }, {
+            "id": "IF_CONDITION_ide_onClick_dd43f3e47c5f4927913aed7f8d5c6b63",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "value",
+                "leftValue": "signuprequest.httpStatusCode",
+                "operator": "!==",
+                "rightValue": "0",
+                "rightValueType": "value"
+            }],
+            "parentId": "INVOKE_OBJECT_SERVICE_ide_onClick_hf68f92d39aa4c1282cb2f90733d17eb",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "SHOW_ALERT_ide_onClick_ac902d25ec8241109c3fc9279a6d1be5",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_ERROR",
+            "alertMessage": "'Error received from registration request\\n\\n' + signuprequest.errmsg",
+            "messageType": "expression",
+            "parentId": "IF_CONDITION_ide_onClick_dd43f3e47c5f4927913aed7f8d5c6b63",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }, {
+            "id": "ELSE_CONDITION_ide_onClick_ge9882d5809c41eaa64775828ab96546",
+            "type": "ELSE_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "",
+                "operator": "===",
+                "rightValueType": "widgetprop",
+                "rightValue": ""
+            }],
+            "parentId": "INVOKE_OBJECT_SERVICE_ide_onClick_hf68f92d39aa4c1282cb2f90733d17eb",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "SHOW_ALERT_ide_onClick_abc433baf6ba49459430ef3903fe5384",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertIcon": "information.png",
+            "alertMessage": "Registration request received\n\nAdministration will review and respond via the provided email address\n\nThank you",
+            "messageType": "constant",
+            "parentId": "ELSE_CONDITION_ide_onClick_ge9882d5809c41eaa64775828ab96546",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_aa9b59b5b10a4b6cb5aafbe02665d65a",
+            "type": "NAVIGATE_TO_FORM",
+            "formKUID": "dc637697bb6341bbaa4f081fc72d8139",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "SHOW_ALERT_ide_onClick_abc433baf6ba49459430ef3903fe5384",
+            "callbackType": "True",
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}
