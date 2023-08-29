@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_ab5949c8dd734bdca33e1c5fb23cd4ed": {
+        "id": "AS_FlexContainer_ab5949c8dd734bdca33e1c5fb23cd4ed",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "name": "Main"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_f2fd3874d56c406eab3aaf2f4131e2ef",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "// self.view.HeaderBar.userDisplayName.text = userProfile.firstname + \" \" + userProfile.lastname;\ndebugger;\n",
+            "parentId": null
+        }]
+    }
+}

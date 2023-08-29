@@ -1,0 +1,73 @@
+{
+    "AS_UWI_g6c1b08017e84196931e959eb78deccc": {
+        "id": "AS_UWI_g6c1b08017e84196931e959eb78deccc",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_UWI_SIGNOUT",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "f0b88580859f44eab98b846ab66dcae3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SHOW_ALERT_aed0b7170b184d17b1efc6af8d73f82d",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertMessage": "Logout failed.",
+            "messageType": "constant",
+            "parentId": "INVOKE_SERVICE_ge50e07c17244e2c9a9c6870fbfd742f",
+            "callbackType": "Failure",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ef6597bcb7df4615a653a55f465eb7b2",
+            "type": "NAVIGATE_TO_FORM",
+            "formKUID": "dc637697bb6341bbaa4f081fc72d8139",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "INVOKE_SERVICE_ge50e07c17244e2c9a9c6870fbfd742f",
+            "callbackType": "Success",
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }, {
+            "id": "SHOW_ALERT_i670fa41906847948e027a23cc254f4f",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertIcon": null,
+            "alertMessage": "You have successfully logged out.",
+            "messageType": "constant",
+            "parentId": "INVOKE_SERVICE_ge50e07c17244e2c9a9c6870fbfd742f",
+            "callbackType": "Success",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }, {
+            "id": "INVOKE_SERVICE_ge50e07c17244e2c9a9c6870fbfd742f",
+            "type": "INVOKE_IDENTITY_SERVICE",
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "operationname": "logout",
+                "servicename": "UserAuthentication",
+                "type": "identity",
+                "isDeepLinkRequired": false,
+                "login_type": "basic"
+            },
+            "enableMappingEditor": true,
+            "useDeviceBrowser": false,
+            "isDeepLinkRequired": false
+        }]
+    }
+}

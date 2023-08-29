@@ -1,0 +1,62 @@
+{
+    "AS_FlexContainer_d968dc549c38400bb048d0928bc15f88": {
+        "id": "AS_FlexContainer_d968dc549c38400bb048d0928bc15f88",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_FlexContainer_sortByUpdate",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "name": "Main"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__a83b8c0cac5e42c5b5aeda1b4a5f76f1",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "refreshAppCards",
+            "display": "refreshAppCards",
+            "inputparams": [],
+            "parentId": "INVOKE_SERVICE_cb094b2177ae480c9037a355b8e53196",
+            "callbackType": "Callback",
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION__f93511b03d0849f49f426a57f6ee3f79",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "sortByUpdate",
+            "display": "sortByUpdate",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_SERVICE_cb094b2177ae480c9037a355b8e53196",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": {
+                "$filter": "\"((SoftDeleteFlag ne true) or (SoftDeleteFlag eq null)) and (((owner eq \" + userProfile.userid + \") and (is_template eq false)) or ((is_template eq true) and (is_enabled eq true)))\""
+            },
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "JACenter",
+                "type": "objectsvcs",
+                "objectname": "application",
+                "serviceid": "4883571d-ac24-4033-907d-9f1107dd330c",
+                "methodname": "get"
+            },
+            "parentId": null,
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

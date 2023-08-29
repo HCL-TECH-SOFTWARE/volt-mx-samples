@@ -1,0 +1,1008 @@
+<application id="roollbackcheck" name="roollbackcheck" ffixmlversion="2.0" language="js">
+	<jsnamespace namespace="WindowsOfflineObjects" iphoneheaders="" ipadheaders="">
+		<jsclasses>
+			<jsclass name="OfflineSDKObject">
+				<classmappings>
+					<mapping platform="winphone10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="ObjectSyncFFI" frameworks="" />
+					<mapping platform="windows10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="ObjectSyncFFI" frameworks="" />
+					<mapping platform="desktop_kiosk" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="ObjectSyncFFI" frameworks="" />
+				</classmappings>
+				<constructormethod returntype="Object">
+					<params></params>
+					<mappings>
+						<mapping platform="winphone10" method="ObjectSyncFFI" constructor="true" static="true" >
+							<params></params>
+						</mapping>
+						<mapping platform="windows10" method="ObjectSyncFFI" constructor="true" static="true" >
+							<params></params>
+						</mapping>
+						<mapping platform="desktop_kiosk" method="ObjectSyncFFI" constructor="true" static="true" >
+							<params></params>
+						</mapping>
+					</mappings>
+				</constructormethod>
+				<instancemethods>
+					<instancemethod name="create" returntype="void">
+						<params>
+							<param name="sdkObjectName" type="String"/>
+							<param name="record" type="Object"/>
+							<param name="options" type="Object"/>
+							<param name="successCallback" type="Function"/>
+							<param name="failureCallback" type="Function"/>
+						</params>
+						<mappings>
+							<mapping platform="winphone10" static="false" method="CreateSDKObjectRecord" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="CreateSDKObjectRecord" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="desktop_kiosk" static="false" method="CreateSDKObjectRecord" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>
+					<instancemethod name="updateByPK" returntype="void">
+						<params>
+							<param name="sdkObjectName" type="String"/>
+							<param name="record" type="Object"/>
+							<param name="options" type="Object"/>
+							<param name="successCallback" type="Function"/>
+							<param name="failureCallback" type="Function"/>
+						</params>
+						<mappings>
+							<mapping platform="winphone10" static="false" method="UpdateSDKObjectRecord" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="UpdateSDKObjectRecord" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="desktop_kiosk" static="false" method="UpdateSDKObjectRecord" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>
+					<instancemethod name="get" returntype="void">
+						<params>
+							<param name="sdkObjectName" type="String"/>
+							<param name="options" type="Object"/>
+							<param name="successCallback" type="Function"/>
+							<param name="failureCallback" type="Function"/>
+						</params>
+						<mappings>
+							<mapping platform="winphone10" static="false" method="ReadSDKObjectRecord" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="ReadSDKObjectRecord" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="desktop_kiosk" static="false" method="ReadSDKObjectRecord" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>
+					<instancemethod name="deleteByPK" returntype="void">
+						<params>
+							<param name="sdkObjectName" type="String"/>
+							<param name="options" type="Object"/>
+							<param name="successCallback" type="Function"/>
+							<param name="failureCallback" type="Function"/>
+						</params>
+						<mappings>
+							<mapping platform="winphone10" static="false" method="DeleteSDKObjectRecord" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="DeleteSDKObjectRecord" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="desktop_kiosk" static="false" method="DeleteSDKObjectRecord" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>
+					<instancemethod name="startSync" returntype="void">
+						<params>
+							<param name="sdkObjectName" type="String"/>
+							<param name="options" type="Object"/>
+							<param name="successCallback" type="Function"/>
+							<param name="failureCallback" type="Function"/>
+							<param name="progressCallback" type="Function"/>
+						</params>
+						<mappings>
+							<mapping platform="winphone10" static="false" method="SyncSDKObject" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="SyncSDKObject" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="desktop_kiosk" static="false" method="SyncSDKObject" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>
+					<instancemethod name="rollback" returntype="void">
+						<params>
+							<param name="sdkObjectName" type="String"/>
+							<param name="primaryKeyValueMap" type="Object"/>
+							<param name="successCallback" type="Function"/>
+							<param name="failureCallback" type="Function"/>
+						</params>
+						<mappings>
+							<mapping platform="desktop_kiosk" static="false" method="RollbackSDKObject" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="winphone10" static="false" method="RollbackSDKObject" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="RollbackSDKObject" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>
+					<instancemethod name="getUploadDeferredRecordKeys" returntype="void">
+						<params>
+							<param name="sdkObjectName" type="String"/>
+							<param name="successCallback" type="Function"/>
+							<param name="failureCallback" type="Function"/>
+						</params>
+						<mappings>
+							<mapping platform="winphone10" static="false" method="GetSDKObjectUploadDeferredRecordKeys" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="GetSDKObjectUploadDeferredRecordKeys" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="desktop_kiosk" static="false" method="GetSDKObjectUploadDeferredRecordKeys" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>
+					<instancemethod name="getPendingRecordsForUpload" returntype="void">
+						<params>
+							<param name="sdkObjectName" type="String"/>
+							<param name="options" type="Object"/>
+							<param name="successCallback" type="Function"/>
+							<param name="failureCallback" type="Function"/>
+						</params>
+						<mappings>
+							<mapping platform="winphone10" static="false" method="GetPendingRecordsForUpload" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="GetPendingRecordsForUpload" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="desktop_kiosk" static="false" method="GetPendingRecordsForUpload" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>
+					<instancemethod name="markForUpload" returntype="void">
+						<params>
+							<param name="sdkObjectName" type="String"/>
+							<param name="options" type="Object"/>
+							<param name="successCallback" type="Function"/>
+							<param name="failureCallback" type="Function"/>
+						</params>
+						<mappings>
+							<mapping platform="winphone10" static="false" method="MarkForUploadSDKObject" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="MarkForUploadSDKObject" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="desktop_kiosk" static="false" method="MarkForUploadSDKObject" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>
+					<instancemethod name="update" returntype="void">
+						<params>
+							<param name="sdkObjectName" type="String"/>
+							<param name="record" type="Object"/>
+							<param name="options" type="Object"/>
+							<param name="successCallback" type="Function"/>
+							<param name="failureCallback" type="Function"/>
+						</params>
+						<mappings>
+							<mapping platform="winphone10" static="false" method="UpdateSDKObject" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="UpdateSDKObject" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="desktop_kiosk" static="false" method="UpdateSDKObject" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>
+					<instancemethod name="delete" returntype="void">
+						<params>
+							<param name="sdkObjectName" type="String"/>
+							<param name="options" type="Object"/>
+							<param name="successCallback" type="Function"/>
+							<param name="failureCallback" type="Function"/>
+						</params>
+						<mappings>
+							<mapping platform="winphone10" static="false" method="DeleteSDKObject" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="DeleteSDKObject" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="desktop_kiosk" static="false" method="DeleteSDKObject" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>
+					<instancemethod name="cancelSync" returntype="void">
+						<params>
+							<param name="sdkObjectName" type="String"/>
+							<param name="options" type="Object"/>
+							<param name="successCallback" type="Function"/>
+							<param name="failureCallback" type="Function"/>
+						</params>
+						<mappings>
+							<mapping platform="winphone10" static="false" method="CancelSyncSDKObject" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="CancelSyncSDKObject" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="desktop_kiosk" static="false" method="CancelSyncSDKObject" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>
+					<instancemethod name="clearOfflineData" returntype="void">
+						<params>
+							<param name="sdkObjectName" type="String"/>
+							<param name="options" type="Object"/>
+							<param name="successCallback" type="Function"/>
+							<param name="failureCallback" type="Function"/>
+						</params>
+						<mappings>
+							<mapping platform="winphone10" static="false" method="ClearOfflineDataOfSDKObject" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="ClearOfflineDataOfSDKObject" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="desktop_kiosk" static="false" method="ClearOfflineDataOfSDKObject" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>						
+				</instancemethods>
+			</jsclass>
+			<jsclass name="OfflineSDKObjectService">
+				<classmappings>
+					<mapping platform="winphone10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="ObjectServiceSyncFFI" frameworks="" />
+					<mapping platform="windows10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="ObjectServiceSyncFFI" frameworks="" />
+					<mapping platform="desktop_kiosk" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="ObjectServiceSyncFFI" frameworks="" />
+				</classmappings>
+				<constructormethod returntype="Object">
+					<params></params>
+					<mappings>
+						<mapping platform="winphone10" method="ObjectServiceSyncFFI" constructor="true" static="true" >
+							<params></params>
+						</mapping>
+						<mapping platform="windows10" method="ObjectServiceSyncFFI" constructor="true" static="true" >
+							<params></params>
+						</mapping>
+						<mapping platform="desktop_kiosk" method="ObjectServiceSyncFFI" constructor="true" static="true" >
+							<params></params>
+						</mapping>
+					</mappings>
+				</constructormethod>
+				<instancemethods>
+					<instancemethod name="startSync" returntype="void">
+						<params>
+							<param name="sdkObjectServiceName" type="String"/>
+							<param name="options" type="Object"/>
+							<param name="successCallback" type="Function"/>
+							<param name="failureCallback" type="Function"/>
+							<param name="progressCallback" type="Function"/>
+						</params>
+						<mappings>
+							<mapping platform="winphone10" static="false" method="SyncSDKObjectService" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="SyncSDKObjectService" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="desktop_kiosk" static="false" method="SyncSDKObjectService" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>
+					<instancemethod name="rollback" returntype="void">
+						<params>
+							<param name="sdkObjectServiceName" type="String"/>
+							<param name="successCallback" type="Function"/>
+							<param name="failureCallback" type="Function"/>
+						</params>
+						<mappings>
+							<mapping platform="winphone10" static="false" method="RollbackSDKObjectService" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="RollbackSDKObjectService" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="desktop_kiosk" static="false" method="RollbackSDKObjectService" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>
+					<instancemethod name="clearOfflineData" returntype="void">
+						<params>
+							<param name="sdkObjectServiceName" type="String"/>
+							<param name="options" type="Object"/>
+							<param name="successCallback" type="Function"/>
+							<param name="failureCallback" type="Function"/>
+						</params>
+						<mappings>
+							<mapping platform="winphone10" static="false" method="ClearOfflineDataOfSDKObjectService" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="ClearOfflineDataOfSDKObjectService" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="desktop_kiosk" static="false" method="ClearOfflineDataOfSDKObjectService" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>
+					<instancemethod name="cancelSync" returntype="void">
+						<params>
+							<param name="sdkObjectServiceName" type="String"/>
+							<param name="options" type="Object"/>
+							<param name="successCallback" type="Function"/>
+							<param name="failureCallback" type="Function"/>
+						</params>
+						<mappings>
+							<mapping platform="winphone10" static="false" method="CancelSyncSDKObjectService" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="CancelSyncSDKObjectService" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+							<mapping platform="desktop_kiosk" static="false" method="CancelSyncSDKObjectService" returntype="System.Void"  >
+								<params>
+									<param type="System.String"/>
+									<param type="System.Object"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+									<param type="Framework.JS.Foundation.JSClosure"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>
+				</instancemethods>
+			</jsclass>
+		</jsclasses>
+		<jsfunctions>
+			<jsfunction name="setIntegrityCheck" returntype="void">
+				<params>
+					<param name="properties" type="Object"/>
+				</params>
+				<mappings>
+					<mapping platform="winphone10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="HttpIntegrityFFI" static="true" method="SetIntegrityCheck" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Object"/>
+						</params>
+					</mapping>
+					<mapping platform="windows10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="HttpIntegrityFFI" static="true" method="SetIntegrityCheck" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Object"/>
+						</params>
+					</mapping>
+					<mapping platform="desktop_kiosk" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="HttpIntegrityFFI" static="true" method="SetIntegrityCheck" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Object"/>
+						</params>
+					</mapping>
+				</mappings>
+			</jsfunction>
+			<jsfunction name="removeIntegrityCheck" returntype="void">
+				<params></params>
+				<mappings>
+					<mapping platform="winphone10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="HttpIntegrityFFI" static="true" method="RemoveIntegrityCheck" returntype="System.Void"  frameworks="">
+						<params></params>
+					</mapping>
+					<mapping platform="windows10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="HttpIntegrityFFI" static="true" method="RemoveIntegrityCheck" returntype="System.Void"  frameworks="">
+						<params></params>
+					</mapping>
+					<mapping platform="desktop_kiosk" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="HttpIntegrityFFI" static="true" method="RemoveIntegrityCheck" returntype="System.Void"  frameworks="">
+						<params></params>
+					</mapping>
+				</mappings>
+			</jsfunction>
+			<jsfunction name="setGlobalRequestParam" returntype="void">
+				<params>
+				    <param name="paramName" type="String"/>
+				    <param name="paramValue" type="String"/>
+				    <param name="paramType" type="String"/>
+				</params>
+				<mappings>
+					<mapping platform="winphone10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="GlobalRequestParamsFFI" static="true" method="SetGlobalRequestParam" returntype="System.Void"  frameworks="">
+						<params>
+						   <param type="System.String"/>
+						   <param type="System.String"/>
+						   <param type="System.String"/>
+						</params>
+					</mapping>
+					<mapping platform="windows10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="GlobalRequestParamsFFI" static="true" method="SetGlobalRequestParam" returntype="System.Void"  frameworks="">
+						<params>
+						   <param type="System.String"/>
+						   <param type="System.String"/>
+						   <param type="System.String"/>
+						</params>
+					</mapping>
+					<mapping platform="desktop_kiosk" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="GlobalRequestParamsFFI" static="true" method="SetGlobalRequestParam" returntype="System.Void"  frameworks="">
+						<params>
+						   <param type="System.String"/>
+						   <param type="System.String"/>
+						   <param type="System.String"/>
+						</params>
+					</mapping>
+				</mappings>
+			</jsfunction>
+			<jsfunction name="removeGlobalRequestParam" returntype="void">
+				<params>
+				    <param name="paramName" type="String"/>
+				    <param name="paramType" type="String"/>
+				</params>
+				<mappings>
+					<mapping platform="winphone10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="GlobalRequestParamsFFI" static="true" method="RemoveGlobalRequestParam" returntype="System.Void"  frameworks="">
+						<params>
+						   <param type="System.String"/>
+						   <param type="System.String"/>
+						</params>
+					</mapping>
+					<mapping platform="windows10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="GlobalRequestParamsFFI" static="true" method="RemoveGlobalRequestParam" returntype="System.Void"  frameworks="">
+						<params>
+						   <param type="System.String"/>
+						   <param type="System.String"/>
+						</params>
+					</mapping>
+					<mapping platform="desktop_kiosk" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="GlobalRequestParamsFFI" static="true" method="RemoveGlobalRequestParam" returntype="System.Void"  frameworks="">
+						<params>
+						   <param type="System.String"/>
+						   <param type="System.String"/>
+						</params>
+					</mapping>
+				</mappings>
+			</jsfunction>
+			<jsfunction name="resetGlobalRequestParams" returntype="void">
+				<params></params>
+				<mappings>
+					<mapping platform="winphone10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="GlobalRequestParamsFFI" static="true" method="ResetGlobalRequestParams" returntype="System.Void"  frameworks="">
+						<params></params>
+					</mapping>
+					<mapping platform="windows10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="GlobalRequestParamsFFI" static="true" method="ResetGlobalRequestParams" returntype="System.Void"  frameworks="">
+						<params></params>
+					</mapping>
+					<mapping platform="desktop_kiosk" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="GlobalRequestParamsFFI" static="true" method="ResetGlobalRequestParams" returntype="System.Void"  frameworks="">
+						<params></params>
+					</mapping>
+				</mappings>
+			</jsfunction>
+			<jsfunction name="setToken" returntype="void">
+				<params>
+					<param name="token" type="String"/>
+				</params>
+				<mappings>
+					<mapping platform="winphone10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="SetToken" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.String"/>
+						</params>
+					</mapping>
+					<mapping platform="windows10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="SetToken" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.String"/>
+						</params>
+					</mapping>
+					<mapping platform="desktop_kiosk" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="SetToken" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.String"/>
+						</params>
+					</mapping>
+				</mappings>
+			</jsfunction>
+			<jsfunction name="setCookie" returntype="void">
+				<params>
+					<param name="fabricUrl" type="String"/>
+					<param name="rawCookie" type="String"/>
+				</params>
+				<mappings>
+					<mapping platform="winphone10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="SetCookie" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.String"/>
+							<param type="System.String"/>
+						</params>
+					</mapping>
+					<mapping platform="windows10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="SetCookie" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.String"/>
+							<param type="System.String"/>
+						</params>
+					</mapping>
+					<mapping platform="desktop_kiosk" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="SetCookie" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.String"/>
+							<param type="System.String"/>
+						</params>
+					</mapping>
+				</mappings>
+			</jsfunction>
+			<jsfunction name="setReportingParams" returntype="void">
+				<params>
+					<param name="token" type="String"/>
+				</params>
+				<mappings>
+					<mapping platform="winphone10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="SetReportingParams" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.String"/>
+						</params>
+					</mapping>
+					<mapping platform="windows10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="SetReportingParams" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.String"/>
+						</params>
+					</mapping>
+					<mapping platform="desktop_kiosk" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="SetReportingParams" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.String"/>
+						</params>
+					</mapping>
+				</mappings>
+			</jsfunction>
+			<jsfunction name="setup" returntype="void">
+				<params>
+					<param name="objServiceList" type="Object"/>
+					<param name="options" type="Object"/>
+					<param name="successCallback" type="Function"/>
+					<param name="failureCallback" type="Function"/>
+				</params>
+				<mappings>
+					<mapping platform="winphone10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="SyncSetup" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Object"/>
+							<param type="System.Object"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+						</params>
+					</mapping>
+					<mapping platform="desktop_kiosk" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="SyncSetup" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Object"/>
+							<param type="System.Object"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+						</params>
+					</mapping>
+					<mapping platform="windows10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="SyncSetup" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Object"/>
+							<param type="System.Object"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+						</params>
+					</mapping>
+				</mappings>
+			</jsfunction>
+			<jsfunction name="drop" returntype="void">
+				<params>
+					<param name="options" type="Object"/>
+					<param name="successCallback" type="Function"/>
+					<param name="failureCallback" type="Function"/>
+				</params>
+				<mappings>
+					<mapping platform="winphone10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="SyncDrop" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Object"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+						</params>
+					</mapping>
+					<mapping platform="windows10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="SyncDrop" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Object"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+						</params>
+					</mapping>
+					<mapping platform="desktop_kiosk" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="SyncDrop" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Object"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+						</params>
+					</mapping>
+				</mappings>
+			</jsfunction>
+			<jsfunction name="rollback" returntype="void">
+				<params>
+					<param name="successCallback" type="Function"/>
+					<param name="failureCallback" type="Function"/>
+				</params>
+				<mappings>
+					<mapping platform="winphone10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="SyncRollback" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+						</params>
+					</mapping>
+					<mapping platform="windows10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="SyncRollback" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+						</params>
+					</mapping>
+					<mapping platform="desktop_kiosk" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="SyncRollback" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+						</params>
+					</mapping>
+				</mappings>
+			</jsfunction>
+			<jsfunction name="reset" returntype="void">
+				<params>
+					<param name="objServiceList" type="Object"/>
+					<param name="options" type="Object"/>
+					<param name="successCallback" type="Function"/>
+					<param name="failureCallback" type="Function"/>
+				</params>
+				<mappings>
+					<mapping platform="winphone10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="SyncReset" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Object"/>
+							<param type="System.Object"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+						</params>
+					</mapping>
+					<mapping platform="desktop_kiosk" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="SyncReset" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Object"/>
+							<param type="System.Object"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+						</params>
+					</mapping>
+					<mapping platform="windows10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="SyncReset" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Object"/>
+							<param type="System.Object"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+						</params>
+					</mapping>
+				</mappings>
+			</jsfunction>
+			<jsfunction name="executeSelectQuery" returntype="void">
+				<params>
+					<param name="query" type="String"/>
+					<param name="successCallback" type="Function"/>
+					<param name="failureCallback" type="Function"/>
+				</params>
+				<mappings>
+					<mapping platform="winphone10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="ExecuteSelectQuery" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.String"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+						</params>
+					</mapping>
+					<mapping platform="desktop_kiosk" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="ExecuteSelectQuery" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.String"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+						</params>
+					</mapping>
+					<mapping platform="windows10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="ExecuteSelectQuery" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.String"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+						</params>
+					</mapping>
+				</mappings>
+			</jsfunction>
+			<jsfunction name="startSync" returntype="void">
+				<params>
+					<param name="options" type="Object"/>
+					<param name="successCallback" type="Function"/>
+					<param name="failureCallback" type="Function"/>
+					<param name="progressCallback" type="Function"/>
+				</params>
+				<mappings>
+					<mapping platform="winphone10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="StartSync" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Object"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+						</params>
+					</mapping>
+					<mapping platform="windows10" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="StartSync" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Object"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+						</params>
+					</mapping>
+					<mapping platform="desktop_kiosk" library="offlineobjects.zip" namespace="OfflineObjects.FFI" class="OfflineObjectsFFI" static="true" method="StartSync" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Object"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+							<param type="Framework.JS.Foundation.JSClosure"/>
+						</params>
+					</mapping>
+				</mappings>
+			</jsfunction>
+		</jsfunctions>
+	</jsnamespace>
+</application>

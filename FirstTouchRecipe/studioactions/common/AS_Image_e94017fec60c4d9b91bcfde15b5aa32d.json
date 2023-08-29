@@ -1,0 +1,23 @@
+{
+    "AS_Image_e94017fec60c4d9b91bcfde15b5aa32d": {
+        "id": "AS_Image_e94017fec60c4d9b91bcfde15b5aa32d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_b4e75ef137074e18bbfb638b9f85fab3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try {\n  var navObj = new voltmx.mvc.Navigation(voltmx.application.getPreviousForm().id);\n  navObj.navigate();\n} catch (excp) {\n  voltmx.print(\"Exception occured while navigating to setting form: \" + JSON.stringify(excp));\n  alert(\"Exception occured while navigating to setting form: \" + JSON.stringify(excp));\n}\n",
+            "parentId": null
+        }]
+    }
+}

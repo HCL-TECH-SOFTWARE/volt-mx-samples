@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_height_": {
+        "type": "number",
+        "value": "50"
+    },
+    "_left_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s05beb09a57643efb07790e2e63c23f3",
+    "_text_": "Sign In",
+    "_top_": {
+        "type": "number",
+        "value": "40"
+    },
+    "_width_": {
+        "type": "number",
+        "value": "300"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "49.98%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "s1e1fd17083c4546b70b1da1116cf43c"
+        }
+    },
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s1dab6dee77743079740d5816184909f",
+    "id": "btnSignin",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "u030e1d78c9445a0a54604d01f60f174",
+    "name": "kony.ui.Button",
+    "parent": "flxLoginForm",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "tooltip": "click to sign in",
+    "wType": "Button",
+    "zindex": 1
+}

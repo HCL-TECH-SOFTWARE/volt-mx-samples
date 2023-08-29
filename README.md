@@ -33,4 +33,5 @@ The repository contains the following applications:</br>
 30. Theme API
 31. Timer API
 32. Toast API
- 
+
+FirstTouch contains the Volt MX Go sample application "First Touch Recipe Catalog" and is built with Volt MX Go to demonstrate how a Volt MX application can connect back to a Domino application through the Domino Adapter and Domino REST APIs

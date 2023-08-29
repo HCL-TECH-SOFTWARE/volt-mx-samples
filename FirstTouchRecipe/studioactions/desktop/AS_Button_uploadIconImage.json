@@ -1,0 +1,25 @@
+{
+    "AS_Button_a5558053546f43239ea0de6d4d1cedde": {
+        "id": "AS_Button_a5558053546f43239ea0de6d4d1cedde",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_Button_uploadIconImage",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "name": "Main"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_j54a379b580c40f49113d3ccf93476f3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "getImageFile.call(this, self.view.MainContainer.MyAppsContainer.flxMyApps.AppDetail.imgIcon, \n  function callback(base64Encoded){\n    if(!(base64Encoded === undefined || base64Encoded === \"\")){\n      self.view.MainContainer.MyAppsContainer.flxMyApps.AppDetail.txtIconPath.text=\"\";\n      self.view.MainContainer.MyAppsContainer.flxMyApps.AppDetail.imgIcon.setVisibility(true);\n    } else {\n      self.view.MainContainer.MyAppsContainer.flxMyApps.AppDetail.imgIcon.setVisibility(false);\n    }\n});\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

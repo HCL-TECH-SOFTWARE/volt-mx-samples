@@ -1,0 +1,135 @@
+{
+    "AS_Form_b8c68787cd6c4cc0a8e2664abd5954bb": {
+        "id": "AS_Form_b8c68787cd6c4cc0a8e2664abd5954bb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Main",
+            "type": "forms",
+            "platform": null,
+            "KUID": "gea46f2f54dc472db963e9037f498f64"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_b0d14fd496a14d4b8ed848a7e1688253",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try{\n  username = userProfile.userid;\n}catch(e){\n  username = \"\";\n}",
+            "callbackType": null
+        }, {
+            "id": "INVOKE_OBJECT_SERVICE_ide_preShow_i01b5014d52745e6a4b3c8addde21fe8",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": {
+                "$filter": "\"((SoftDeleteFlag ne true) or (SoftDeleteFlag eq null)) and (userid eq \" + username + \")\""
+            },
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "JACenter",
+                "type": "objectsvcs",
+                "objectname": "userpreference",
+                "serviceid": "a9cb73d6-bc2b-40d9-a299-622902d5636f",
+                "methodname": "get"
+            },
+            "enableMappingEditor": true
+        }, {
+            "id": "IF_CONDITION_ide_preShow_e917944ab8c649ca85f07ea3d318e8bc",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "value",
+                "leftValue": "userpreference.httpStatusCode",
+                "operator": "===",
+                "rightValueType": "value",
+                "rightValue": "401"
+            }],
+            "parentId": "INVOKE_OBJECT_SERVICE_ide_preShow_i01b5014d52745e6a4b3c8addde21fe8",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_preShow_h3461b21cea54581a5e10b6235b26367",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Login",
+            "formKUID": "jdba920200114b05b39c066b05b8d50a",
+            "projectName": "FirstTouchRecipe",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "IF_CONDITION_ide_preShow_e917944ab8c649ca85f07ea3d318e8bc",
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }, {
+            "id": "ELSE_CONDITION_ide_preShow_i7865c46821a4c2dad9576807b7f2a56",
+            "type": "ELSE_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "",
+                "operator": "===",
+                "rightValueType": "widgetprop",
+                "rightValue": ""
+            }],
+            "parentId": "INVOKE_OBJECT_SERVICE_ide_preShow_i01b5014d52745e6a4b3c8addde21fe8",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "INVOKE_FUNCTION__ide_preShow_j4fe01219bc84fb5b6b1799546845b4c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getUserPreference",
+            "display": "getUserPreference",
+            "inputparams": [{
+                "name": "data",
+                "value": "userpreference"
+            }],
+            "parentId": "ELSE_CONDITION_ide_preShow_i7865c46821a4c2dad9576807b7f2a56",
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_OBJECT_SERVICE_ide_preShow_cdb73e095bcf4a0cb44cc02a7db0b29f",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": {
+                "$filter": "\"((SoftDeleteFlag ne true) or (SoftDeleteFlag eq null)) and (owner eq \" + username + \")\""
+            },
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "JACenter",
+                "type": "objectsvcs",
+                "objectname": "application",
+                "serviceid": "a9cb73d6-bc2b-40d9-a299-622902d5636f",
+                "methodname": "get"
+            },
+            "parentId": "ELSE_CONDITION_ide_preShow_i7865c46821a4c2dad9576807b7f2a56",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }, {
+            "id": "INVOKE_FUNCTION__ide_preShow_c98527d79f784fa795eccfca02b864f7",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "showAppCards",
+            "display": "showAppCards",
+            "inputparams": [{
+                "name": "application",
+                "value": "application"
+            }],
+            "parentId": "INVOKE_OBJECT_SERVICE_ide_preShow_cdb73e095bcf4a0cb44cc02a7db0b29f",
+            "callbackType": "Callback",
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "ADD_SNIPPET_ide_preShow_a49991d06ee741f190fa95d5bb7d157b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "self.view.MainContainer.HeaderBar.userDisplayName.text = userProfile.displayname;",
+            "parentId": "ELSE_CONDITION_ide_preShow_i7865c46821a4c2dad9576807b7f2a56"
+        }]
+    }
+}

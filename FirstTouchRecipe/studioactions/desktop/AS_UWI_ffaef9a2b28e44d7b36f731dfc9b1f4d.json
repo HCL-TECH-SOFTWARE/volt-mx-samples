@@ -1,0 +1,16 @@
+{
+    "AS_UWI_ffaef9a2b28e44d7b36f731dfc9b1f4d": {
+        "id": "AS_UWI_ffaef9a2b28e44d7b36f731dfc9b1f4d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClickAboutBox_b528d397143c4248bc8bef90e2d932de",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.setVisibility(false);"
+        }]
+    }
+}

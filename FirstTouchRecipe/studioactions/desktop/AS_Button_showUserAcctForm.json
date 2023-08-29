@@ -1,0 +1,54 @@
+{
+    "AS_Button_cf67c2fc434e4069ad5e1978996ba0bc": {
+        "id": "AS_Button_cf67c2fc434e4069ad5e1978996ba0bc",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_Button_showUserAcctForm",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "name": "Main"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__af1c7c9e6c514895ba76692b009c963e",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Main",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "widgetKUID": "j90827cc3c9c4575a709c4f3d6ee5f0f",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null
+        }, {
+            "id": "INVOKE_FUNCTION__a1c66b8a1ebb4cab9802c8929697c71f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "displayUserAccount",
+            "display": "displayUserAccount",
+            "inputparams": [],
+            "parentId": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__ffbbf32e0390472287efb43aedc08843",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Main",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "widgetKUID": "i0e5e20e99e943e79e0e15d801bb05cc",
+            "isSkinProperty": false,
+            "wType": "UserWidgetInstance",
+            "forkedPlatform": "all",
+            "parentId": null
+        }]
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "82dp"
+    },
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_skin_": "s7fce8c8b3a04eeab2415a03edc5cfe4",
+    "_text_": "Are you sure you want to delete this recipe?",
+    "_top_": {
+        "type": "string",
+        "value": "73dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "richTextMsg",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b0d63c28f7d34a038a6a6c0e0a97477b",
+    "linkskin": "sab9f71767c741c7ac208a24f264b631",
+    "name": "kony.ui.RichText",
+    "parent": "Popup",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5
+}

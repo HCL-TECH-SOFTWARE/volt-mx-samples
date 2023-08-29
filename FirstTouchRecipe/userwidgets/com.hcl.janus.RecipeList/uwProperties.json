@@ -1,0 +1,123 @@
+{
+    "classname": "RecipeList",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c8758999c7154df6b96538832199334a",
+                    "paramList": [
+                        {
+                            "name": "response"
+                        }
+                    ],
+                    "propertyKey": "showRecipeList",
+                    "pw": {
+                        "displayName": "showRecipeList",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "h0831dda54e9401bbafbf4be62c60db4",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "i9744153414a4b6ba05624a9637edf9b",
+                    "paramList": [
+                        {
+                            "name": "searchText"
+                        }
+                    ],
+                    "propertyKey": "searchRecipeList",
+                    "pw": {
+                        "displayName": "searchRecipeList",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "h0831dda54e9401bbafbf4be62c60db4",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c814e64cec194eed99167da90194f5ea",
+                    "originalPropertyKey": "removeAll",
+                    "propertyKey": "segRecipeRemoveAll",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "segRecipeRemoveAll",
+                        "srcWidget": "segRecipeList",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "cebc40dda1e7422e86b2b560399760a5",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ad2d898bb5a14271b545ae9acbe31059",
+                    "paramList": [
+                        {
+                            "name": "record"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onDeleteClick",
+                    "pw": {
+                        "displayName": "onDeleteClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "h0831dda54e9401bbafbf4be62c60db4",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c59f1a523e59473390da97744db570cb",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "lblSuggestedText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblSuggestedText",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblSuggested",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a0d85ce9053e4676aa769269cec3529d"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.janus",
+    "version": "1.0.0"
+}

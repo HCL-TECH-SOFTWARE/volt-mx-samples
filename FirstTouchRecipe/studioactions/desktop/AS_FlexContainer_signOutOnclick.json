@@ -1,0 +1,94 @@
+{
+    "AS_FlexContainer_a7d6d74471ee4a5995918e2d95235802": {
+        "id": "AS_FlexContainer_a7d6d74471ee4a5995918e2d95235802",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_FlexContainer_signOutOnclick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "name": "Main"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SHOW_ALERT_ic8af79a18c6453ab2390ce14b803301",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_ERROR",
+            "alertTitle": "Sign  Out",
+            "alertMessage": "An error occured during the sign out process.",
+            "messageType": "constant",
+            "parentId": "INVOKE_SERVICE_g8f57a0f09f84736916fa35cd3425234",
+            "callbackType": "Failure",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__c465986cf0f8448cb0b9faf3b57e3eee",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Main",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "widgetKUID": "j90827cc3c9c4575a709c4f3d6ee5f0f",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": "INVOKE_SERVICE_g8f57a0f09f84736916fa35cd3425234",
+            "callbackType": "Success"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__i08dbf3947a14d8094fbec1b6656c566",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Main",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "widgetKUID": "a0d70569514548dc9c9527983ba81add",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": "INVOKE_SERVICE_g8f57a0f09f84736916fa35cd3425234",
+            "callbackType": "Success"
+        }, {
+            "id": "ADD_SNIPPET_g703e7bf39224590920ea65bcd978692",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "userProfile=undefined;\nself.view.MainContainer.CardsContainer.removeAll();",
+            "parentId": "INVOKE_SERVICE_g8f57a0f09f84736916fa35cd3425234",
+            "callbackType": "Success"
+        }, {
+            "id": "NAVIGATE_TO_FORM__a2d966e1448f42768837cc21a79be9fb",
+            "type": "NAVIGATE_TO_FORM",
+            "formKUID": "j1888feb78bd49c5944c0e2be5412c94",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "INVOKE_SERVICE_g8f57a0f09f84736916fa35cd3425234",
+            "callbackType": "Success",
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }, {
+            "id": "INVOKE_SERVICE_g8f57a0f09f84736916fa35cd3425234",
+            "type": "INVOKE_IDENTITY_SERVICE",
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "operationname": "logout",
+                "servicename": "UserAuthentication",
+                "type": "identity",
+                "isDeepLinkRequired": false,
+                "login_type": "basic"
+            },
+            "enableMappingEditor": true,
+            "useDeviceBrowser": false,
+            "isDeepLinkRequired": false
+        }]
+    }
+}

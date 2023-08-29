@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Configuration>
+  <Targets>
+    <Target path="../templates"></Target>
+    <Target path="../forms"></Target>
+    <Target path="../userwidgets">
+      <Include></Include>
+    </Target>
+    <Target path="../studioactons">
+      <Include></Include>
+    </Target>
+  </Targets>
+</Configuration>

@@ -1,0 +1,47 @@
+{
+    "AS_Button_f2905766784d44ef9f4e47c28c1fc31d": {
+        "id": "AS_Button_f2905766784d44ef9f4e47c28c1fc31d",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_Button_showUserAccountTab",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Main",
+            "type": "forms",
+            "platform": null,
+            "KUID": "gea46f2f54dc472db963e9037f498f64"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__fb315c7fb0aa4b39b7942b240152051c",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Main",
+            "widgetId": "flxUserMenuContainer",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "gea46f2f54dc472db963e9037f498f64",
+            "widgetKUID": "f5d21fa9759a4b5da8f664104593f63c",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "widgetPath": "this.view.HeaderBar.flxUserMenuContainer"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__g17b20fc117c4eddab92e6c2ddd54e3a",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Main",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "gea46f2f54dc472db963e9037f498f64",
+            "widgetKUID": "e4e02b500325411bb5f6ecc75f736c07",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null
+        }]
+    }
+}

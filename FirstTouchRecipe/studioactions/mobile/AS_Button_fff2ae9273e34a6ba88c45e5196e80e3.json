@@ -1,0 +1,28 @@
+{
+    "AS_Button_fff2ae9273e34a6ba88c45e5196e80e3": {
+        "id": "AS_Button_fff2ae9273e34a6ba88c45e5196e80e3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Login",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b9f16d7e8fa840eb82bb850328e6e00d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__cc10459cc0184731b67771e85a8ebd38",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "profilePicture",
+            "display": "profilePicture",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

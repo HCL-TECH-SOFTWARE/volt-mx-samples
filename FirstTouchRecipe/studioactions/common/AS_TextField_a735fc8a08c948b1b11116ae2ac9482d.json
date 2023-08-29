@@ -1,0 +1,30 @@
+{
+    "AS_TextField_a735fc8a08c948b1b11116ae2ac9482d": {
+        "id": "AS_TextField_a735fc8a08c948b1b11116ae2ac9482d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "geffd01e81f644288b77f80aadaa1cdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__eb5fbac9948c437f971dd54163910d1d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onPrepTimeChanged",
+            "display": "onPrepTimeChanged",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

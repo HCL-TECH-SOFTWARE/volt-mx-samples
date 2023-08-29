@@ -1,0 +1,273 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_bounces_": false,
+    "_data_": [
+        {
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DELETE"
+            },
+            "btnEdit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "EDIT"
+            },
+            "imgRecipe": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblCookTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Cook Time"
+            },
+            "lblCookTimeVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "14 min"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Paleo Broccoli Salad"
+            },
+            "lblPrepTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Prep Time"
+            },
+            "lblPrepTimeVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "52 min"
+            }
+        },
+        {
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DELETE"
+            },
+            "btnEdit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "EDIT"
+            },
+            "imgRecipe": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblCookTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Cook Time"
+            },
+            "lblCookTimeVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "14 min"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Paleo Broccoli Salad"
+            },
+            "lblPrepTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Prep Time"
+            },
+            "lblPrepTimeVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "52 min"
+            }
+        },
+        {
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DELETE"
+            },
+            "btnEdit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "EDIT"
+            },
+            "imgRecipe": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblCookTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Cook Time"
+            },
+            "lblCookTimeVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "14 min"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Paleo Broccoli Salad"
+            },
+            "lblPrepTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Prep Time"
+            },
+            "lblPrepTimeVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "52 min"
+            }
+        },
+        {
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DELETE"
+            },
+            "btnEdit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "EDIT"
+            },
+            "imgRecipe": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblCookTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Cook Time"
+            },
+            "lblCookTimeVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "14 min"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Paleo Broccoli Salad"
+            },
+            "lblPrepTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Prep Time"
+            },
+            "lblPrepTimeVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "52 min"
+            }
+        },
+        {
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DELETE"
+            },
+            "btnEdit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "EDIT"
+            },
+            "imgRecipe": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblCookTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Cook Time"
+            },
+            "lblCookTimeVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "14 min"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Paleo Broccoli Salad"
+            },
+            "lblPrepTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Prep Time"
+            },
+            "lblPrepTimeVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "52 min"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segIngredients",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e890d0b5a13b42328d2fd25775476c11",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {}
+        ],
+        "rowTemplateId": null,
+        "rowtemplate": null,
+        "widgetdatamap": {}
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxDetails",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 0,
+    "rowfocusskin": "s9592b7f9e874f9cb1210bc859552ad1",
+    "rowskin": "s216602989b04fba870ff15c70b92111",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s5d1406decb74b009bedf7c030a5cd44",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {},
+    "zindex": 1
+}

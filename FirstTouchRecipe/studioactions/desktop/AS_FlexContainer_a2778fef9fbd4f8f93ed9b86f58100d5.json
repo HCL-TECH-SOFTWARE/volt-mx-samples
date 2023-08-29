@@ -1,0 +1,21 @@
+{
+    "AS_FlexContainer_a2778fef9fbd4f8f93ed9b86f58100d5": {
+        "id": "AS_FlexContainer_a2778fef9fbd4f8f93ed9b86f58100d5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "IngredientRowTpl",
+            "type": "templates",
+            "platform": "",
+            "KUID": "e33f3963e153416e9cb4224cdc724cc6"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

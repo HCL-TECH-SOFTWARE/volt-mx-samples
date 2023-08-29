@@ -1,0 +1,61 @@
+{
+    "AS_Form_c3f55a0455654b8b9f2db548170d3ff9": {
+        "id": "AS_Form_c3f55a0455654b8b9f2db548170d3ff9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "name": "Main"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "_jb2b704766ed4d0892705b88fb8e06d9",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "value",
+                "leftValue": "userpreference.httpStatusCode",
+                "operator": "===",
+                "rightValueType": "value",
+                "rightValue": "401"
+            }],
+            "parentId": "INVOKE_SERVICE_ca1e8a46893240a9bf876d059015da82",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "NAVIGATE_TO_FORM__i68d06045e8c44f3933a5b74fe22b757",
+            "type": "NAVIGATE_TO_FORM",
+            "formKUID": "dc637697bb6341bbaa4f081fc72d8139",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "INVOKE_SERVICE_ca1e8a46893240a9bf876d059015da82",
+            "callbackType": "Callback",
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }, {
+            "id": "INVOKE_SERVICE_ca1e8a46893240a9bf876d059015da82",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "JACenter",
+                "type": "objectsvcs",
+                "objectname": "userpreference",
+                "serviceid": "a9cb73d6-bc2b-40d9-a299-622902d5636f",
+                "methodname": "get"
+            },
+            "enableMappingEditor": true
+        }]
+    }
+}

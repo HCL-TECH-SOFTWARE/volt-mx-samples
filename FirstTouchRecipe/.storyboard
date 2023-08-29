@@ -1,0 +1,74 @@
+{
+    "models": {
+        "desktop": {
+            "1366": {
+                "class": "GraphLinksModel",
+                "linkDataArray": [],
+                "nodeDataArray": [
+                    {
+                        "formKUID": "j1888feb78bd49c5944c0e2be5412c94",
+                        "formName": "Login",
+                        "isStartupForm": false,
+                        "key": "j1888feb78bd49c5944c0e2be5412c94",
+                        "loc": "318 304.845263671875",
+                        "thumbnailURL": "/assets/FirstTouchRecipe/forms/desktop/Login.sm/.thumbs/1366.jpeg"
+                    },
+                    {
+                        "formKUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+                        "formName": "Main",
+                        "isStartupForm": false,
+                        "key": "a2a43a5456e5482b9a0a429b5e4184f4",
+                        "loc": "8 24.845263671875003",
+                        "thumbnailURL": "/assets/FirstTouchRecipe/forms/desktop/Main.sm/.thumbs/1366.jpeg"
+                    },
+                    {
+                        "formKUID": "fbb4068f20814d13b282897e6e591076",
+                        "formName": "OAuthLogin",
+                        "isStartupForm": true,
+                        "key": "fbb4068f20814d13b282897e6e591076",
+                        "loc": "8 524.8452636718749",
+                        "thumbnailURL": null
+                    }
+                ]
+            }
+        },
+        "mobile": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [],
+            "nodeDataArray": [
+                {
+                    "formKUID": "a74f985d9d904614875bd98cc2dcf7c8",
+                    "formName": "frmRecipeDetails",
+                    "isStartupForm": false,
+                    "key": "a74f985d9d904614875bd98cc2dcf7c8",
+                    "loc": "8 24.845263671875003",
+                    "thumbnailURL": "/assets/FirstTouchRecipe/forms/mobile/AppGroup/frmRecipeDetails.sm/.thumbs/default.jpeg"
+                },
+                {
+                    "formKUID": "f462f431b8384d00b80946c036df65dd",
+                    "formName": "frmRecipeForm",
+                    "isStartupForm": false,
+                    "key": "f462f431b8384d00b80946c036df65dd",
+                    "loc": "8 624.845263671875",
+                    "thumbnailURL": "/assets/FirstTouchRecipe/forms/mobile/AppGroup/frmRecipeForm.sm/.thumbs/default.jpeg"
+                },
+                {
+                    "formKUID": "d5bf06484fee495983713a089c0b9df4",
+                    "formName": "frmViewRecipes",
+                    "isStartupForm": false,
+                    "key": "d5bf06484fee495983713a089c0b9df4",
+                    "loc": "8 1224.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "e52c5575322347fdb3f7482d89ad3db8",
+                    "formName": "OAuthLogin",
+                    "isStartupForm": true,
+                    "key": "e52c5575322347fdb3f7482d89ad3db8",
+                    "loc": "8 1824.845263671875",
+                    "thumbnailURL": null
+                }
+            ]
+        }
+    }
+}

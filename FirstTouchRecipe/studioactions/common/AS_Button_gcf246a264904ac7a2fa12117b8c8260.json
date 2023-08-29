@@ -1,0 +1,32 @@
+{
+    "AS_Button_gcf246a264904ac7a2fa12117b8c8260": {
+        "id": "AS_Button_gcf246a264904ac7a2fa12117b8c8260",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "uad7d145dd9f4fa7964c2e2c87aaf8b2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_SERVICE_bd12e281377e4179a4b25da4fa3f79ca",
+            "type": "INVOKE_IDENTITY_SERVICE",
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "operationname": "logout",
+                "servicename": "UserAuthentication",
+                "type": "identity",
+                "isDeepLinkRequired": false,
+                "login_type": "basic"
+            },
+            "enableMappingEditor": true,
+            "useDeviceBrowser": false,
+            "isDeepLinkRequired": false
+        }]
+    }
+}

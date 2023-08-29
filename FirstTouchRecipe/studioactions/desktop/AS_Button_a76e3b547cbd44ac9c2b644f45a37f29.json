@@ -1,0 +1,150 @@
+{
+    "AS_Button_a76e3b547cbd44ac9c2b644f45a37f29": {
+        "id": "AS_Button_a76e3b547cbd44ac9c2b644f45a37f29",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "d23714db795d4bdba11543e4a4679f59"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_IDENTITY_SERVICE_ide_onClick_f5d534b107914072bc2a19f434c1326e",
+            "type": "INVOKE_IDENTITY_SERVICE",
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "isDeepLinkRequired": false,
+                "login_type": "basic",
+                "operationname": "login",
+                "servicename": "UserAuthentication",
+                "type": "identity"
+            },
+            "enableMappingEditor": true,
+            "useDeviceBrowser": false,
+            "isDeepLinkRequired": false
+        }, {
+            "id": "SHOW_ALERT_ide_onClick_bca781e548c64a1ea8fc3553262116fd",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_ERROR",
+            "alertMessage": "Login failed!  Invalid username or password.",
+            "messageType": "constant",
+            "parentId": "INVOKE_IDENTITY_SERVICE_ide_onClick_f5d534b107914072bc2a19f434c1326e",
+            "callbackType": "Failure",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }, {
+            "id": "ADD_SNIPPET_ide_onClick_a3f390489658480e9421969f04ceb19a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "username = self.view.LoginForm.tbxUsername.text;",
+            "parentId": "INVOKE_IDENTITY_SERVICE_ide_onClick_f5d534b107914072bc2a19f434c1326e",
+            "callbackType": "Success"
+        }, {
+            "id": "INVOKE_OBJECT_SERVICE_ide_onClick_ee1177afb461437fa409e3364f5ace5b",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": {
+                "$filter": "\"((SoftDeleteFlag ne true) or (SoftDeleteFlag eq null)) and (userid eq \" + username + \")\""
+            },
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "JACenter",
+                "type": "objectsvcs",
+                "objectname": "user",
+                "serviceid": "62d37a00-c0b2-49dd-8817-47c70016193a",
+                "methodname": "get"
+            },
+            "parentId": "INVOKE_IDENTITY_SERVICE_ide_onClick_f5d534b107914072bc2a19f434c1326e",
+            "callbackType": "Success",
+            "enableMappingEditor": true
+        }, {
+            "id": "ADD_LOCAL_VARIABLE_ide_onClick_jcc23d0aae704def8b9011b746c9791f",
+            "type": "ADD_LOCAL_VARIABLE",
+            "name": "errorFlag",
+            "isGlobal": true,
+            "valuetype": "simple",
+            "datatype": "boolean",
+            "value": "false",
+            "parentId": "INVOKE_OBJECT_SERVICE_ide_onClick_ee1177afb461437fa409e3364f5ace5b",
+            "callbackType": "Callback"
+        }, {
+            "id": "INVOKE_FUNCTION__ide_onClick_f3e132384c8949e58f6e6c1736d61cde",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getUserRecord",
+            "display": "getUserRecord",
+            "inputparams": [{
+                "name": "data",
+                "value": "user"
+            }],
+            "parentId": "INVOKE_OBJECT_SERVICE_ide_onClick_ee1177afb461437fa409e3364f5ace5b",
+            "callbackType": "Callback",
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "IF_CONDITION_ide_onClick_ba9afd006d874de194ec1d9b67cb550f",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "varvalue",
+                "leftValue": "errorFlag",
+                "operator": "===",
+                "rightValueType": "value",
+                "rightValue": "false"
+            }],
+            "parentId": "INVOKE_OBJECT_SERVICE_ide_onClick_ee1177afb461437fa409e3364f5ace5b",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_h01c95cb38ff47a6964383cf94c6d23b",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Main",
+            "formKUID": "a2a43a5456e5482b9a0a429b5e4184f4",
+            "projectName": "FirstTouchRecipe",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "IF_CONDITION_ide_onClick_ba9afd006d874de194ec1d9b67cb550f",
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }, {
+            "id": "ELSE_CONDITION_ide_onClick_daa9240db5414536aaa28d3e29393234",
+            "type": "ELSE_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "",
+                "operator": "===",
+                "rightValueType": "widgetprop",
+                "rightValue": ""
+            }],
+            "parentId": "INVOKE_OBJECT_SERVICE_ide_onClick_ee1177afb461437fa409e3364f5ace5b",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "INVOKE_FUNCTION__ide_onClick_g1c6af5a3f4f44daa8da9ab15db4942b",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "clearLoginForm",
+            "display": "clearLoginForm",
+            "inputparams": [],
+            "parentId": "ELSE_CONDITION_ide_onClick_daa9240db5414536aaa28d3e29393234",
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "EXIT_APP_ide_onClick_i5dc2437635e4aec890edc5c1fe1b01c",
+            "type": "EXIT_APP",
+            "parentId": "INVOKE_OBJECT_SERVICE_ide_onClick_ee1177afb461437fa409e3364f5ace5b",
+            "callbackType": "Callback"
+        }]
+    }
+}

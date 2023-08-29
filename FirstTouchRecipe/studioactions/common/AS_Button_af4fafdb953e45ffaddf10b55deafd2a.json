@@ -1,0 +1,42 @@
+{
+    "AS_Button_af4fafdb953e45ffaddf10b55deafd2a": {
+        "id": "AS_Button_af4fafdb953e45ffaddf10b55deafd2a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_OBJECT_SERVICE_ide_onClick_e61ef9053e42415eb2822ff7e704f9ab",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "JACenter",
+                "type": "objectsvcs",
+                "objectname": "signuprequest",
+                "serviceid": "62d37a00-c0b2-49dd-8817-47c70016193a",
+                "methodname": "create"
+            },
+            "callbackType": null,
+            "enableMappingEditor": true
+        }, {
+            "id": "INVOKE_FUNCTION__ide_onClick_cda47fb35cf642dc8204f42a5cdaea6f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "registerCallback",
+            "display": "registerCallback",
+            "inputparams": [],
+            "parentId": "INVOKE_OBJECT_SERVICE_ide_onClick_e61ef9053e42415eb2822ff7e704f9ab",
+            "callbackType": "Callback",
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

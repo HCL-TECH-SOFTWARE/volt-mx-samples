@@ -1,0 +1,79 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8f3a57f6da340c1bdcf428429f10b8a",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 0,
+    "data": {
+        "contentMarginLeft": {
+            "Default": {
+                "type": "string",
+                "value": "0%"
+            }
+        },
+        "contentMarginRight": {
+            "Default": {
+                "type": "string",
+                "value": "0%"
+            }
+        },
+        "contentMarginTop": {
+            "Default": {
+                "type": "string",
+                "value": "0dp"
+            }
+        },
+        "isActionbarVisible": false,
+        "isHeaderVisible": false
+    },
+    "id": "RecipeForm",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j877df1790314097809013382b725f1c",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxScrollRecipeForm",
+    "pf": "frmRecipeForm",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "cf1c34e350cc466686a5ee9fac06cd26",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}
