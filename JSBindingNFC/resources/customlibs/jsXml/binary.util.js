@@ -1,0 +1,12 @@
+var binary.util={};
+binary.util.renameFile= function(tempFilePath,filePath){};
+binary.util.saveBase64File= function(fileName,base64){};
+binary.util.decodeBase64File= function(base64FilePath){};
+binary.util.getBase64FromFile= function(filePath){};
+binary.util.deleteBlobFile= function(base64FilePath){};
+binary.util.getBase64FromFiles= function(filePaths){};
+binary.util.deleteAllBinaryFiles= function(){};
+binary.util.createBlobsDir= function(){};
+binary.util.notifyToPrepareJobs= function(){};
+binary.util.notifyToProcessJobs= function(){};
+binary.util.binaryThreadInit= function(prepareJobs,getPrepareJobs,succCallback,errCallback){};

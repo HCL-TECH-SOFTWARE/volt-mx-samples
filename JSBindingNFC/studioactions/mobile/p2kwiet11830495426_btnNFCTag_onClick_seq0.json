@@ -1,0 +1,18 @@
+{
+    "p2kwiet11830495426_btnNFCTag_onClick_seq0": {
+        "id": "p2kwiet11830495426_btnNFCTag_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_3827911830495424650",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "OnCreated",
+            "display": "OnCreated",
+            "source": "module"
+        }]
+    }
+}

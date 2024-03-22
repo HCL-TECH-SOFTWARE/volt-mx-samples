@@ -1,0 +1,18 @@
+{
+    "p2kwiet11830495426_btnNFCURL_onClick_seq0": {
+        "id": "p2kwiet11830495426_btnNFCURL_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_5357311830495427041",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "ValidateNFCUri",
+            "display": "ValidateNFCUri",
+            "source": "module"
+        }]
+    }
+}

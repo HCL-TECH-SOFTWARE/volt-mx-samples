@@ -1,0 +1,18 @@
+{
+    "p2kwiet11830495426_btnNFCText_onClick_seq0": {
+        "id": "p2kwiet11830495426_btnNFCText_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_4765811830495423067",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "ValidateNFCText",
+            "display": "ValidateNFCText",
+            "source": "module"
+        }]
+    }
+}

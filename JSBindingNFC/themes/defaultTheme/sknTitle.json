@@ -1,0 +1,98 @@
+{
+    "android": {
+        "blockedimgURL": "",
+        "font_name": "Default",
+        "isForked": false
+    },
+    "applicableblockedUIWidget": "Button",
+    "background_color": "00a5d9ff",
+    "background_style": "vg",
+    "bg_type": "one",
+    "blockedimgURL": "",
+    "border_color": "424242ff",
+    "border_radius": 0,
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "bottom_left_border_color": "000000ff",
+    "bottom_left_border_radius": 10,
+    "bottom_left_border_width": 0,
+    "bottom_right_border_color": "000000ff",
+    "bottom_right_border_radius": 10,
+    "bottom_right_border_width": 0,
+    "font_color": "ffffffff",
+    "font_size": 150,
+    "font_style": "normal",
+    "font_weight": "normal",
+    "gridLineColor": "0000000",
+    "id": "sknTitle",
+    "ipad": {
+        "blockedimgURL": "",
+        "font_name": "Helvetica",
+        "isForked": false
+    },
+    "iphone": {
+        "blockedimgURL": "",
+        "font_name": "Helvetica",
+        "isForked": false
+    },
+    "isForked": false,
+    "kuid": "s043220fa10044d08abb79f8294ef384",
+    "shadow": {
+        "br": 0,
+        "color": "000000",
+        "inner": false,
+        "x": 0,
+        "y": 0
+    },
+    "spaan": {
+        "blockedimgURL": "",
+        "font_name": "Helvetica",
+        "isForked": false
+    },
+    "spabb": {
+        "blockedimgURL": "",
+        "font_name": "Helvetica",
+        "isForked": false
+    },
+    "spaip": {
+        "blockedimgURL": "",
+        "font_name": "Helvetica",
+        "isForked": false
+    },
+    "spawindowstablet": {
+        "blockedimgURL": "",
+        "font_name": "Helvetica",
+        "isForked": false
+    },
+    "tabrcandroid": {
+        "blockedimgURL": "",
+        "font_name": "Helvetica",
+        "isForked": false
+    },
+    "text_shadow": {
+        "br": 0,
+        "color": "000000",
+        "x": 0,
+        "y": 0
+    },
+    "top_left_border_color": "000000ff",
+    "top_left_border_radius": 10,
+    "top_left_border_width": 0,
+    "top_right_border_color": "000000ff",
+    "top_right_border_radius": 10,
+    "top_right_border_width": 0,
+    "use_native": "false",
+    "vizChannel": "default",
+    "wType": "Label",
+    "windows8": {
+        "blockedimgURL": "",
+        "font_name": "GenericMonospace",
+        "isForked": false
+    },
+    "winphone8": {
+        "blockedimgURL": "",
+        "font_name": "GenericMonospace",
+        "isForked": false
+    }
+}

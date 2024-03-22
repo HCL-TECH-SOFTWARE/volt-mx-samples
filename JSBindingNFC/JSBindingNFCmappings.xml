@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application id="JSBindingNFC" name="JSBindingNFC">
+    <container isflex="false" displayname="Form" id="frmHome" type="form"/>
+    <globalsequences/>
+    <skins/>
+</application>

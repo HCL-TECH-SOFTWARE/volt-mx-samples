@@ -1,0 +1,16 @@
+{
+    "p2kwiet11830495426_frmHome_postshow_seq0": {
+        "id": "p2kwiet11830495426_frmHome_postshow_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_postshow_3592411830495424747",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "adapter = NfcAdapter.getDefaultAdapter(context1);\n if (adapter == null){\n alert(\"NFC Not Supported in this Device\");\n }\n else{ \n if (!adapter.isEnabled()){\n alert(\"Please enable NFC\");\n var intent = new Intent(Settings.ACTION_NFC_SETTINGS);\n context1.startActivity(intent);\n }\n }"
+        }]
+    }
+}

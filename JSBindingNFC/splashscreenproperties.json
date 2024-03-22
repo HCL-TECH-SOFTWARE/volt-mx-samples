@@ -1,0 +1,72 @@
+{
+    "splashScreen": {
+        "desktop": {
+            "desktopweb": {
+                "backgroundColor": "ffffff"
+            },
+            "kiosk": {}
+        },
+        "mobile": {
+            "android": {
+                "animationDuration": 10,
+                "backgroundColor": "ffffff",
+                "showLoadingIndicator": true,
+                "videoInterruptible": false
+            },
+            "iphone": {
+                "animationDuration": 10,
+                "showLoadingIndicator": true,
+                "splashConfig": {
+                    "_skin_": "sc2b1178451847be896d5b49995a392b",
+                    "children": []
+                },
+                "videoInterruptible": false
+            },
+            "spa": {
+                "backgroundColor": "ffffff"
+            },
+            "spaan": {},
+            "spaip": {},
+            "spawinphone8": {},
+            "winphone8": {
+                "showLoadingIndicator": true
+            }
+        },
+        "tablet": {
+            "android": {
+                "animationDuration": 10,
+                "backgroundColor": "ffffff",
+                "showLoadingIndicator": true,
+                "videoInterruptible": false
+            },
+            "ipad": {
+                "animationDuration": 10,
+                "landscape": {
+                    "animationDuration": 10,
+                    "videoInterruptible": false
+                },
+                "showLoadingIndicator": true,
+                "splashConfig": {
+                    "_skin_": "sc2b1178451847be896d5b49995a392b",
+                    "children": []
+                },
+                "videoInterruptible": false
+            },
+            "spa": {
+                "backgroundColor": "ffffff"
+            },
+            "spaandroidtablet": {},
+            "spaipad": {},
+            "spawindowstablet": {},
+            "windows10": {
+                "backgroundColor": "ffffff",
+                "foregroundColor": "ffffff"
+            },
+            "windows8": {
+                "backgroundColor": "ffffff",
+                "foregroundColor": "ffffff",
+                "showLoadingIndicator": true
+            }
+        }
+    }
+}

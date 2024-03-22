@@ -1,0 +1,68 @@
+{
+    "NativeFunctionAPI": {
+        "iOS": {
+            "14.3": {
+                "Kony_FileStorage-iOS-14.3": {
+                    "title": "Kony_FileStorage",
+                    "platform": "iOS",
+                    "os": "14.3",
+                    "isDefault": true,
+                    "filepath": "JSBindingNFC/nativebindings/iOS/14.3/Kony_FileStorage-iOS-14.3.zip",
+                    "nfiversion": "3.0",
+                    "enable": true
+                },
+                "Kony_SDKCommons-iOS-14.3": {
+                    "title": "Kony_SDKCommons",
+                    "platform": "iOS",
+                    "os": "14.3",
+                    "isDefault": true,
+                    "filepath": "JSBindingNFC/nativebindings/iOS/14.3/Kony_SDKCommons-iOS-14.3.zip",
+                    "nfiversion": "3.0",
+                    "enable": true
+                },
+                "Kony_SyncV2-iOS-14.3": {
+                    "title": "Kony_SyncV2",
+                    "platform": "iOS",
+                    "os": "14.3",
+                    "isDefault": true,
+                    "filepath": "JSBindingNFC/nativebindings/iOS/14.3/Kony_SyncV2-iOS-14.3.zip",
+                    "nfiversion": "3.0",
+                    "enable": true
+                }
+            }
+        },
+        "Android": {
+            "4.0": {
+                "Kony_FileStorage-Android-4.0": {
+                    "title": "Kony_FileStorage",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": true,
+                    "filepath": "JSBindingNFC/nativebindings/Android/4.0/Kony_FileStorage-Android-4.0.zip",
+                    "enable": true
+                },
+                "Kony_SDKCommons-Android-4.0": {
+                    "title": "Kony_SDKCommons",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": true,
+                    "filepath": "JSBindingNFC/nativebindings/Android/4.0/Kony_SDKCommons-Android-4.0.zip",
+                    "enable": true
+                },
+                "Kony_SyncV2-Android-4.0": {
+                    "title": "Kony_SyncV2",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": true,
+                    "filepath": "JSBindingNFC/nativebindings/Android/4.0/Kony_SyncV2-Android-4.0.zip",
+                    "enable": true
+                }
+            }
+        }
+    },
+    "Metadata": {
+        "Version": {
+            "iOS": "3.0"
+        }
+    }
+}
