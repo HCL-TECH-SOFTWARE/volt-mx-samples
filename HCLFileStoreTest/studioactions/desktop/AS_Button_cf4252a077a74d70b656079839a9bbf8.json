@@ -1,0 +1,29 @@
+{
+    "AS_Button_cf4252a077a74d70b656079839a9bbf8": {
+        "id": "AS_Button_cf4252a077a74d70b656079839a9bbf8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFileStorage",
+            "type": "forms",
+            "platform": null,
+            "KUID": "aaa840dea4744d838a5c0a4f75acddf1"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__i76a39b0929140e693a69ef004ed5329",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onFSFileUpload",
+            "display": "onFSFileUpload",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

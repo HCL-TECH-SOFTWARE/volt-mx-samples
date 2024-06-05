@@ -1,0 +1,29 @@
+{
+    "AS_Button_e29eccfcf8a64a56911079f962b8119f": {
+        "id": "AS_Button_e29eccfcf8a64a56911079f962b8119f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFileStorage",
+            "type": "forms",
+            "platform": null,
+            "KUID": "aaa840dea4744d838a5c0a4f75acddf1"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__dde6bc32b827455d82f96c9c060eee41",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onDownloadFile",
+            "display": "onDownloadFile",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

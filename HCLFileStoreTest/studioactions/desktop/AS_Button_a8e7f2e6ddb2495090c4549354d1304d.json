@@ -1,0 +1,29 @@
+{
+    "AS_Button_a8e7f2e6ddb2495090c4549354d1304d": {
+        "id": "AS_Button_a8e7f2e6ddb2495090c4549354d1304d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFileStorage",
+            "type": "forms",
+            "platform": null,
+            "KUID": "aaa840dea4744d838a5c0a4f75acddf1"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__b024517ee9de4ba89822827233112163",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onListFiles",
+            "display": "onListFiles",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

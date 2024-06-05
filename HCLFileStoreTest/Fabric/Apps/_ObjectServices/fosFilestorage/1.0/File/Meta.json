@@ -1,0 +1,177 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "createBinary" : "createBinaryMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "getBinary" : "getBinaryMapping",
+    "partialupdate" : "partialupdateMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "backendMeta" : {
+      "backendObjectName" : "File",
+      "qualifiedName" : "File",
+      "metadataformatterobject" : "{\"entityName\":\"File\",\"displayName\":\"File\",\"description\":\"File\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "File",
+      "qualifiedName" : "File",
+      "metadataformatterobject" : "{\"entityName\":\"File\",\"displayName\":\"File\",\"description\":\"File\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "custom_field10",
+    "targetField" : "custom_field10",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "custom_field13",
+    "targetField" : "custom_field13",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "custom_field14",
+    "targetField" : "custom_field14",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "custom_field11",
+    "targetField" : "custom_field11",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "custom_field12",
+    "targetField" : "custom_field12",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "commit_properties",
+    "targetField" : "commit_properties",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "description",
+    "targetField" : "description",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "security_key",
+    "targetField" : "security_key",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createdby",
+    "targetField" : "createdby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "checksum",
+    "targetField" : "checksum",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "custom_field17",
+    "targetField" : "custom_field17",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "custom_field18",
+    "targetField" : "custom_field18",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "custom_field15",
+    "targetField" : "custom_field15",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "custom_field16",
+    "targetField" : "custom_field16",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "custom_field19",
+    "targetField" : "custom_field19",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "custom_field20",
+    "targetField" : "custom_field20",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "file_content",
+    "targetField" : "file_content",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "custom_field1",
+    "targetField" : "custom_field1",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "file_name",
+    "targetField" : "file_name",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "custom_field3",
+    "targetField" : "custom_field3",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "custom_field2",
+    "targetField" : "custom_field2",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "custom_field5",
+    "targetField" : "custom_field5",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "custom_field4",
+    "targetField" : "custom_field4",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "custom_field7",
+    "targetField" : "custom_field7",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "custom_field6",
+    "targetField" : "custom_field6",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "custom_field9",
+    "targetField" : "custom_field9",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "upload_template",
+    "targetField" : "upload_template",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "custom_field8",
+    "targetField" : "custom_field8",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "tags",
+    "targetField" : "tags",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "size",
+    "targetField" : "size",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "file_namespace",
+    "targetField" : "file_namespace",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "mime_type",
+    "targetField" : "mime_type",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "file_id",
+    "targetField" : "file_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "modifiedby",
+    "targetField" : "modifiedby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "download_template",
+    "targetField" : "download_template",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "relative_path",
+    "targetField" : "relative_path",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "status",
+    "targetField" : "status",
+    "type" : "request_response"
+  } ]
+}

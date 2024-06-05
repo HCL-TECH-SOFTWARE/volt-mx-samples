@@ -1,0 +1,29 @@
+{
+    "AS_Form_g58cdc33923541c79c47eb789ccddbea": {
+        "id": "AS_Form_g58cdc33923541c79c47eb789ccddbea",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFileStorage",
+            "type": "forms",
+            "platform": null,
+            "KUID": "aaa840dea4744d838a5c0a4f75acddf1"
+        },
+        "language": "js",
+        "eventType": "preShow",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__id3c052b007640e19321cc82903a68d1",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onPreShow",
+            "display": "onPreShow",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

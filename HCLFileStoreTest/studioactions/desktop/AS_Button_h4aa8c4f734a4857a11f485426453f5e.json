@@ -1,0 +1,21 @@
+{
+    "AS_Button_h4aa8c4f734a4857a11f485426453f5e": {
+        "id": "AS_Button_h4aa8c4f734a4857a11f485426453f5e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_a44569c2c9644f90902f5a283cdcaa9e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "deleteFileById",
+            "display": "deleteFileById",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

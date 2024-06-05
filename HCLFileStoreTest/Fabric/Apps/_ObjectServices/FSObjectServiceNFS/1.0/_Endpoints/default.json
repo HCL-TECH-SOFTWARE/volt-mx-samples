@@ -1,0 +1,14 @@
+{
+  "name" : "default",
+  "dataAdapterId" : "8",
+  "type" : "CustomDataAdapter",
+  "encryptSecureInfo" : false,
+  "config" : {
+    "authservicetype" : "IdentityProvider",
+    "expiryTimeinMillisecs" : null,
+    "serviceNamespace" : "FSObjectServiceNFS",
+    "advancedSettings" : null,
+    "binaryBackendType" : "NFS"
+  },
+  "jsonpath" : false
+}

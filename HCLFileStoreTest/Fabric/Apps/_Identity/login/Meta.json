@@ -1,0 +1,17 @@
+{
+  "name" : "login",
+  "displayName" : "login",
+  "type" : "userstore",
+  "version" : "1.0",
+  "metaPreference" : -1,
+  "config" : "{\"session_restrictions\":{\"session_restriction_type\":\"allow_any_number_of_sessions\"}}",
+  "policyConfig" : "{\"def_user_status\":\"pending\",\"max_login_fail\":5}",
+  "admissionPolicy" : "no_approval_needed",
+  "identityMeta" : {
+    "allow_sso" : false
+  },
+  "isIntegrityEnabled" : true,
+  "ssoenabled" : false,
+  "mapType" : "java.util.HashMap",
+  "empty" : true
+}

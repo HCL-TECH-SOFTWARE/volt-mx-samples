@@ -1,0 +1,16 @@
+{
+    "fosFilestorage_File": {
+        "servicename": "fosFilestorage",
+        "serviceid": "b0694817-d012-4c8c-b19f-a9322069e3fd",
+        "type": "objectsvcs",
+        "objectname": "File",
+        "objectid": "104650"
+    },
+    "FSObjectServiceNFS_File": {
+        "servicename": "FSObjectServiceNFS",
+        "serviceid": "aa31bd2c-8df6-4db5-9e11-d6fdfb761625",
+        "type": "objectsvcs",
+        "objectname": "File",
+        "objectid": "104632"
+    }
+}

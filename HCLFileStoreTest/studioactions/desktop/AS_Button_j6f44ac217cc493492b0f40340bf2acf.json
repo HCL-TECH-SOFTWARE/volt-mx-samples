@@ -1,0 +1,28 @@
+{
+    "AS_Button_j6f44ac217cc493492b0f40340bf2acf": {
+        "id": "AS_Button_j6f44ac217cc493492b0f40340bf2acf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b5beac0f67b747718487759f363fae7b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__f1fbf2c4779248ba853f9b40c680c1fa",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onFileUpload",
+            "display": "onFileUpload",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

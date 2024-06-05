@@ -1,0 +1,16 @@
+{
+  "subType" : "customapp",
+  "description" : "This app is created from Studio App HCLFileStoreTest.\r\n",
+  "version" : "1.0",
+  "objectSvcs" : [ {
+    "name" : "fosFilestorage",
+    "version" : "1.0",
+    "etag" : "696aa72a-1875-4799-bc18-b7a5b44243a0"
+  }, {
+    "name" : "FSObjectServiceNFS",
+    "version" : "1.0",
+    "etag" : "499fcb84-e2a3-4602-8ef3-684b3622feec"
+  } ],
+  "identity" : [ "login" ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

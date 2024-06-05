@@ -1,0 +1,746 @@
+<application id="sampleFileTest" name="sampleFileTest" ffixmlversion="2.0" language="js">
+	<jsnamespace namespace="KonyLogger" iphoneheaders="konyLogger.zip:KonyLogger/BaseLogPersister.h;KonyLogger/IPersistor.h;KonyLogger/FormatError.h;KonyLogger/ConslePersistorConfig.h;KonyLogger/PersistError.h;KonyLogger/IAccumulatorListener.h;KonyLogger/LogLevelConstants.h;KonyLogger/LoggerConstants.h;KonyLogger/LoggerConfig.h;KonyLogger/LoggerError.h;KonyLogger/NetworkService.h;KonyLogger/TimeZonePreferences.h;LoggerAbstraction.h;KonyLogger/LogListener.h;KonyLogger/KonyJSFacade.h;KonyLogger/KonyNativeFacade.h;KonyLogger/LogStatement.h;KonyLogger/FilePersistorConfig.h;KonyLogger/KonyLogger.h;KonyLogger/NetworkPersistorConfig.h" ipadheaders="konyLogger.zip:KonyLogger/BaseLogPersister.h;KonyLogger/IPersistor.h;KonyLogger/FormatError.h;KonyLogger/ConslePersistorConfig.h;KonyLogger/PersistError.h;KonyLogger/IAccumulatorListener.h;KonyLogger/LogLevelConstants.h;KonyLogger/LoggerConstants.h;KonyLogger/LoggerConfig.h;KonyLogger/LoggerError.h;KonyLogger/NetworkService.h;KonyLogger/TimeZonePreferences.h;LoggerAbstraction.h;KonyLogger/LogListener.h;KonyLogger/KonyJSFacade.h;KonyLogger/KonyNativeFacade.h;KonyLogger/LogStatement.h;KonyLogger/FilePersistorConfig.h;KonyLogger/KonyLogger.h;KonyLogger/NetworkPersistorConfig.h">
+		<jsclasses>
+			<jsclass name="InitializeLogger">
+				<classmappings>
+					<mapping platform="android" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" frameworks="" />
+					<mapping platform="tabrcandroid" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" frameworks="" />
+					<mapping platform="iphone" library="konyLogger.zip" namespace="" class="LoggerAbstraction" frameworks="" />
+					<mapping platform="ipad" library="konyLogger.zip" namespace="" class="LoggerAbstraction" frameworks="" />
+					<mapping platform="winphone10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" frameworks="" />
+					<mapping platform="windows10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" frameworks="" />
+				</classmappings>
+				<constructormethod returntype="Object">
+					<params>
+						<param name="loggerName" type="String"/>
+					</params>
+					<mappings>
+						<mapping platform="android" method="KonyJSFacade" constructor="true" static="true" >
+							<params>
+								<param type="java.lang.String"/>
+							</params>
+						</mapping>
+						<mapping platform="tabrcandroid" method="KonyJSFacade" constructor="true" static="true" >
+							<params>
+								<param type="java.lang.String"/>
+							</params>
+						</mapping>
+						<mapping platform="iphone" method="initWithLogger:" constructor="true" static="false" frameworks="" >
+							<params>
+								<param type="NSString"/>
+							</params>
+						</mapping>
+						<mapping platform="ipad" method="initWithLogger:" constructor="true" static="false" frameworks="" >
+							<params>
+								<param type="NSString"/>
+							</params>
+						</mapping>
+						<mapping platform="winphone10" method="KonyJSFacade" constructor="true" static="true" >
+							<params>
+								<param type="string"/>
+							</params>
+						</mapping>
+						<mapping platform="windows10" method="KonyJSFacade" constructor="true" static="true" >
+							<params>
+								<param type="string"/>
+							</params>
+						</mapping>
+					</mappings>
+				</constructormethod>
+				<instancemethods>
+					<instancemethod name="logTrace" returntype="void">
+						<params>
+							<param name="message" type="Object"/>
+						</params>
+						<mappings>
+							<mapping platform="android" static="false" method="logTrace" returntype="void"  >
+								<params>
+									<param type="java.util.Hashtable"/>
+								</params>
+							</mapping>
+							<mapping platform="tabrcandroid" static="false" method="logTrace" returntype="void"  >
+								<params>
+									<param type="java.util.Hashtable"/>
+								</params>
+							</mapping>
+							<mapping platform="iphone" static="false" method="logTrace:" returntype="void"  >
+								<params>
+									<param type="NSDictionary"/>
+								</params>
+							</mapping>
+							<mapping platform="ipad" static="false" method="logTrace:" returntype="void"  >
+								<params>
+									<param type="NSDictionary"/>
+								</params>
+							</mapping>
+							<mapping platform="winphone10" static="false" method="LogTrace" returntype="System.Void"  >
+								<params>
+									<param type="System.Collections.Generic.Dictionary&lt;System.Object,System.Object&gt;"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="LogTrace" returntype="System.Void"  >
+								<params>
+									<param type="System.Collections.Generic.Dictionary&lt;System.Object,System.Object&gt;"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>
+					<instancemethod name="logDebug" returntype="void">
+						<params>
+							<param name="message" type="Object"/>
+						</params>
+						<mappings>
+							<mapping platform="android" static="false" method="logDebug" returntype="void"  >
+								<params>
+									<param type="java.util.Hashtable"/>
+								</params>
+							</mapping>
+							<mapping platform="tabrcandroid" static="false" method="logDebug" returntype="void"  >
+								<params>
+									<param type="java.util.Hashtable"/>
+								</params>
+							</mapping>
+							<mapping platform="iphone" static="false" method="logDebug:" returntype="void"  >
+								<params>
+									<param type="NSDictionary"/>
+								</params>
+							</mapping>
+							<mapping platform="ipad" static="false" method="logDebug:" returntype="void"  >
+								<params>
+									<param type="NSDictionary"/>
+								</params>
+							</mapping>
+							<mapping platform="winphone10" static="false" method="LogDebug" returntype="System.Void"  >
+								<params>
+									<param type="System.Collections.Generic.Dictionary&lt;System.Object,System.Object&gt;"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="LogDebug" returntype="System.Void"  >
+								<params>
+									<param type="System.Collections.Generic.Dictionary&lt;System.Object,System.Object&gt;"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>
+					<instancemethod name="logWarning" returntype="void">
+						<params>
+							<param name="message" type="Object"/>
+						</params>
+						<mappings>
+							<mapping platform="android" static="false" method="logWarning" returntype="void"  >
+								<params>
+									<param type="java.util.Hashtable"/>
+								</params>
+							</mapping>
+							<mapping platform="tabrcandroid" static="false" method="logWarning" returntype="void"  >
+								<params>
+									<param type="java.util.Hashtable"/>
+								</params>
+							</mapping>
+							<mapping platform="iphone" static="false" method="logWarning:" returntype="void"  >
+								<params>
+									<param type="NSDictionary"/>
+								</params>
+							</mapping>
+							<mapping platform="ipad" static="false" method="logWarning:" returntype="void"  >
+								<params>
+									<param type="NSDictionary"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="LogWarning" returntype="System.Void"  >
+								<params>
+									<param type="System.Collections.Generic.Dictionary&lt;System.Object,System.Object&gt;"/>
+								</params>
+							</mapping>
+							<mapping platform="winphone10" static="false" method="LogWarning" returntype="System.Void"  >
+								<params>
+									<param type="System.Collections.Generic.Dictionary&lt;System.Object,System.Object&gt;"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>
+					<instancemethod name="logInfo" returntype="void">
+						<params>
+							<param name="message" type="Object"/>
+						</params>
+						<mappings>
+							<mapping platform="android" static="false" method="logInfo" returntype="void"  >
+								<params>
+									<param type="java.util.Hashtable"/>
+								</params>
+							</mapping>
+							<mapping platform="tabrcandroid" static="false" method="logInfo" returntype="void"  >
+								<params>
+									<param type="java.util.Hashtable"/>
+								</params>
+							</mapping>
+							<mapping platform="iphone" static="false" method="logInfo:" returntype="void"  >
+								<params>
+									<param type="NSDictionary"/>
+								</params>
+							</mapping>
+							<mapping platform="ipad" static="false" method="logInfo:" returntype="void"  >
+								<params>
+									<param type="NSDictionary"/>
+								</params>
+							</mapping>
+							<mapping platform="winphone10" static="false" method="LogInfo" returntype="System.Void"  >
+								<params>
+									<param type="System.Collections.Generic.Dictionary&lt;System.Object,System.Object&gt;"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="LogInfo" returntype="System.Void"  >
+								<params>
+									<param type="System.Collections.Generic.Dictionary&lt;System.Object,System.Object&gt;"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>
+					<instancemethod name="logError" returntype="void">
+						<params>
+							<param name="message" type="Object"/>
+						</params>
+						<mappings>
+							<mapping platform="android" static="false" method="logError" returntype="void"  >
+								<params>
+									<param type="java.util.Hashtable"/>
+								</params>
+							</mapping>
+							<mapping platform="tabrcandroid" static="false" method="logError" returntype="void"  >
+								<params>
+									<param type="java.util.Hashtable"/>
+								</params>
+							</mapping>
+							<mapping platform="iphone" static="false" method="logError:" returntype="void"  >
+								<params>
+									<param type="NSDictionary"/>
+								</params>
+							</mapping>
+							<mapping platform="ipad" static="false" method="logError:" returntype="void"  >
+								<params>
+									<param type="NSDictionary"/>
+								</params>
+							</mapping>
+							<mapping platform="winphone10" static="false" method="LogError" returntype="System.Void"  >
+								<params>
+									<param type="System.Collections.Generic.Dictionary&lt;System.Object,System.Object&gt;"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="LogError" returntype="System.Void"  >
+								<params>
+									<param type="System.Collections.Generic.Dictionary&lt;System.Object,System.Object&gt;"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>
+					<instancemethod name="logFatal" returntype="void">
+						<params>
+							<param name="message" type="Object"/>
+						</params>
+						<mappings>
+							<mapping platform="android" static="false" method="logFatal" returntype="void"  >
+								<params>
+									<param type="java.util.Hashtable"/>
+								</params>
+							</mapping>
+							<mapping platform="tabrcandroid" static="false" method="logFatal" returntype="void"  >
+								<params>
+									<param type="java.util.Hashtable"/>
+								</params>
+							</mapping>
+							<mapping platform="iphone" static="false" method="logFatal:" returntype="void"  >
+								<params>
+									<param type="NSDictionary"/>
+								</params>
+							</mapping>
+							<mapping platform="ipad" static="false" method="logFatal:" returntype="void"  >
+								<params>
+									<param type="NSDictionary"/>
+								</params>
+							</mapping>
+							<mapping platform="winphone10" static="false" method="LogFatal" returntype="System.Void"  >
+								<params>
+									<param type="System.Collections.Generic.Dictionary&lt;System.Object,System.Object&gt;"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="LogFatal" returntype="System.Void"  >
+								<params>
+									<param type="System.Collections.Generic.Dictionary&lt;System.Object,System.Object&gt;"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>
+					<instancemethod name="logPerf" returntype="void">
+						<params>
+							<param name="message" type="Object"/>
+						</params>
+						<mappings>
+							<mapping platform="iphone" static="false" method="logPerf:" returntype="void"  >
+								<params>
+									<param type="NSDictionary"/>
+								</params>
+							</mapping>
+							<mapping platform="android" static="false" method="logPerf" returntype="void"  >
+								<params>
+									<param type="java.util.Hashtable"/>
+								</params>
+							</mapping>
+							<mapping platform="winphone10" static="false" method="LogPerf" returntype="System.Void"  >
+								<params>
+									<param type="System.Collections.Generic.Dictionary&lt;System.Object,System.Object&gt;"/>
+								</params>
+							</mapping>
+							<mapping platform="ipad" static="false" method="logPerf:" returntype="void"  >
+								<params>
+									<param type="NSDictionary"/>
+								</params>
+							</mapping>
+							<mapping platform="tabrcandroid" static="false" method="logPerf" returntype="void"  >
+								<params>
+									<param type="java.util.Hashtable"/>
+								</params>
+							</mapping>
+							<mapping platform="windows10" static="false" method="LogPerf" returntype="System.Void"  >
+								<params>
+									<param type="System.Collections.Generic.Dictionary&lt;System.Object,System.Object&gt;"/>
+								</params>
+							</mapping>
+						</mappings>
+					</instancemethod>
+				</instancemethods>
+			</jsclass>
+		</jsclasses>
+		<jsfunctions>
+			<jsfunction name="getLogLevel" returntype="Number">
+				<params/>
+				<mappings>
+					<mapping platform="android" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="getLogLevel" returntype="int"  frameworks="">
+						<params/>
+					</mapping>
+					<mapping platform="tabrcandroid" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="getLogLevel" returntype="int"  frameworks="">
+						<params/>
+					</mapping>
+					<mapping platform="iphone" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="getLogLevel" returntype="int"  frameworks="">
+						<params/>
+					</mapping>
+					<mapping platform="ipad" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="getLogLevel" returntype="int"  frameworks="">
+						<params/>
+					</mapping>
+					<mapping platform="winphone10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" static="true" method="GetLogLevel" returntype="System.Int32"  frameworks="">
+						<params/>
+					</mapping>
+					<mapping platform="windows10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" static="true" method="GetLogLevel" returntype="System.Int32"  frameworks="">
+						<params/>
+					</mapping>
+				</mappings>
+			</jsfunction>
+			<jsfunction name="flush" returntype="void">
+				<params/>
+				<mappings>
+					<mapping platform="tabrcandroid" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="flush" returntype="void"  frameworks="">
+						<params/>
+					</mapping>
+					<mapping platform="android" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="flush" returntype="void"  frameworks="">
+						<params/>
+					</mapping>
+					<mapping platform="ipad" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="flush" returntype="void"  frameworks="">
+						<params/>
+					</mapping>
+					<mapping platform="iphone" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="flush" returntype="void"  frameworks="">
+						<params/>
+					</mapping>
+					<mapping platform="winphone10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" static="true" method="Flush" returntype="System.Void"  frameworks="">
+						<params/>
+					</mapping>
+					<mapping platform="windows10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" static="true" method="Flush" returntype="System.Void"  frameworks="">
+						<params/>
+					</mapping>
+				</mappings>
+			</jsfunction>
+			<jsfunction name="setConfig" returntype="void">
+				<params>
+					<param name="config" type="Object"/>
+				</params>
+				<mappings>
+					<mapping platform="winphone10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" static="true" method="SetConfig" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Collections.Generic.Dictionary&lt;System.Object,System.Object&gt;"/>
+						</params>
+					</mapping>
+					<mapping platform="windows10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" static="true" method="SetConfig" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Collections.Generic.Dictionary&lt;System.Object,System.Object&gt;"/>
+						</params>
+					</mapping>
+					<mapping platform="android" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="setConfig" returntype="void"  frameworks="">
+						<params>
+							<param type="java.util.Hashtable"/>
+						</params>
+					</mapping>
+					<mapping platform="tabrcandroid" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="setConfig" returntype="void"  frameworks="">
+						<params>
+							<param type="java.util.Hashtable"/>
+						</params>
+					</mapping>
+					<mapping platform="iphone" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="setConfig:" returntype="void"  frameworks="">
+						<params>
+							<param type="NSDictionary"/>
+						</params>
+					</mapping>
+					<mapping platform="ipad" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="setConfig:" returntype="void"  frameworks="">
+						<params>
+							<param type="NSDictionary"/>
+						</params>
+					</mapping>
+				</mappings>
+			</jsfunction>
+			<jsfunction name="setPersistorConfig" returntype="void">
+				<params>
+					<param name="persistor" type="Object"/>
+				</params>
+				<mappings>
+					<mapping platform="winphone10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" static="true" method="SetPersisterConfig" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Collections.Generic.Dictionary&lt;System.Object,System.Object&gt;"/>
+						</params>
+					</mapping>
+					<mapping platform="windows10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" static="true" method="SetPersisterConfig" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Collections.Generic.Dictionary&lt;System.Object,System.Object&gt;"/>
+						</params>
+					</mapping>
+					<mapping platform="android" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="setPersisterConfig" returntype="void"  frameworks="">
+						<params>
+							<param type="java.util.Hashtable"/>
+						</params>
+					</mapping>
+					<mapping platform="tabrcandroid" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="setPersisterConfig" returntype="void"  frameworks="">
+						<params>
+							<param type="java.util.Hashtable"/>
+						</params>
+					</mapping>
+					<mapping platform="iphone" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="setPersisterConfig:" returntype="void"  frameworks="">
+						<params>
+							<param type="NSDictionary"/>
+						</params>
+					</mapping>
+					<mapping platform="ipad" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="setPersisterConfig:" returntype="void"  frameworks="">
+						<params>
+							<param type="NSDictionary"/>
+						</params>
+					</mapping>
+				</mappings>
+			</jsfunction>
+			<jsfunction name="setLogLevel" returntype="void">
+				<params>
+					<param name="logLevel" type="Number"/>
+				</params>
+				<mappings>
+					<mapping platform="android" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="setLogLevel" returntype="void"  frameworks="">
+						<params>
+							<param type="int"/>
+						</params>
+					</mapping>
+					<mapping platform="windows10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" static="true" method="SetLogLevel" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Int32"/>
+						</params>
+					</mapping>
+					<mapping platform="winphone10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" static="true" method="SetLogLevel" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Int32"/>
+						</params>
+					</mapping>
+					<mapping platform="tabrcandroid" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="setLogLevel" returntype="void"  frameworks="">
+						<params>
+							<param type="int"/>
+						</params>
+					</mapping>
+					<mapping platform="iphone" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="setLogLevel:" returntype="void"  frameworks="">
+						<params>
+							<param type="int"/>
+						</params>
+					</mapping>
+					<mapping platform="ipad" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="setLogLevel:" returntype="void"  frameworks="">
+						<params>
+							<param type="int"/>
+						</params>
+					</mapping>
+				</mappings>
+			</jsfunction>
+			<jsfunction name="activatePersistors" returntype="void">
+				<params>
+					<param name="activatedList" type="Number"/>
+				</params>
+				<mappings>
+					<mapping platform="winphone10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" static="true" method="ActivatePersistors" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Int32"/>
+						</params>
+					</mapping>
+					<mapping platform="windows10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" static="true" method="ActivatePersistors" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Int32"/>
+						</params>
+					</mapping>
+					<mapping platform="android" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="activatePersistors" returntype="void"  frameworks="">
+						<params>
+							<param type="int"/>
+						</params>
+					</mapping>
+					<mapping platform="tabrcandroid" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="activatePersistors" returntype="void"  frameworks="">
+						<params>
+							<param type="int"/>
+						</params>
+					</mapping>
+					<mapping platform="iphone" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="activatePersistors:" returntype="void"  frameworks="">
+						<params>
+							<param type="NSNumber"/>
+						</params>
+					</mapping>
+					<mapping platform="ipad" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="activatePersistors:" returntype="void"  frameworks="">
+						<params>
+							<param type="NSNumber"/>
+						</params>
+					</mapping>
+				</mappings>
+			</jsfunction>
+			<jsfunction name="deactivatePersistors" returntype="void">
+				<params>
+					<param name="deactivatedList" type="Number"/>
+				</params>
+				<mappings>
+					<mapping platform="windows10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" static="true" method="DeactivatePersistors" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Int32"/>
+						</params>
+					</mapping>
+					<mapping platform="winphone10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" static="true" method="DeactivatePersistors" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.Int32"/>
+						</params>
+					</mapping>
+					<mapping platform="android" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="deactivatePersistors" returntype="void"  frameworks="">
+						<params>
+							<param type="int"/>
+						</params>
+					</mapping>
+					<mapping platform="tabrcandroid" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="deactivatePersistors" returntype="void"  frameworks="">
+						<params>
+							<param type="int"/>
+						</params>
+					</mapping>
+					<mapping platform="iphone" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="deactivatePersistors:" returntype="void"  frameworks="">
+						<params>
+							<param type="NSNumber"/>
+						</params>
+					</mapping>
+					<mapping platform="ipad" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="deactivatePersistors:" returntype="void"  frameworks="">
+						<params>
+							<param type="NSNumber"/>
+						</params>
+					</mapping>
+				</mappings>
+			</jsfunction>
+			<jsfunction name="setClaimsToken" returntype="void">
+				<params>
+					<param name="claimsToken" type="String"/>
+				</params>
+				<mappings>
+					<mapping platform="android" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="setClaimsToken" returntype="void"  frameworks="">
+						<params>
+							<param type="java.lang.String"/>
+						</params>
+					</mapping>
+					<mapping platform="iphone" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="setClaimsToken:" returntype="void"  frameworks="">
+						<params>
+							<param type="NSString"/>
+						</params>
+					</mapping>
+					<mapping platform="ipad" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="setClaimsToken:" returntype="void"  frameworks="">
+						<params>
+							<param type="NSString"/>
+						</params>
+					</mapping>
+					<mapping platform="tabrcandroid" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="setClaimsToken" returntype="void"  frameworks="">
+						<params>
+							<param type="java.lang.String"/>
+						</params>
+					</mapping>
+					<mapping platform="winphone10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" static="true" method="SetClaimsToken" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.String"/>
+						</params>
+					</mapping>
+					<mapping platform="windows10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" static="true" method="SetClaimsToken" returntype="System.Void"  frameworks="">
+						<params>
+							<param type="System.String"/>
+						</params>
+					</mapping>
+				</mappings>
+			</jsfunction>
+			<jsfunction name="subscribeLogListener" returntype="void">
+				<params>
+					<param name="logListener" type="Function"/>
+				</params>
+				<mappings>
+					<mapping platform="iphone" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="subscribeLogListener:" returntype="void"  frameworks="">
+						<params>
+							<param type="Callback"/>
+						</params>
+					</mapping>
+					<mapping platform="ipad" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="subscribeLogListener:" returntype="void"  frameworks="">
+						<params>
+							<param type="Callback"/>
+						</params>
+					</mapping>
+					<mapping platform="android" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="subscribeLogListener" returntype="void"  frameworks="">
+						<params>
+							<param type="com.konylabs.vm.Function"/>
+						</params>
+					</mapping>
+					<mapping platform="tabrcandroid" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="subscribeLogListener" returntype="void"  frameworks="">
+						<params>
+							<param type="com.konylabs.vm.Function"/>
+						</params>
+					</mapping>
+				</mappings>
+			</jsfunction>
+			<jsfunction name="unsubscribeLogListener" returntype="void">
+				<params/>
+				<mappings>
+					<mapping platform="iphone" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="unsubscribeLogListener" returntype="void"  frameworks="">
+						<params/>
+					</mapping>
+					<mapping platform="android" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="unsubscribeLogListener" returntype="void"  frameworks="">
+						<params/>
+					</mapping>
+					<mapping platform="ipad" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="unsubscribeLogListener" returntype="void"  frameworks="">
+						<params/>
+					</mapping>
+					<mapping platform="tabrcandroid" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="unsubscribeLogListener" returntype="void"  frameworks="">
+						<params/>
+					</mapping>
+				</mappings>
+			</jsfunction>
+<jsfunction name="setGlobalRequestParam" returntype="void">
+            <params>
+               <param name="paramName" type="String" />
+			   <param name="paramValue" type="String" />
+			   <param name="paramType" type="String" />
+            </params>
+            <mappings>
+               <mapping platform="winphone10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" static="true" method="SetGlobalRequestParam" returntype="System.Void" frameworks="">
+                  <params>
+                     <param type="System.String"/>
+					 <param type="System.String"/>
+					 <param type="System.String"/>
+                  </params>
+               </mapping>
+               <mapping platform="windows10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" static="true" method="SetGlobalRequestParam" returntype="System.Void" frameworks="">
+                  <params>
+                     <param type="System.String"/>
+				     <param type="System.String"/>
+					 <param type="System.String"/>
+                  </params>
+               </mapping>
+               <mapping platform="android" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="setGlobalRequestParam" returntype="void" frameworks="">
+                  <params>
+                     <param type="java.lang.String" />
+					 <param type="java.lang.String" />
+					 <param type="java.lang.String" />
+                  </params>
+               </mapping>
+               <mapping platform="tabrcandroid" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="setGlobalRequestParam" returntype="void" frameworks="">
+                  <params>
+                     <param type="java.lang.String" />
+					 <param type="java.lang.String" />
+					 <param type="java.lang.String" />
+                  </params>
+               </mapping>
+               <mapping platform="iphone" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="setGlobalRequestParam:paramValue:paramType:" returntype="void" frameworks="">
+                  <params>
+                     <param type="NSString" />
+					 <param type="NSString" />
+					 <param type="NSString" />
+                  </params>
+               </mapping>
+               <mapping platform="ipad" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="setGlobalRequestParam:paramValue:paramType:" returntype="void" frameworks="">
+                  <params>
+                     <param type="NSString" />
+					 <param type="NSString" />
+					 <param type="NSString" />
+                  </params>
+               </mapping>
+            </mappings>
+         </jsfunction>
+		 <jsfunction name="removeGlobalRequestParam" returntype="void">
+            <params>
+               <param name="paramName" type="String" />
+			   <param name="paramType" type="String" />
+            </params>
+            <mappings>
+               <mapping platform="winphone10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" static="true" method="RemoveGlobalRequestParam" returntype="System.Void" frameworks="">
+                  <params>
+                     <param type="System.String"/>
+				     <param type="System.String"/>
+                  </params>
+               </mapping>
+               <mapping platform="windows10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" static="true" method="RemoveGlobalRequestParam" returntype="System.Void" frameworks="">
+                  <params>
+                     <param type="System.String"/>
+				     <param type="System.String"/>
+                  </params>
+               </mapping>
+               <mapping platform="android" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="removeGlobalRequestParam" returntype="void" frameworks="">
+                  <params>
+                     <param type="java.lang.String" />
+					 <param type="java.lang.String" />
+                  </params>
+               </mapping>
+               <mapping platform="tabrcandroid" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="removeGlobalRequestParam" returntype="void" frameworks="">
+                  <params>
+                     <param type="java.lang.String" />
+					 <param type="java.lang.String" />
+                  </params>
+               </mapping>
+               <mapping platform="iphone" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="removeGlobalRequestParam:paramType:" returntype="void" frameworks="">
+                  <params>
+                     <param type="NSString" />
+					 <param type="NSString" />
+                  </params>
+               </mapping>
+               <mapping platform="ipad" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="removeGlobalRequestParam:paramType:" returntype="void" frameworks="">
+                  <params>
+                     <param type="NSString" />
+					 <param type="NSString" />
+                  </params>
+               </mapping>
+            </mappings>
+         </jsfunction>
+		 <jsfunction name="resetGlobalRequestParams" returntype="void">
+            <params />
+            <mappings>
+               <mapping platform="winphone10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" static="true" method="ResetGlobalRequestParams" returntype="System.Void" frameworks="">
+                  <params />
+               </mapping>
+               <mapping platform="windows10" library="konyLogger.zip" namespace="KonyLogger.Core" class="KonyJSFacade" static="true" method="ResetGlobalRequestParams" returntype="System.Void" frameworks="">
+                  <params />
+               </mapping>
+               <mapping platform="android" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="resetGlobalRequestParams" returntype="void" frameworks="">
+                  <params />
+               </mapping>
+               <mapping platform="tabrcandroid" library="konylogger.jar" namespace="com.kony.logger.Core" class="KonyJSFacade" static="true" method="resetGlobalRequestParams" returntype="void" frameworks="">
+                  <params />
+               </mapping>
+               <mapping platform="iphone" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="resetGlobalRequestParams" returntype="void" frameworks="">
+                  <params />
+               </mapping>
+               <mapping platform="ipad" library="konyLogger.zip" namespace="" class="LoggerAbstraction" static="true" method="resetGlobalRequestParams" returntype="void" frameworks="">
+                  <params />
+               </mapping>
+            </mappings>
+		</jsfunction>			
+	  </jsfunctions>
+	</jsnamespace>
+</application>

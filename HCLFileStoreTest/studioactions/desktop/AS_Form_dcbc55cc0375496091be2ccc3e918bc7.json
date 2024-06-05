@@ -1,0 +1,29 @@
+{
+    "AS_Form_dcbc55cc0375496091be2ccc3e918bc7": {
+        "id": "AS_Form_dcbc55cc0375496091be2ccc3e918bc7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFileStorage",
+            "type": "forms",
+            "platform": null,
+            "KUID": "aaa840dea4744d838a5c0a4f75acddf1"
+        },
+        "language": "js",
+        "eventType": "postShow",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__da8a6e6130b3475fad9ca5a0c36c24a0",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onPostShow",
+            "display": "onPostShow",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

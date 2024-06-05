@@ -1,0 +1,13 @@
+{
+  "name" : "default",
+  "dataAdapterId" : "12",
+  "type" : "CustomDataAdapter",
+  "encryptSecureInfo" : false,
+  "config" : {
+    "authservicetype" : "IdentityProvider",
+    "expiryTimeinMillisecs" : null,
+    "serviceNamespace" : "namespaceFS042424",
+    "advancedSettings" : null
+  },
+  "jsonpath" : false
+}
